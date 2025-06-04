@@ -1,17 +1,13 @@
-const express = require('express');
-const cors = require('cors');
-const { Configuration, OpenAIApi } = require('openai');
-
-require('dotenv').config();
+import express from 'express';
+import cors from 'cors';
+import 'dotenv/config';
+import OpenAI from 'openai';
 
 const app = express();
 app.use(cors());
 app.use(express.json());
 
-const configuration = new Configuration({
-  apiKey: process.env.OPENAI_API_KEY,
-});
-const openai = new OpenAIApi(configuration);
+const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
 
 app.post('/reframe', async (req, res) => {
   const { question, mbti, enneagram } = req.body;
@@ -29,12 +25,12 @@ Reframe this question in a way that connects personally to their inner spiritual
 `;
 
   try {
-    const completion = await openai.createChatCompletion({
+    const response = await openai.chat.completions.create({
       model: 'gpt-4',
       messages: [{ role: 'user', content: prompt }],
     });
 
-    const reframed = completion.data.choices[0].message.content;
+    const reframed = response.choices[0].message.content;
     res.json({ reframed });
   } catch (error) {
     console.error(error);
@@ -42,4 +38,4 @@ Reframe this question in a way that connects personally to their inner spiritual
   }
 });
 
-app.listen(5000, () => console.log('Server listening on port 5000'));
+app.listen(5000, () => console.log('Server running on http://localhost:5000'));
