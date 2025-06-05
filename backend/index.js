@@ -18,15 +18,12 @@ You are a Christian life coach helping people reflect more deeply on God's voice
 Original question:
 "${question}"
 
-MBTI: ${mbti}
-Enneagram: ${enneagram}
-
-Reframe this question in a way that connects personally to their inner spiritual world.
+Reframe this question in a way that connects personally to an MBTI type ${mbti} who is also an Enneagram type ${enneagram}.
 `;
 
   try {
     const response = await openai.chat.completions.create({
-      model: 'gpt-4',
+      model: 'gpt-4.1-nano',
       messages: [{ role: 'user', content: prompt }],
     });
 
@@ -36,6 +33,8 @@ Reframe this question in a way that connects personally to their inner spiritual
     console.error(error);
     res.status(500).send('Error generating reframed question');
   }
+  console.log('🛬 Incoming reframe request:', question, mbti, enneagram);
 });
+  
 
 app.listen(5000, () => console.log('Server running on http://localhost:5000'));
