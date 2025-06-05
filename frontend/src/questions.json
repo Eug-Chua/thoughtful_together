@@ -1,23 +1,98 @@
 [
-    {
-      "id": 1,
-      "content": "What do you sense God is trying to tell you in this season?",
-      "depth": "deep"
-    },
-    {
-      "id": 2,
-      "content": "What has brought you joy this week?",
-      "depth": "chill"
-    },
-    {
-      "id": 3,
-      "content": "Where in your life is God asking you to let go of control?",
-      "depth": "deep"
-    },
-    {
-      "id": 4,
-      "content": "What’s one thing you’ve been grateful for recently?",
-      "depth": "chill"
-    }
-  ]
-  
+  {
+    "id": 1,
+    "content": "Looking back at the first half of this year, where have you seen God's faithfulness most clearly?",
+    "depth": "deep",
+    "category": "reflection"
+  },
+  {
+    "id": 2,
+    "content": "What's one way you've grown in your faith this year that surprises you?",
+    "depth": "chill",
+    "category": "reflection"
+  },
+  {
+    "id": 3,
+    "content": "What dreams or hopes did you start the year with? How have they evolved?",
+    "depth": "deep",
+    "category": "reflection"
+  },
+  {
+    "id": 4,
+    "content": "If you could thank God for one specific thing from the past six months, what would it be?",
+    "depth": "chill",
+    "category": "reflection"
+  },
+  {
+    "id": 5,
+    "content": "What area of your life feels most in need of God's healing or restoration right now?",
+    "depth": "deep",
+    "category": "reflection"
+  },
+  {
+    "id": 6,
+    "content": "What habit or practice has helped you feel closest to God this year?",
+    "depth": "chill",
+    "category": "reflection"
+  },
+  {
+    "id": 7,
+    "content": "What is God inviting you to step into or pursue in the next six months?",
+    "depth": "deep",
+    "category": "forward"
+  },
+  {
+    "id": 8,
+    "content": "What's one practical goal you'd like to set for your spiritual growth?",
+    "depth": "chill",
+    "category": "forward"
+  },
+  {
+    "id": 9,
+    "content": "If fear wasn't a factor, what would you ask God to help you accomplish this year?",
+    "depth": "deep",
+    "category": "forward"
+  },
+  {
+    "id": 10,
+    "content": "Who in your life could you invest in or serve more intentionally?",
+    "depth": "chill",
+    "category": "forward"
+  },
+  {
+    "id": 11,
+    "content": "What do you sense God wanting to prune away from your life to make room for new growth?",
+    "depth": "deep",
+    "category": "forward"
+  },
+  {
+    "id": 12,
+    "content": "What are you most excited to see God do in the remainder of this year?",
+    "depth": "chill",
+    "category": "forward"
+  },
+  {
+    "id": 13,
+    "content": "Where have you experienced God's grace covering your mistakes or shortcomings?",
+    "depth": "deep",
+    "category": "reflection"
+  },
+  {
+    "id": 14,
+    "content": "What Scripture or truth about God has been particularly meaningful to you recently?",
+    "depth": "chill",
+    "category": "reflection"
+  },
+  {
+    "id": 15,
+    "content": "How do you want to be different by the end of this year? What would that look like?",
+    "depth": "deep",
+    "category": "forward"
+  },
+  {
+    "id": 16,
+    "content": "What's one way you'd like to love others better in the coming months?",
+    "depth": "chill",
+    "category": "forward"
+  }
+]
