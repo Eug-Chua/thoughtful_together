@@ -6,7 +6,7 @@ module.exports = {
         sans: ['Satoshi', 'Inter', 'sans-serif'],
       },
       animation: {
-        'fade-in': 'fadeIn 0.6s ease-in-out',
+        'fade-in': 'fadeIn 0.9s ease-in-out',
       },
       keyframes: {
         fadeIn: {
