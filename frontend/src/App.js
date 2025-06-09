@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from 'react';
+import CircularSlider from '@fseehawer/react-circular-slider';
+import TunerKnob from './TunerKnob';
 import questions from './questions.json';
 import './index.css';
 
@@ -6,8 +8,32 @@ const mbtiPairs = [
   ['E', 'I'],
   ['N', 'S'],
   ['T', 'F'],
-  ['P', 'J'],
+  ['J', 'P'],
 ];
+
+// 💬 Typing animation component for questions
+function Typewriter({ text, speed = 40 }) {
+  const [displayed, setDisplayed] = useState('');
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  useEffect(() => {
+    setDisplayed('');
+    setCurrentIndex(0);
+  }, [text]);
+
+  useEffect(() => {
+    if (currentIndex < text.length) {
+      const timeout = setTimeout(() => {
+        setDisplayed(text.slice(0, currentIndex + 1));
+        setCurrentIndex(prev => prev + 1);
+      }, speed);
+
+      return () => clearTimeout(timeout);
+    }
+  }, [currentIndex, text, speed]);
+
+  return <div>{displayed}</div>;
+}
 
 function App() {
   const [depth, setDepth] = useState('chill');
@@ -20,6 +46,35 @@ function App() {
 
   const filtered = questions.filter(q => q.depth === depth);
   const question = reframed || filtered[questionIndex]?.content || '';
+  const fullMbti = Object.values(mbti).join('');
+
+  useEffect(() => {
+    let lastShake = 0;
+  
+    const handleMotion = (e) => {
+      const acc = e.accelerationIncludingGravity;
+      const shakeThreshold = 15;
+  
+      const magnitude = Math.sqrt(acc.x ** 2 + acc.y ** 2 + acc.z ** 2);
+  
+      const now = Date.now();
+      if (magnitude > shakeThreshold && now - lastShake > 1000) {
+        // Randomize a new question
+        const random = Math.floor(Math.random() * filtered.length);
+        setQuestionIndex(random);
+        setReframed('');
+        setFadeKey(prev => prev + 1);
+        lastShake = now;
+      }
+    };
+  
+    window.addEventListener('devicemotion', handleMotion);
+  
+    return () => {
+      window.removeEventListener('devicemotion', handleMotion);
+    };
+  }, [filtered.length]);
+  
 
   const pickQuestion = (offset) => {
     const newIndex = (questionIndex + offset + filtered.length) % filtered.length;
@@ -28,14 +83,10 @@ function App() {
     setFadeKey(prev => prev + 1);
   };
 
-  const toggleMbti = (row, value) => {
-    setMbti(prev => ({ ...prev, [row]: value }));
-  };
-
-  const fullMbti = Object.values(mbti).join('');
-
+  /* ----------  Reframe button handler  ---------- */
   const reframeWithAI = async () => {
-    if (!fullMbti || !enneagram || !question) return;
+    if (!question) return;      // must have a question, otherwise do nothing
+
     setLoading(true);
     try {
       const res = await fetch('http://localhost:5050/reframe', {
@@ -43,54 +94,89 @@ function App() {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           question,
-          mbti: fullMbti,
-          enneagram
+          mbti: fullMbti || null,      // '' → null
+          enneagram: enneagram || null // '' → null
         }),
       });
+
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
       const data = await res.json();
+      if (!data.reframed) throw new Error('No reframed text in response.');
+
       setReframed(data.reframed);
       setFadeKey(prev => prev + 1);
     } catch (err) {
-      setReframed('⚠️ Failed to reframe. Try again later.');
+      console.error('[Reframe error]', err);
+      setReframed('⚠️ Failed to reframe. Please try again.');
     } finally {
       setLoading(false);
     }
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-rose-100 to-indigo-100 font-sans flex items-center justify-center relative px-6">
-      {/* 🔮 Soft Glowing Blobs */}
-      <div className="absolute inset-0 -z-10 overflow-hidden">
-        <div className="absolute top-[-10%] left-[5%] w-[300px] h-[300px] bg-pink-300 opacity-30 blur-3xl rounded-full animate-pulse"></div>
-        <div className="absolute bottom-[10%] right-[10%] w-[400px] h-[400px] bg-blue-300 opacity-30 blur-3xl rounded-full animate-pulse animation-delay-2000"></div>
-        <div className="absolute top-[40%] left-[40%] w-[250px] h-[250px] bg-purple-300 opacity-20 blur-3xl rounded-full animate-pulse animation-delay-4000"></div>
+    <div className="min-h-screen bg-gradient-to-br from-tealLight via-tealMid to-tealBase flex items-center justify-center relative px-6">
+      {/* 🔮 Orbiting blobs — z-index 0 so they stay under content */}
+      <div className="absolute inset-0 z-0 overflow-hidden">
+        <div className="orb orb--1"></div>
+        <div className="orb orb--2"></div>
+        <div className="orb orb--3"></div>
+        <div className="orb orb--4"></div>
       </div>
 
-      <div className="w-full max-w-xl space-y-6 text-center">
-        {/* 🔘 Chill vs Deep */}
+
+      <div className="relative z-10 w-full max-w-xl space-y-6 text-center">
+        {/* 🔘 Depth toggle */}
         <div className="flex justify-center space-x-4">
           <button
             onClick={() => { setDepth('chill'); setQuestionIndex(0); setReframed(''); }}
-            className={`px-4 py-2 rounded-full text-sm font-medium ${depth === 'chill' ? 'bg-blue-500 text-white' : 'bg-gray-200 text-gray-700'}`}
+            className={`bounce-click px-4 py-2 rounded-full text-sm font-medium shadow-light ${
+              depth === 'chill'
+              ? 'bg-[#09747f] text-white'        
+              : 'bg-white bg-opacity-70 text-gray-700'
+            }`}
           >
-            🧊 Chill
+            Casual
           </button>
           <button
             onClick={() => { setDepth('deep'); setQuestionIndex(0); setReframed(''); }}
-            className={`px-4 py-2 rounded-full text-sm font-medium ${depth === 'deep' ? 'bg-red-500 text-white' : 'bg-gray-200 text-gray-700'}`}
+            className={`bounce-click px-4 py-2 rounded-full text-sm font-medium shadow-light ${
+              depth === 'deep'
+              ? 'bg-[#09747f] text-white'        // dusty plum
+              : 'bg-white bg-opacity-70 text-gray-700'
+            }`}
           >
-            🔥 Deep
+            Reflect
+          </button>
+          <button
+            onClick={() => { setDepth('toty'); setQuestionIndex(0); setReframed(''); }}
+            className={`bounce-click px-4 py-2 rounded-full text-sm font-medium shadow-light ${
+              depth === 'toty'
+                ? 'bg-[#09747f] text-white'
+                : 'bg-white bg-opacity-70 text-gray-700'
+            }`}
+          >
+            Third Day
+          </button>
+          <button
+            onClick={() => { setDepth('sermon'); setQuestionIndex(0); setReframed(''); }}
+            className={`bounce-click px-4 py-2 rounded-full text-sm font-medium shadow-light ${
+              depth === 'sermon'
+                ? 'bg-[#09747f] text-white'
+                : 'bg-white bg-opacity-70 text-gray-700'
+            }`}
+          >
+            Sermon
           </button>
         </div>
 
-        {/* 🃏 Question */}
-        <div key={fadeKey} className="bg-white bg-opacity-90 shadow-md rounded-lg p-6 text-lg text-gray-800 transition-opacity duration-700 animate-fade-in">
-          {question}
+        {/* 🃏 Question Display with Typing */}
+        <div key={fadeKey} className="bg-white bg-opacity-90 shadow-heavy rounded-lg p-6 text-lg text-gray-800 transition-opacity duration-700 animate-fade-in">
+          <Typewriter text={question} />
         </div>
 
-        {/* 🎯 MBTI */}
-        <div className="grid grid-cols-4 gap-2 w-full">
-          {['EI', 'NS', 'TF', 'PJ'].map((pair, idx) => (
+        {/* 🎯 MBTI Buttons */}
+        <div className="grid grid-cols-4 gap-2 w-full ">
+          {['EI', 'NS', 'TF', 'JP'].map((pair, idx) => (
             <button
               key={pair}
               onClick={() => {
@@ -98,8 +184,10 @@ function App() {
                 updated[idx] = updated[idx] === pair[0] ? pair[1] : pair[0];
                 setMbti(updated);
               }}
-              className={`px-4 py-2 rounded-full text-sm font-medium w-full ${
-                mbti[idx] === pair[0] ? 'bg-neutral-900 text-white' : 'bg-neutral-300 text-black'
+              className={`bounce-click px-4 py-3 rounded-full text-sm font-medium w-full shadow-medium ${
+                mbti[idx] === pair[0] 
+                  ? 'bg-[#565ca9] text-white'
+                  : 'bg-[#BA789D] text-white'
               }`}
             >
               {mbti[idx]}
@@ -107,51 +195,81 @@ function App() {
           ))}
         </div>
 
-
-        {/* 🔢 Enneagram */}
-        <div className="grid grid-cols-9 gap-1 text-sm">
-          {[...Array(9)].map((_, i) => {
-            const val = (i + 1).toString();
-            return (
-              <button
-                key={val}
-                onClick={() => setEnneagram(val)}
-                className={`py-1 rounded font-medium border ${
-                  enneagram === val
-                    ? 'bg-black text-white'
-                    : 'bg-white text-gray-700 hover:bg-gray-200'
-                }`}
-              >
-                {val}
-              </button>
-            );
-          })}
+        {/* 🔢 Enneagram Selector */}
+        {/* <div className="grid grid-cols-9 gap-1 sm:gap-2 md:gap-3 text-sm">
+          {[...Array(9)].map((_, i) => (
+            <button
+              key={i}
+              onClick={() =>
+                setEnneagram(prev =>
+                  prev === (i + 1).toString() ? '' : (i + 1).toString()
+                )
+              }  
+              className={`bounce-click w-10 h-10 rounded-full flex items-center justify-center font-medium text-sm transition shadow-light ${
+                enneagram === (i + 1).toString()
+                  ? 'bg-[#9292a0] text-white'  // Your slate blue orb
+                  : 'bg-white bg-opacity-80 text-gray-800 hover:bg-white hover:bg-opacity-60'
+              }`}
+            >
+              {i + 1}
+            </button>
+          ))}
+        </div> */}
+        
+          {/* <CircularSlider
+            label="Enneagram"
+            min={1}
+            max={9}
+            data={[...Array(9)].map((_, i) => (i + 1).toString())}
+            width={150}
+            knobSize={30}
+            knobColor="#565ca9"
+            progressSize={15}
+            progressColorFrom="#565ca9"
+            progressColorTo="#BA789D"
+            trackColor="#e5e7eb"
+            labelFontSize="0.75rem"
+            labelColor='white'
+            valueFontSize="2rem"
+            verticalOffset='1.5rem'
+            appendToValue=""
+            trackDraggable='true'
+            
+            onChange={value => setEnneagram(value)}
+          /> */}
+        <div className="flex items-center justify-center">
+          <TunerKnob value={parseInt(enneagram || 1)} onChange={(val) => setEnneagram(val.toString())} />
         </div>
 
+
+
         {/* ✨ Actions */}
-        <div className="flex flex-col space-y-2">
+        <div className="flex flex-col space-y-4 text-lg">
           <button
             onClick={reframeWithAI}
             disabled={loading}
-            className={`w-full py-2 rounded text-white ${
-              loading ? 'bg-purple-300' : 'bg-purple-600 hover:bg-purple-700'
+            className={`bounce-click w-full py-3 rounded-full shadow-medium transition ${
+              loading 
+                ? 'bg-black text-white'  // Cream background when loading
+                : 'bg-[#5d4e6d] text-white hover:bg-[#76638B]'  // Saddle brown with golden tan hover
             }`}
           >
-            {loading ? 'Thinking...' : '✨ Reframe with AI'}
+            {loading ? 'Thinking...' : 'Reframe'}
           </button>
 
+          {/* Add spacing between AI button and nav */}
           <div className="flex justify-between space-x-2">
             <button
               onClick={() => pickQuestion(-1)}
-              className="w-full py-2 rounded-full text-white bg-purple-600 hover:bg-purple-700"
+              className="bounce-click w-full py-3 shadow-medium rounded-full text-white bg-[#343a40] hover:bg-[#495057]"
             >
-              ⬅️ Previous
+              Previous
             </button>
             <button
               onClick={() => pickQuestion(1)}
-              className="w-full py-2 rounded-full text-white bg-purple-600 hover:bg-purple-700"
+              className="bounce-click w-full py-3 shadow-medium rounded-full text-white bg-[#343a40] hover:bg-[#495057]"
             >
-              🔁 Next
+              Next
             </button>
           </div>
         </div>
