@@ -21,24 +21,24 @@ function TunerKnob({ value, onChange, min = 0, max = 9 }) {
     e.preventDefault();
   };
 
-  const handleMouseMove = (e) => {
-    if (!isDragging) return;
-    const rect = knobRef.current.getBoundingClientRect();
-    const cx = rect.left + rect.width / 2;
-    const cy = rect.top + rect.height / 2;
-
-    const angle = angleFromCoords(e.clientX, e.clientY, cx, cy) * (180 / Math.PI);
-    let relativeAngle = (angle - startAngle + 360) % 360;
-    if (relativeAngle > 270) relativeAngle = 270;
-
-    let step = Math.round(relativeAngle / anglePerStep);
-    step = Math.min(Math.max(step, 0), totalSteps - 1);
-    onChange(step);
-  };
-
   const handleMouseUp = () => setIsDragging(false);
 
   useEffect(() => {
+    const handleMouseMove = (e) => {
+        if (!isDragging) return;
+        const rect = knobRef.current.getBoundingClientRect();
+        const cx = rect.left + rect.width / 2;
+        const cy = rect.top + rect.height / 2;
+    
+        const angle = angleFromCoords(e.clientX, e.clientY, cx, cy) * (180 / Math.PI);
+        let relativeAngle = (angle - startAngle + 360) % 360;
+        if (relativeAngle > 270) relativeAngle = 270;
+    
+        let step = Math.round(relativeAngle / anglePerStep);
+        step = Math.min(Math.max(step, 0), totalSteps - 1);
+        onChange(step);
+      };
+
     if (isDragging) {
       window.addEventListener('mousemove', handleMouseMove);
       window.addEventListener('mouseup', handleMouseUp);
