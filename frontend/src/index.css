@@ -1,12 +1,98 @@
+/* --- tailwind imports --- */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
 
-@keyframes fade-in {
-  from { opacity: 0; }
-  to { opacity: 1; }
+/* Custom shadows */
+.shadow-heavy {
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
 }
-.animate-fade-in {
-  animation: fade-in 1s ease-out forwards;
+.shadow-medium {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+.shadow-light {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* ========= Custom animations ========= */
+
+/* Bounce on click */
+@keyframes bounce-click {
+  0%   { transform: scale(1); }
+  50%  { transform: scale(1.15); }
+  100% { transform: scale(1); }
+}
+.bounce-click:active { animation: bounce-click 0.2s ease-in-out; }
+
+/* Fade-in */
+@keyframes fade-in {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.animate-fade-in { animation: fade-in 0.6s ease-out; }
+
+/* ---- NEW: soft pulse for orbs ---- */
+@keyframes pulse {
+  0%, 100% { transform: scale(1); }
+  50%      { transform: scale(1.2); }
+}
+
+/* =========================================================
+   ORBITING BLOBS
+   ========================================================= */
+
+/* Re-usable defaults for every blob */
+.orb {
+  position: absolute;
+  border-radius: 9999px;
+  filter: blur(40px);
+  opacity: 0.2;                 /* translucent */
+  mix-blend-mode: screen;        /* nicer colour mixing */
+  pointer-events: none;          /* never block clicks */
+}
+
+/* ------- 4 blobs in your palette ------- */
+.orb--1 { background: rgb(11, 167, 184); width: 22rem; height: 22rem; animation: orbit1 25s linear infinite; }
+.orb--2 { background: rgb(77, 208, 182); width: 26rem; height: 26rem; animation: orbit2 25s linear infinite reverse; }
+.orb--3 { background: rgb(81, 203, 203); width: 18rem; height: 18rem; animation: orbit3 15s linear infinite; }
+.orb--4 { background: rgb(58, 198, 243); width: 24rem; height: 24rem; animation: orbit4 30s linear infinite reverse; }
+
+/* =========================================================
+   BIG-SWING ORBIT (full screen)
+   ========================================================= */
+   @keyframes orbit1 {
+    0%   { transform: translate(-30vw, -40vh); }
+    25%  { transform: translate( 60vw, -20vh); }
+    50%  { transform: translate( 40vw,  60vh); }
+    75%  { transform: translate(-40vw,  30vh); }
+    100% { transform: translate(-30vw, -40vh); }
+  }
+  @keyframes orbit2 {
+    0%   { transform: translate( 50vw, -10vh); }
+    25%  { transform: translate(-40vw,  40vh); }
+    50%  { transform: translate(-10vw,  70vh); }
+    75%  { transform: translate( 40vw, -30vh); }
+    100% { transform: translate( 50vw, -10vh); }
+  }
+  @keyframes orbit3 {
+    0%   { transform: translate(-20vw,  60vh); }
+    25%  { transform: translate( 60vw,  50vh); }
+    50%  { transform: translate( 70vw, -30vh); }
+    75%  { transform: translate(-50vw, -40vh); }
+    100% { transform: translate(-20vw,  60vh); }
+  }
+  @keyframes orbit4 {
+    0%   { transform: translate( 10vw, -50vh); }
+    25%  { transform: translate( 70vw,   0vh); }
+    50%  { transform: translate(-40vw,  50vh); }
+    75%  { transform: translate(-50vw, -60vh); }
+    100% { transform: translate( 10vw, -50vh); }
+  }
+
+.grain-background {
+  background-image: 
+    radial-gradient(circle at 20% 80%, rgba(120, 119, 198, 0.3) 0%, transparent 50%),
+    radial-gradient(circle at 80% 20%, rgba(255, 255, 255, 0.15) 0%, transparent 50%),
+    radial-gradient(circle at 40% 40%, rgba(120, 119, 198, 0.15) 0%, transparent 50%);
 }
