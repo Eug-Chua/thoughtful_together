@@ -28,14 +28,33 @@ app.post('/reframe', async (req, res) => {
   const { question, mbti, enneagram } = req.body;
   console.log('🛬 Incoming reframe request:', question, mbti, enneagram);
 
+  /* ---------------------------------------------------------
+     1. Build the persona clause dynamically
+        ─ If both present → use both
+        ─ If only one present → use that one
+        ─ If neither present → generic audience
+  --------------------------------------------------------- */
+  let personaClause = 'to a broad Christian audience';   // default
+  if (mbti && enneagram) {
+    personaClause = `to an MBTI type ${mbti} who is also an Enneagram type ${enneagram}`;
+  } else if (mbti) {
+    personaClause = `to an MBTI type ${mbti}`;
+  } else if (enneagram) {
+    personaClause = `to an Enneagram type ${enneagram}`;
+  }
+
+  /* ---------------------------------------------------------
+     2. Craft the prompt with the dynamic clause
+  --------------------------------------------------------- */
   const prompt = `
 You are a Christian life coach helping people reflect more deeply on God's voice.
 
 Original question:
 "${question}"
 
-Reframe this question in a way that connects personally to an MBTI type ${mbti} who is also an Enneagram type ${enneagram}.
-Make no mention of MBTI type or Enneagram type in your question. The question should be simple to understand. Limit it to 15 words. 
+Reframe this question in a way that connects personally ${personaClause}.
+Make no mention of MBTI or Enneagram labels in your question. 
+Keep it simple, ≤ 15 words, and do not wrap the response in quotes or markdown.
 `;
 
   try {
@@ -44,7 +63,11 @@ Make no mention of MBTI type or Enneagram type in your question. The question sh
       messages: [{ role: 'user', content: prompt }],
     });
 
-    const reframed = response.choices[0].message.content;
+    /* ------------ 3. Clean up model output ------------- */
+    let reframed = response.choices[0].message.content.trim();
+    // Strip any leading/trailing quotes, smart quotes, backticks
+    reframed = reframed.replace(/^["'“”‘’`]+|["'“”‘’`]+$/g, '').trim();
+
     console.log('✅ Reframed question:', reframed);
     res.json({ reframed });
   } catch (error) {
@@ -52,6 +75,7 @@ Make no mention of MBTI type or Enneagram type in your question. The question sh
     res.status(500).send('Error generating reframed question');
   }
 });
+
 
 app.listen(port, () => {
   console.log(`✅ Server running on http://localhost:${port}`);
