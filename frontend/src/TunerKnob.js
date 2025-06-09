@@ -50,7 +50,7 @@ function TunerKnob({ value, onChange, min = 0, max = 9 }) {
       window.removeEventListener('mousemove', handleMouseMove);
       window.removeEventListener('mouseup', handleMouseUp);
     };
-  }, [isDragging]);
+  }, [isDragging, anglePerStep, onChange, startAngle, totalSteps]);
 
   const pointerAngle = (startAngle + value * anglePerStep) * (Math.PI / 180);
   const pointerX = center + Math.cos(pointerAngle) * (radius - 20);
