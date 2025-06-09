@@ -1,15 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import CircularSlider from '@fseehawer/react-circular-slider';
 import TunerKnob from './TunerKnob';
 import questions from './questions.json';
 import './index.css';
-
-const mbtiPairs = [
-  ['E', 'I'],
-  ['N', 'S'],
-  ['T', 'F'],
-  ['J', 'P'],
-];
 
 // 💬 Typing animation component for questions
 function Typewriter({ text, speed = 40 }) {
