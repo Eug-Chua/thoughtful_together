@@ -75,10 +75,12 @@ function TunerKnob({ value, onChange, min = 0, max = 9 }) {
 
   return (
     <div
-      className="relative flex flex-col items-center justify-center"
+      className="knob-container relative flex flex-col items-center justify-center"
       style={{ width: knobSize, height: knobSize }}
       ref={knobRef}
       onMouseDown={handleMouseDown}
+      onTouchStart={handleMouseDown}
+
     >
       <div className="absolute w-full h-full rounded-full bg-gradient-to-br from-[#1e1e1e] to-[#2b2b2b] blur-2xl opacity-40 z-0" />
       <svg width={knobSize} height={knobSize} className="relative z-10">
