@@ -67,20 +67,21 @@
 }
 
 /* ------- 4 blobs in your palette ------- */
-.orb--1 { background: rgb(11, 167, 184); width: 20rem; height: 20rem; animation: orbit1 15s linear infinite; }
-.orb--2 { background: rgb(77, 208, 182); width: 22rem; height: 22rem; animation: orbit2 25s linear infinite reverse; }
-.orb--3 { background: rgb(81, 203, 203); width: 24rem; height: 2frem; animation: orbit3 15s linear infinite; }
+.orb--1 { background: rgb(11, 167, 184); width: 28rem; height: 28rem; animation: orbit1 15s linear infinite; }
+.orb--2 { background: rgb(23, 220, 180); width: 22rem; height: 22rem; animation: orbit2 25s linear infinite reverse; }
+.orb--3 { background: rgb(81, 203, 203); width: 24rem; height: 24rem; animation: orbit3 15s linear infinite; }
 .orb--4 { background: rgb(58, 198, 243); width: 24rem; height: 24rem; animation: orbit4 30s linear infinite reverse; }
 
 /* =========================================================
    BIG-SWING ORBIT (full screen)
    ========================================================= */
    @keyframes orbit1 {
-    0%   { transform: translate(-30vw, -40vh); }
-    25%  { transform: translate( 60vw, -20vh); }
-    50%  { transform: translate( 40vw,  60vh); }
-    75%  { transform: translate(-40vw,  30vh); }
-    100% { transform: translate(-30vw, -40vh); }
+    0% {
+      transform: rotate(0deg) translateX(200px) rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg) translateX(200px) rotate(-360deg);
+    }
   }
   @keyframes orbit2 {
     0%   { transform: translate( 50vw, -10vh); }
