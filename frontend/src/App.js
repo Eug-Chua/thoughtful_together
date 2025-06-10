@@ -133,8 +133,8 @@ function App() {
       <div className="absolute inset-0 z-0 overflow-hidden">
         <div className="orb orb--1"></div>
         <div className="orb orb--2"></div>
-        <div className="orb orb--3"></div>
-        <div className="orb orb--4"></div>
+        {/* <div className="orb orb--3"></div> */}
+        {/* <div className="orb orb--4"></div> */}
       </div>
 
 
