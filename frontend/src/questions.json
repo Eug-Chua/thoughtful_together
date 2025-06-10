@@ -97,7 +97,7 @@
   },
   {
     "id": 17,
-    "content": "What situation in your life right now most needs wisdom—not more effort or strategy, but divine insight from Jesus?",
+    "content": "What situation in your life right now most needs wisdom\u2014not more effort or strategy, but divine insight from Jesus?",
     "depth": "sermon",
     "category": "forward"
   },
@@ -115,7 +115,7 @@
   },
   {
     "id": 20,
-    "content": "Of the different Hebrew and Greek words for wisdom (e.g., binah, sunesis, phronesis), which kind of wisdom do you need most this season—and why?",
+    "content": "Of the different Hebrew and Greek words for wisdom (e.g., binah, sunesis, phronesis), which kind of wisdom do you need most this season\u2014and why?",
     "depth": "sermon",
     "category": "forward"
   },
@@ -133,7 +133,7 @@
   },
   {
     "id": 23,
-    "content": "What hidden gifts or callings might begin to flow more freely in your life—not through striving, but through abiding in Jesus?",
+    "content": "What hidden gifts or callings might begin to flow more freely in your life\u2014not through striving, but through abiding in Jesus?",
     "depth": "sermon",
     "category": "forward"
   },
@@ -145,7 +145,7 @@
   },
   {
     "id": 25,
-    "content": "Where in your life are you still tempted to believe that more knowledge or productivity will fix things—rather than wisdom from above?",
+    "content": "Where in your life are you still tempted to believe that more knowledge or productivity will fix things\u2014rather than wisdom from above?",
     "depth": "sermon",
     "category": "forward"
   },
@@ -169,13 +169,13 @@
   },
   {
     "id": 29,
-    "content": "What does “holding fast to the Head” practically look like in your daily routine?",
+    "content": "What does \u201cholding fast to the Head\u201d practically look like in your daily routine?",
     "depth": "sermon",
     "category": "forward"
   },
   {
     "id": 30,
-    "content": "Where in your life are you fixated on what you lack instead of thanking God for what He’s already providing?",
+    "content": "Where in your life are you fixated on what you lack instead of thanking God for what He\u2019s already providing?",
     "depth": "sermon",
     "category": "forward"
   },
@@ -184,43 +184,43 @@
     "content": "In what ways has Jesus revealed Himself more intimately to you this year, especially in areas you least expected?",
     "depth": "toty",
     "category": "forward"
-  }, 
+  },
   {
     "id": 32,
-    "content": "How has the revelation of “The Third Day” become personal for you this year? Has there been a moment where you felt like you experienced a “resurrection” or turnaround in any area of your life?",
+    "content": "How has the revelation of \u201cThe Third Day\u201d become personal for you this year? Has there been a moment where you felt like you experienced a \u201cresurrection\u201d or turnaround in any area of your life?",
     "depth": "toty",
     "category": "forward"
-  }, 
+  },
   {
     "id": 33,
-    "content": "Are there requests that are still “in progress”? How are you learning to rest and wait in those areas?",
+    "content": "Are there requests that are still \u201cin progress\u201d? How are you learning to rest and wait in those areas?",
     "depth": "toty",
     "category": "forward"
-  }, 
+  },
   {
     "id": 34,
     "content": "What fresh expectation or promise are you holding on to for the rest of this year?",
     "depth": "toty",
     "category": "forward"
-  }, 
+  },
   {
     "id": 35,
     "content": "If Jesus could speak one thing over you for this next season, what do you sense it would be?",
     "depth": "toty",
     "category": "forward"
-  }, 
+  },
   {
     "id": 36,
     "content": "How can your group pray with you or stand in agreement with you as the year continues?",
     "depth": "toty",
     "category": "forward"
-  }, 
+  },
   {
     "id": 37,
     "content": "Looking at your list of prayer requests from the start of the year, what are one or two things you've seen God answer - even if it looked different from what you expected?",
     "depth": "toty",
     "category": "forward"
-  }, 
+  },
   {
     "id": 38,
     "content": "Are there requests that are still 'in waiting'? How has the Lord encouraged you in the waiting?",
@@ -238,5 +238,131 @@
     "content": "Have there been any shifts in your heart or priorities regarding your original prayer requests?",
     "depth": "toty",
     "category": "forward"
+  },
+  {
+    "id": 41,
+    "content": "Where have you quietly seen God's faithfulness in this past season, even if it wasn't how you expected?",
+    "depth": "deep",
+    "category": "reflection"
+  },
+  {
+    "id": 42,
+    "content": "In moments of fear or uncertainty, this year, how has the Spirit sustained or redirected you?",
+    "depth": "deep",
+    "category": "reflection"
+  },
+  {
+    "id": 43,
+    "content": "What habit, thought pattern, or desire has God been slowly reshaping in you?",
+    "depth": "deep",
+    "category": "reflection"
+  },
+  {
+    "id": 44,
+    "content": "When have you recently felt most aware of your need for grace?",
+    "depth": "chill",
+    "category": "reflection"
+  },
+  {
+    "id": 45,
+    "content": "What has tested your trust in God lately and what did you learn about Him in that process?",
+    "depth": "deep",
+    "category": "reflection"
+  },
+  {
+    "id": 46,
+    "content": "Is there a difficult place in your life where you now see seeds of growth or redemption?",
+    "depth": "chill",
+    "category": "reflection"
+  },
+  {
+    "id": 47,
+    "content": "What is God gently inviting you to release or to pick up in this next season?",
+    "depth": "deep",
+    "category": "forward"
+  },
+  {
+    "id": 48,
+    "content": "If you slowed down long enough to listen, what might the Spirit be whispering about your next step?",
+    "depth": "deep",
+    "category": "forward"
+  },
+  {
+    "id": 49,
+    "content": "Where in your life are you longing for God to do a new thing?",
+    "depth": "deep",
+    "category": "forward"
+  },
+  {
+    "id": 50,
+    "content": "What small act of obedience might open space for greater intimacy with Christ?",
+    "depth": "chill",
+    "category": "forward"
+  },
+  {
+    "id": 51,
+    "content": "How could you make room for silence, rest, or wonder in the coming weeks?",
+    "depth": "chill",
+    "category": "forward"
+  },
+  {
+    "id": 52,
+    "content": "What do you hope to look back on a month from now and say, 'God met me there'?",
+    "depth": "chill",
+    "category": "forward"
+  },
+  {
+    "id": 53,
+    "content": "Where have you been striving in your own strength and how might Jesus be inviting you to rest in Him instead?",
+    "depth": "deep",
+    "category": "intimacy"
+  },
+  {
+    "id": 54,
+    "content": "When was the last time you felt truly known by God? What helped you notice it?",
+    "depth": "chill",
+    "category": "intimacy"
+  },
+  {
+    "id": 55,
+    "content": "How would your daily rhythms change if you really believed God delights in being with you?",
+    "depth": "chill",
+    "category": "intimacy"
+  },
+  {
+    "id": 56,
+    "content": "Is there a truth about God's character you need to cling to more tightly right now?",
+    "depth": "deep",
+    "category": "intimacy"
+  },
+  {
+    "id": 57,
+    "content": "When has someone's faith recently encouraged or challenged you?",
+    "depth": "chill",
+    "category": "community"
+  },
+  {
+    "id": 58,
+    "content": "What's been weighing on your heart lately that you haven't had space to name?",
+    "depth": "deep",
+    "category": "community"
+  },
+  {
+    "id": 59,
+    "content": "When do you feel most naturally aware of Jesus' presence with you, and how can you cultivate more of those moments?",
+    "depth": "deep",
+    "category": "intimacy"
+  },
+  {
+    "id": 60,
+    "content": "How has your understanding of God's character deepened through both seasons of blessing and seasons of waiting?",
+    "depth": "deep",
+    "category": "intimacy"
+  },
+  {
+    "id": 61,
+    "content": "How does recognizing God's goodness in small things change your capacity for joy?",
+    "depth": "deep",
+    "category": "intimacy"
   }
 ]
