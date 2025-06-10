@@ -41,31 +41,58 @@ function App() {
   const fullMbti = Object.values(mbti).join('');
 
   useEffect(() => {
-    let lastShake = 0;
+    const enableMotion = () => {
+      if (
+        typeof DeviceMotionEvent !== 'undefined' &&
+        typeof DeviceMotionEvent.requestPermission === 'function'
+      ) {
+        DeviceMotionEvent.requestPermission()
+          .then((response) => {
+            if (response === 'granted') {
+              console.log('✅ Motion permission granted');
+              window.addEventListener('devicemotion', handleMotion);
+            } else {
+              console.warn('❌ Motion permission denied');
+            }
+          })
+          .catch(console.error);
+      } else {
+        // Other browsers (non-iOS) — just add listener
+        window.addEventListener('devicemotion', handleMotion);
+      }
+    };
   
     const handleMotion = (e) => {
       const acc = e.accelerationIncludingGravity;
       const shakeThreshold = 15;
-  
       const magnitude = Math.sqrt(acc.x ** 2 + acc.y ** 2 + acc.z ** 2);
   
       const now = Date.now();
       if (magnitude > shakeThreshold && now - lastShake > 1000) {
-        // Randomize a new question
         const random = Math.floor(Math.random() * filtered.length);
         setQuestionIndex(random);
         setReframed('');
-        setFadeKey(prev => prev + 1);
+        setFadeKey((prev) => prev + 1);
         lastShake = now;
       }
     };
   
-    window.addEventListener('devicemotion', handleMotion);
+    let lastShake = 0;
+  
+    const tapToActivate = () => {
+      enableMotion();
+      window.removeEventListener('click', tapToActivate);
+    };
+  
+    // Attach once
+    window.addEventListener('click', tapToActivate);
   
     return () => {
+      window.removeEventListener('click', tapToActivate);
       window.removeEventListener('devicemotion', handleMotion);
     };
   }, [filtered.length]);
+  
   
 
   const pickQuestion = (offset) => {
