@@ -67,8 +67,8 @@
 }
 
 /* ------- 4 blobs in your palette ------- */
-.orb--1 { background: rgb(11, 167, 184); width: 28rem; height: 28rem; animation: orbit1 15s linear infinite; }
-.orb--2 { background: rgb(23, 220, 180); width: 22rem; height: 22rem; animation: orbit2 25s linear infinite reverse; }
+.orb--1 { background: rgb(14, 192, 212); width: 28rem; height: 28rem; animation: orbit1 15s linear infinite; }
+.orb--2 { background: rgb(43, 176, 150); width: 22rem; height: 22rem; animation: orbit2 25s linear infinite reverse; }
 .orb--3 { background: rgb(81, 203, 203); width: 24rem; height: 24rem; animation: orbit3 15s linear infinite; }
 .orb--4 { background: rgb(58, 198, 243); width: 24rem; height: 24rem; animation: orbit4 30s linear infinite reverse; }
 
