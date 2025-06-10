@@ -9,7 +9,7 @@ module.exports = {
         tealLight:  '#88d8dd',
         tealMid:    '#46a4ab',
         tealBase:   '#07565f',
-        tealDark:   '#086c77',
+        tealBlue:   '#4282a3',
       },
       animation: {
         'fade-in': 'fadeIn 0.9s ease-in-out',

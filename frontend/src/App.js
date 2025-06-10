@@ -128,7 +128,7 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-tealLight via-tealMid to-tealBase flex items-center justify-center relative px-6">
+    <div className="min-h-screen bg-gradient-to-br from-tealLight via-tealMid via-tealBase to-tealBlue flex items-center justify-center relative px-6">
       {/* 🔮 Orbiting blobs — z-index 0 so they stay under content */}
       <div className="absolute inset-0 z-0 overflow-hidden">
         <div className="orb orb--1"></div>
