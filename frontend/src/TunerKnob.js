@@ -75,14 +75,20 @@ function TunerKnob({ value, onChange, min = 0, max = 9 }) {
 
   return (
     <div
-      className="knob-container relative flex flex-col items-center justify-center"
-      style={{ width: knobSize, height: knobSize }}
+      className="knob-container relative flex flex-col items-center justify-center shadow-xl rounded-full"
+      style={{
+        width: knobSize,
+        height: knobSize,
+        willChange: 'transform',
+        WebkitTapHighlightColor: 'transparent',
+      }}
       ref={knobRef}
       onMouseDown={handleMouseDown}
       onTouchStart={handleMouseDown}
-
     >
       <div className="absolute w-full h-full rounded-full bg-gradient-to-br from-[#1e1e1e] to-[#2b2b2b] blur-2xl opacity-40 z-0" />
+  
+      {/* ⬇️ Removed drop-shadow, replaced with surrounding Tailwind styling */}
       <svg width={knobSize} height={knobSize} className="relative z-10">
         <defs>
           <radialGradient id="dialGradient" cx="50%" cy="50%" r="50%">
@@ -90,7 +96,7 @@ function TunerKnob({ value, onChange, min = 0, max = 9 }) {
             <stop offset="100%" stopColor="#404040" />
           </radialGradient>
         </defs>
-
+  
         <circle
           cx={center}
           cy={center}
@@ -98,9 +104,8 @@ function TunerKnob({ value, onChange, min = 0, max = 9 }) {
           fill="url(#dialGradient)"
           stroke="#4d4d4d"
           strokeWidth="3"
-          filter="drop-shadow(0 0 6px rgba(100, 100, 100, 0.6))"
         />
-
+  
         {/* Dots for each step */}
         {[...Array(totalSteps)].map((_, i) => {
           const angle = (startAngle + i * anglePerStep) * (Math.PI / 180);
@@ -117,21 +122,22 @@ function TunerKnob({ value, onChange, min = 0, max = 9 }) {
             />
           );
         })}
-
-        {/* Dot pointer instead of hand */}
+  
+        {/* Dot pointer */}
         <circle
           cx={pointerX}
           cy={pointerY}
           r="4"
           fill="#f2f2f2"
-          strokeWidth=""
         />
       </svg>
+  
       <div className="absolute bottom-[-0.8rem] text-gray-200 text-sm font-semibold opacity-90">
         Enneagram: {value === 0 ? 'None' : value}
       </div>
     </div>
   );
+  
 }
 
 export default TunerKnob;
