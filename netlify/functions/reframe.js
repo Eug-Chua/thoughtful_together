@@ -1,18 +1,17 @@
-const { Configuration, OpenAIApi } = require("openai");
+// netlify/functions/reframe.js
+const OpenAI = require("openai");
 
-const configuration = new Configuration({
+// v4 client – no Configuration class
+const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY,
 });
-const openai = new OpenAIApi(configuration);
 
 exports.handler = async (event) => {
   try {
-    const body = JSON.parse(event.body);
-    const { question, mbti, enneagram } = body;
-
+    const { question, mbti, enneagram } = JSON.parse(event.body || "{}");
     console.log("🛬 Incoming reframe request:", question, mbti, enneagram);
 
-    // 1. Persona clause logic
+    /* 1. Persona clause */
     let personaClause = "to a broad Christian audience";
     if (mbti && enneagram) {
       personaClause = `to an MBTI type ${mbti} who is also an Enneagram type ${enneagram}`;
@@ -22,7 +21,7 @@ exports.handler = async (event) => {
       personaClause = `to an Enneagram type ${enneagram}`;
     }
 
-    // 2. Prompt construction
+    /* 2. Prompt */
     const prompt = `
 You are a Christian life coach helping people reflect more deeply on God's voice.
 
@@ -30,32 +29,25 @@ Original question:
 "${question}"
 
 Reframe this question in a way that connects personally ${personaClause}.
-Make no mention of MBTI or Enneagram labels in your question. 
+Make no mention of MBTI or Enneagram labels in your question.
 Keep it simple, ≤ 15 words, and do not wrap the response in quotes or markdown.
 `;
 
-    // 3. OpenAI call
-    const completion = await openai.createChatCompletion({
-      model: "gpt-4",
+    /* 3. Call OpenAI */
+    const completion = await openai.chat.completions.create({
+      model: "gpt-4o-mini",          // or gpt-4o / gpt-4o-turbo, etc.
       messages: [{ role: "user", content: prompt }],
+      max_tokens: 60,
+      temperature: 0.7,
     });
 
-    let reframed = completion.data.choices[0].message.content.trim();
-
-    // 4. Strip unwanted characters
-    reframed = reframed.replace(/^["'“”‘’`]+|["'“”‘’`]+$/g, "").trim();
+    let reframed = completion.choices[0].message.content.trim();
+    reframed = reframed.replace(/^["'“”‘’`]+|["'“”‘’`]+$/g, "");
 
     console.log("✅ Reframed question:", reframed);
-
-    return {
-      statusCode: 200,
-      body: JSON.stringify({ reframed }),
-    };
-  } catch (error) {
-    console.error("🔥 OpenAI error:", error.response?.data || error.message);
-    return {
-      statusCode: 500,
-      body: JSON.stringify({ error: "Error generating reframed question" }),
-    };
+    return { statusCode: 200, body: JSON.stringify({ reframed }) };
+  } catch (err) {
+    console.error("🔥 Function error:", err);
+    return { statusCode: 500, body: "Error generating reframed question" };
   }
 };
