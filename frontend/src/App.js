@@ -41,34 +41,20 @@ function App() {
   const fullMbti = Object.values(mbti).join('');
 
   useEffect(() => {
-    const enableMotion = () => {
-      if (
-        typeof DeviceMotionEvent !== 'undefined' &&
-        typeof DeviceMotionEvent.requestPermission === 'function'
-      ) {
-        DeviceMotionEvent.requestPermission()
-          .then((response) => {
-            if (response === 'granted') {
-              console.log('✅ Motion permission granted');
-              window.addEventListener('devicemotion', handleMotion);
-            } else {
-              console.warn('❌ Motion permission denied');
-            }
-          })
-          .catch(console.error);
-      } else {
-        // Other browsers (non-iOS) — just add listener
-        window.addEventListener('devicemotion', handleMotion);
-      }
-    };
+    let lastShake = 0;
+    let previousMagnitude = 0;
+    const shakeThreshold = 25;
+    const shakeDeltaThreshold = 10;
+    const cooldown = 2000;
   
     const handleMotion = (e) => {
       const acc = e.accelerationIncludingGravity;
-      const shakeThreshold = 15;
       const magnitude = Math.sqrt(acc.x ** 2 + acc.y ** 2 + acc.z ** 2);
+      const delta = Math.abs(magnitude - previousMagnitude);
+      previousMagnitude = magnitude;
   
       const now = Date.now();
-      if (magnitude > shakeThreshold && now - lastShake > 1000) {
+      if (delta > shakeDeltaThreshold && magnitude > shakeThreshold && now - lastShake > cooldown) {
         const random = Math.floor(Math.random() * filtered.length);
         setQuestionIndex(random);
         setReframed('');
@@ -77,21 +63,29 @@ function App() {
       }
     };
   
-    let lastShake = 0;
-  
-    const tapToActivate = () => {
-      enableMotion();
-      window.removeEventListener('click', tapToActivate);
+    const enableMotion = () => {
+      if (
+        typeof DeviceMotionEvent !== 'undefined' &&
+        typeof DeviceMotionEvent.requestPermission === 'function'
+      ) {
+        DeviceMotionEvent.requestPermission()
+          .then((response) => {
+            if (response === 'granted') {
+              window.addEventListener('devicemotion', handleMotion);
+            }
+          })
+          .catch(console.error);
+      } else {
+        window.addEventListener('devicemotion', handleMotion);
+      }
     };
   
-    // Attach once
-    window.addEventListener('click', tapToActivate);
+    window.addEventListener('click', enableMotion, { once: true });
   
     return () => {
-      window.removeEventListener('click', tapToActivate);
       window.removeEventListener('devicemotion', handleMotion);
     };
-  }, [filtered.length]);
+  }, [filtered.length]);  
   
   
 
