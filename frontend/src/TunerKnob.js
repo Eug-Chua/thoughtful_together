@@ -21,36 +21,53 @@ function TunerKnob({ value, onChange, min = 0, max = 9 }) {
     e.preventDefault();
   };
 
-  const handleMouseUp = () => setIsDragging(false);
-
   useEffect(() => {
-    const handleMouseMove = (e) => {
-        if (!isDragging) return;
-        const rect = knobRef.current.getBoundingClientRect();
-        const cx = rect.left + rect.width / 2;
-        const cy = rect.top + rect.height / 2;
-    
-        const angle = angleFromCoords(e.clientX, e.clientY, cx, cy) * (180 / Math.PI);
-        let relativeAngle = (angle - startAngle + 360) % 360;
-        if (relativeAngle > 270) relativeAngle = 270;
-    
-        let step = Math.round(relativeAngle / anglePerStep);
-        step = Math.min(Math.max(step, 0), totalSteps - 1);
-        onChange(step);
-      };
-
+    const handleMove = (e) => {
+      if (!isDragging) return;
+      e.preventDefault();
+  
+      const rect = knobRef.current.getBoundingClientRect();
+      const cx = rect.left + rect.width / 2;
+      const cy = rect.top + rect.height / 2;
+  
+      const isTouch = e.type.startsWith('touch');
+      const coords = isTouch
+        ? { x: e.touches[0].clientX, y: e.touches[0].clientY }
+        : { x: e.clientX, y: e.clientY };
+  
+      const angle = angleFromCoords(coords.x, coords.y, cx, cy) * (180 / Math.PI);
+      let relativeAngle = (angle - startAngle + 360) % 360;
+      if (relativeAngle > 270) relativeAngle = 270;
+  
+      let step = Math.round(relativeAngle / anglePerStep);
+      step = Math.min(Math.max(step, 0), totalSteps - 1);
+      onChange(step);
+    };
+  
+    const handleEnd = () => {
+      setIsDragging(false);
+    };
+  
     if (isDragging) {
-      window.addEventListener('mousemove', handleMouseMove);
-      window.addEventListener('mouseup', handleMouseUp);
+      window.addEventListener('mousemove', handleMove);
+      window.addEventListener('mouseup', handleEnd);
+      window.addEventListener('touchmove', handleMove, { passive: false });
+      window.addEventListener('touchend', handleEnd);
     } else {
-      window.removeEventListener('mousemove', handleMouseMove);
-      window.removeEventListener('mouseup', handleMouseUp);
+      window.removeEventListener('mousemove', handleMove);
+      window.removeEventListener('mouseup', handleEnd);
+      window.removeEventListener('touchmove', handleMove);
+      window.removeEventListener('touchend', handleEnd);
     }
+  
     return () => {
-      window.removeEventListener('mousemove', handleMouseMove);
-      window.removeEventListener('mouseup', handleMouseUp);
+      window.removeEventListener('mousemove', handleMove);
+      window.removeEventListener('mouseup', handleEnd);
+      window.removeEventListener('touchmove', handleMove);
+      window.removeEventListener('touchend', handleEnd);
     };
   }, [isDragging, anglePerStep, onChange, startAngle, totalSteps]);
+  
 
   const pointerAngle = (startAngle + value * anglePerStep) * (Math.PI / 180);
   const pointerX = center + Math.cos(pointerAngle) * (radius - 20);
