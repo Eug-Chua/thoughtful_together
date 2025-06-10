@@ -4,14 +4,11 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: ['Satoshi', 'Inter', 'sans-serif'],
-        fun: ['Comic Neue', 'Quicksand', 'Nunito', 'cursive'], // Add this line
-        playful: ['Fredoka One', 'Righteous', 'Comfortaa', 'cursive'],
-        retro: ['Press Start 2P', 'Orbitron', 'monospace'],
       },
       colors: {
-        tealLight:  '#9cdee2',
+        tealLight:  '#88d8dd',
         tealMid:    '#46a4ab',
-        tealBase:   '#09747f',
+        tealBase:   '#07565f',
         tealDark:   '#086c77',
       },
       animation: {
