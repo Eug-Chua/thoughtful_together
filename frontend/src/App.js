@@ -276,13 +276,13 @@ function App() {
           <div className="flex justify-between space-x-2">
             <button
               onClick={() => pickQuestion(-1)}
-              className="bounce-click w-full py-3 shadow-medium rounded-full text-white bg-[#343a40] hover:bg-[#495057]"
+              className="bounce-click w-full py-3 shadow-medium rounded-full text-white bg-[#22262a] hover:bg-[#495057]"
             >
               Previous
             </button>
             <button
               onClick={() => pickQuestion(1)}
-              className="bounce-click w-full py-3 shadow-medium rounded-full text-white bg-[#343a40] hover:bg-[#495057]"
+              className="bounce-click w-full py-3 shadow-medium rounded-full text-white bg-[#22262a] hover:bg-[#495057]"
             >
               Next
             </button>
