@@ -75,7 +75,7 @@ function TunerKnob({ value, onChange, min = 0, max = 9 }) {
 
   return (
     <div
-      className="knob-container relative flex flex-col items-center justify-center shadow-xl rounded-full"
+      className="knob-container relative flex flex-col items-center justify-center rounded-full"
       style={{
         width: knobSize,
         height: knobSize,
