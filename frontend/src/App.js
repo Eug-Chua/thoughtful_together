@@ -200,7 +200,7 @@ function App() {
               }}
               className={`bounce-click px-4 py-3 rounded-full text-sm font-medium w-full shadow-light transition-shadow duration-200 ${
                 mbti[idx] === pair[0] 
-                  ? 'bg-[#565ca9] text-white'
+                  ? 'bg-[#AB46A4] text-white'
                   : 'bg-[#BA789D] text-white'
               }`}
               
