@@ -1,4 +1,3 @@
-// Gemini-style Enneagram TunerKnob.jsx
 import React, { useState, useRef, useEffect } from 'react';
 
 const radius = 60;
