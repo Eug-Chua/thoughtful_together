@@ -30,12 +30,12 @@ Original question:
 
 Reframe this question in a way that connects personally ${personaClause}.
 Make no mention of MBTI or Enneagram labels in your question.
-Keep it simple, ≤ 15 words, and do not wrap the response in quotes or markdown.
+Keep it simple, ≤ 18 words, and do not wrap the response in quotes or markdown.
 `;
 
     /* 3. Call OpenAI */
     const completion = await openai.chat.completions.create({
-      model: "test",          // or gpt-4o / gpt-4o-turbo, etc.
+      model: "gpt-4o",
       messages: [{ role: "user", content: prompt }],
       max_tokens: 60,
       temperature: 0.7,
