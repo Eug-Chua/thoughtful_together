@@ -129,7 +129,7 @@ function App() {
     
         if (mbtiCode.length === 4 && currentQuestionId) {
           try {
-            const fallbackUrl = `/fallback_questions/fallback_questions_json/fallback_${mbtiCode}.json`;
+            const fallbackUrl = `/fallback_questions/fallback_questions_json/${mbtiCode}_fallback.json`;
             const fallbackRes = await fetch(fallbackUrl);
             if (!fallbackRes.ok) throw new Error(`Fallback HTTP ${fallbackRes.status}`);
     
