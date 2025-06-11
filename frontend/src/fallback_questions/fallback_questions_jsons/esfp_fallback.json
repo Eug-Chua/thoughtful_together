@@ -1,0 +1,368 @@
+[
+  {
+    "id": 1,
+    "content": "Where did you feel most alive with God this year?",
+    "depth": "fallback",
+    "category": "fallback-esfp"
+  },
+  {
+    "id": 2,
+    "content": "What moment of growth this year surprised you and made you smile?",
+    "depth": "fallback",
+    "category": "fallback-esfp"
+  },
+  {
+    "id": 3,
+    "content": "How have your dreams shifted as God revealed more of your heart?",
+    "depth": "fallback",
+    "category": "fallback-esfp"
+  },
+  {
+    "id": 4,
+    "content": "What recent blessing still feels fresh and beautiful to you?",
+    "depth": "fallback",
+    "category": "fallback-esfp"
+  },
+  {
+    "id": 5,
+    "content": "What part of you is aching for God’s healing touch right now?",
+    "depth": "fallback",
+    "category": "fallback-esfp"
+  },
+  {
+    "id": 6,
+    "content": "What rhythm or experience helps you feel God’s presence in real life?",
+    "depth": "fallback",
+    "category": "fallback-esfp"
+  },
+  {
+    "id": 7,
+    "content": "What adventure or new experience might God be inviting you into soon?",
+    "depth": "fallback",
+    "category": "fallback-esfp"
+  },
+  {
+    "id": 8,
+    "content": "What simple, daily step could help your faith feel more real and joyful?",
+    "depth": "fallback",
+    "category": "fallback-esfp"
+  },
+  {
+    "id": 9,
+    "content": "If you weren’t afraid, what bold thing would you ask God to do through you?",
+    "depth": "fallback",
+    "category": "fallback-esfp"
+  },
+  {
+    "id": 10,
+    "content": "Who could use your encouragement, joy, or presence this week?",
+    "depth": "fallback",
+    "category": "fallback-esfp"
+  },
+  {
+    "id": 11,
+    "content": "What heavy thing might God be asking you to let go of?",
+    "depth": "fallback",
+    "category": "fallback-esfp"
+  },
+  {
+    "id": 12,
+    "content": "What possibility feels exciting right now—could God be in it?",
+    "depth": "fallback",
+    "category": "fallback-esfp"
+  },
+  {
+    "id": 13,
+    "content": "When did God meet you in a moment of mistake, and remind you of grace?",
+    "depth": "fallback",
+    "category": "fallback-esfp"
+  },
+  {
+    "id": 14,
+    "content": "What truth about Jesus has recently touched your heart more deeply?",
+    "depth": "fallback",
+    "category": "fallback-esfp"
+  },
+  {
+    "id": 15,
+    "content": "How do you hope your faith and joy will look different by year’s end?",
+    "depth": "fallback",
+    "category": "fallback-esfp"
+  },
+  {
+    "id": 16,
+    "content": "What’s one fun or meaningful way you could love someone well right now?",
+    "depth": "fallback",
+    "category": "fallback-esfp"
+  },
+  {
+    "id": 17,
+    "content": "Where are you striving too hard, when Jesus might be offering peace?",
+    "depth": "fallback",
+    "category": "fallback-esfp"
+  },
+  {
+    "id": 18,
+    "content": "Where have you been pushing forward without checking how your heart’s doing?",
+    "depth": "fallback",
+    "category": "fallback-esfp"
+  },
+  {
+    "id": 19,
+    "content": "When did doing “what made sense” still leave something missing inside?",
+    "depth": "fallback",
+    "category": "fallback-esfp"
+  },
+  {
+    "id": 20,
+    "content": "What kind of wisdom would help you live more freely and fully today?",
+    "depth": "fallback",
+    "category": "fallback-esfp"
+  },
+  {
+    "id": 21,
+    "content": "When you read Scripture, what makes it hit your heart instead of just your head?",
+    "depth": "fallback",
+    "category": "fallback-esfp"
+  },
+  {
+    "id": 22,
+    "content": "Where has God provided in a way that felt timed just for you?",
+    "depth": "fallback",
+    "category": "fallback-esfp"
+  },
+  {
+    "id": 23,
+    "content": "What happens in your spirit when you pause and simply enjoy being with God?",
+    "depth": "fallback",
+    "category": "fallback-esfp"
+  },
+  {
+    "id": 24,
+    "content": "When was the last time you stopped mid-day and felt God with you?",
+    "depth": "fallback",
+    "category": "fallback-esfp"
+  },
+  {
+    "id": 25,
+    "content": "Where might your fast pace be keeping you from receiving something deeper?",
+    "depth": "fallback",
+    "category": "fallback-esfp"
+  },
+  {
+    "id": 26,
+    "content": "When have you read Scripture out of routine rather than to actually connect?",
+    "depth": "fallback",
+    "category": "fallback-esfp"
+  },
+  {
+    "id": 27,
+    "content": "How is Jesus most real to you lately: Comforter, Companion, or Joy-Giver?",
+    "depth": "fallback",
+    "category": "fallback-esfp"
+  },
+  {
+    "id": 28,
+    "content": "Have you dismissed a quiet tug on your heart that may have been from God?",
+    "depth": "fallback",
+    "category": "fallback-esfp"
+  },
+  {
+    "id": 29,
+    "content": "What helps you stay connected to God in your day-to-day rhythms?",
+    "depth": "fallback",
+    "category": "fallback-esfp"
+  },
+  {
+    "id": 30,
+    "content": "Where have you been focusing on what’s missing instead of what’s already beautiful?",
+    "depth": "fallback",
+    "category": "fallback-esfp"
+  },
+  {
+    "id": 31,
+    "content": "What moment from this year reminded you: “God is here, and He knows me”?",
+    "depth": "fallback",
+    "category": "fallback-esfp"
+  },
+  {
+    "id": 32,
+    "content": "Has something in your life started to feel like a joyful new beginning?",
+    "depth": "fallback",
+    "category": "fallback-esfp"
+  },
+  {
+    "id": 33,
+    "content": "What prayer is still waiting—and how are you learning to hope anyway?",
+    "depth": "fallback",
+    "category": "fallback-esfp"
+  },
+  {
+    "id": 34,
+    "content": "What promise from God still gives you a sense of expectation or spark?",
+    "depth": "fallback",
+    "category": "fallback-esfp"
+  },
+  {
+    "id": 35,
+    "content": "What kind word or affirmation do you sense Jesus speaking over you right now?",
+    "depth": "fallback",
+    "category": "fallback-esfp"
+  },
+  {
+    "id": 36,
+    "content": "Where would it feel good to let someone pray with you or cheer you on?",
+    "depth": "fallback",
+    "category": "fallback-esfp"
+  },
+  {
+    "id": 37,
+    "content": "What answer to prayer caught you off guard—but still moved your heart?",
+    "depth": "fallback",
+    "category": "fallback-esfp"
+  },
+  {
+    "id": 38,
+    "content": "How has God been gently reminding you to slow down and stay present?",
+    "depth": "fallback",
+    "category": "fallback-esfp"
+  },
+  {
+    "id": 39,
+    "content": "What small moment recently made you feel deeply loved by God?",
+    "depth": "fallback",
+    "category": "fallback-esfp"
+  },
+  {
+    "id": 40,
+    "content": "How has your heart changed through the things you've prayed about this year?",
+    "depth": "fallback",
+    "category": "fallback-esfp"
+  },
+  {
+    "id": 41,
+    "content": "Where did God’s faithfulness show up in a way that made you feel seen?",
+    "depth": "fallback",
+    "category": "fallback-esfp"
+  },
+  {
+    "id": 42,
+    "content": "In a hard moment, how did God give you clarity or calm?",
+    "depth": "fallback",
+    "category": "fallback-esfp"
+  },
+  {
+    "id": 43,
+    "content": "What part of your life is God softening or opening up again?",
+    "depth": "fallback",
+    "category": "fallback-esfp"
+  },
+  {
+    "id": 44,
+    "content": "When did you feel your need for grace—and feel it offered freely?",
+    "depth": "fallback",
+    "category": "fallback-esfp"
+  },
+  {
+    "id": 45,
+    "content": "What challenge taught you something unexpected about God’s nearness?",
+    "depth": "fallback",
+    "category": "fallback-esfp"
+  },
+  {
+    "id": 46,
+    "content": "Where are you starting to sense healing, even if it’s just a little?",
+    "depth": "fallback",
+    "category": "fallback-esfp"
+  },
+  {
+    "id": 47,
+    "content": "What’s one thing God might be inviting you to step into with joy?",
+    "depth": "fallback",
+    "category": "fallback-esfp"
+  },
+  {
+    "id": 48,
+    "content": "If you listened quietly right now, what might the Spirit be whispering?",
+    "depth": "fallback",
+    "category": "fallback-esfp"
+  },
+  {
+    "id": 49,
+    "content": "Where are you longing for something new to come alive with God?",
+    "depth": "fallback",
+    "category": "fallback-esfp"
+  },
+  {
+    "id": 50,
+    "content": "What small “yes” to God could bring joy or peace into your day?",
+    "depth": "fallback",
+    "category": "fallback-esfp"
+  },
+  {
+    "id": 51,
+    "content": "How could you make space for beauty, stillness, or worship this week?",
+    "depth": "fallback",
+    "category": "fallback-esfp"
+  },
+  {
+    "id": 52,
+    "content": "What moment would you love to look back on and say, “God was in that”?",
+    "depth": "fallback",
+    "category": "fallback-esfp"
+  },
+  {
+    "id": 53,
+    "content": "Where are you trying to prove yourself—when Jesus might just want your heart?",
+    "depth": "fallback",
+    "category": "fallback-esfp"
+  },
+  {
+    "id": 54,
+    "content": "When did you last feel completely known and loved by God?",
+    "depth": "fallback",
+    "category": "fallback-esfp"
+  },
+  {
+    "id": 55,
+    "content": "What would change if you believed God truly enjoys being with you?",
+    "depth": "fallback",
+    "category": "fallback-esfp"
+  },
+  {
+    "id": 56,
+    "content": "What truth about God do you want to feel more deeply, not just know?",
+    "depth": "fallback",
+    "category": "fallback-esfp"
+  },
+  {
+    "id": 57,
+    "content": "Who’s example of faith has moved or inspired you recently?",
+    "depth": "fallback",
+    "category": "fallback-esfp"
+  },
+  {
+    "id": 58,
+    "content": "What are you feeling deeply that you haven’t had space to express with God?",
+    "depth": "fallback",
+    "category": "fallback-esfp"
+  },
+  {
+    "id": 59,
+    "content": "When are you most aware of God’s presence without needing any words at all?",
+    "depth": "fallback",
+    "category": "fallback-esfp"
+  },
+  {
+    "id": 60,
+    "content": "How has God’s goodness shown up in both celebration and struggle?",
+    "depth": "fallback",
+    "category": "fallback-esfp"
+  },
+  {
+    "id": 61,
+    "content": "What small detail in your life recently reminded you: “God cares about this, too”?",
+    "depth": "fallback",
+    "category": "fallback-esfp"
+  }
+]

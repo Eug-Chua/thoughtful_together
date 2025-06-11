@@ -1,0 +1,368 @@
+[
+  {
+    "id": 1,
+    "content": "Where did God show up for you in a real, unmistakable way this year?",
+    "depth": "fallback",
+    "category": "fallback-estp"
+  },
+  {
+    "id": 2,
+    "content": "What part of your faith has grown stronger through real-life action?",
+    "depth": "fallback",
+    "category": "fallback-estp"
+  },
+  {
+    "id": 3,
+    "content": "What bold goal did you start with this year, and how has it shifted?",
+    "depth": "fallback",
+    "category": "fallback-estp"
+  },
+  {
+    "id": 4,
+    "content": "What moment from the past six months still energizes your gratitude?",
+    "depth": "fallback",
+    "category": "fallback-estp"
+  },
+  {
+    "id": 5,
+    "content": "What part of your life feels chaotic and needs God’s steadying hand?",
+    "depth": "fallback",
+    "category": "fallback-estp"
+  },
+  {
+    "id": 6,
+    "content": "What habit helps you feel grounded and connected to God during busy days?",
+    "depth": "fallback",
+    "category": "fallback-estp"
+  },
+  {
+    "id": 7,
+    "content": "What bold move could you take this season in response to God’s prompting?",
+    "depth": "fallback",
+    "category": "fallback-estp"
+  },
+  {
+    "id": 8,
+    "content": "What simple practice could help your faith stay active and consistent?",
+    "depth": "fallback",
+    "category": "fallback-estp"
+  },
+  {
+    "id": 9,
+    "content": "What would you go after if you trusted God had your back fully?",
+    "depth": "fallback",
+    "category": "fallback-estp"
+  },
+  {
+    "id": 10,
+    "content": "Who around you needs your energy, encouragement, or quick support today?",
+    "depth": "fallback",
+    "category": "fallback-estp"
+  },
+  {
+    "id": 11,
+    "content": "What clutter or distraction might God be asking you to cut loose?",
+    "depth": "fallback",
+    "category": "fallback-estp"
+  },
+  {
+    "id": 12,
+    "content": "What opportunity are you fired up about that might be from God?",
+    "depth": "fallback",
+    "category": "fallback-estp"
+  },
+  {
+    "id": 13,
+    "content": "When did God cover your misstep with surprising grace?",
+    "depth": "fallback",
+    "category": "fallback-estp"
+  },
+  {
+    "id": 14,
+    "content": "What truth has kept you centered when things moved fast or got messy?",
+    "depth": "fallback",
+    "category": "fallback-estp"
+  },
+  {
+    "id": 15,
+    "content": "What’s one way you want your character to grow by year’s end?",
+    "depth": "fallback",
+    "category": "fallback-estp"
+  },
+  {
+    "id": 16,
+    "content": "How could you use your presence or words to lift someone up this week?",
+    "depth": "fallback",
+    "category": "fallback-estp"
+  },
+  {
+    "id": 17,
+    "content": "Where might strategy be wearing you out, when wisdom could guide you better?",
+    "depth": "fallback",
+    "category": "fallback-estp"
+  },
+  {
+    "id": 18,
+    "content": "Where have you been relying too much on speed instead of spiritual clarity?",
+    "depth": "fallback",
+    "category": "fallback-estp"
+  },
+  {
+    "id": 19,
+    "content": "When did “common sense” fall short of what God was actually asking you to do?",
+    "depth": "fallback",
+    "category": "fallback-estp"
+  },
+  {
+    "id": 20,
+    "content": "What type of wisdom would help you take sharper, more focused action now?",
+    "depth": "fallback",
+    "category": "fallback-estp"
+  },
+  {
+    "id": 21,
+    "content": "When you open Scripture, what helps it come alive and land practically?",
+    "depth": "fallback",
+    "category": "fallback-estp"
+  },
+  {
+    "id": 22,
+    "content": "When did God provide in a way that met your need exactly, right on time?",
+    "depth": "fallback",
+    "category": "fallback-estp"
+  },
+  {
+    "id": 23,
+    "content": "What part of your faith grows when you stop controlling and let God move?",
+    "depth": "fallback",
+    "category": "fallback-estp"
+  },
+  {
+    "id": 24,
+    "content": "When was the last time you paused before reacting—and saw God shift something?",
+    "depth": "fallback",
+    "category": "fallback-estp"
+  },
+  {
+    "id": 25,
+    "content": "Where might your quick fixes be getting in the way of deeper trust?",
+    "depth": "fallback",
+    "category": "fallback-estp"
+  },
+  {
+    "id": 26,
+    "content": "Have you ever read Scripture without really letting it land in your situation?",
+    "depth": "fallback",
+    "category": "fallback-estp"
+  },
+  {
+    "id": 27,
+    "content": "Right now, do you need Jesus more as Strength, Truth, or steady Peace?",
+    "depth": "fallback",
+    "category": "fallback-estp"
+  },
+  {
+    "id": 28,
+    "content": "Have you ever brushed off a gut nudge that might’ve been God’s direction?",
+    "depth": "fallback",
+    "category": "fallback-estp"
+  },
+  {
+    "id": 29,
+    "content": "What would it look like to stay aligned with God even in your fast-paced days?",
+    "depth": "fallback",
+    "category": "fallback-estp"
+  },
+  {
+    "id": 30,
+    "content": "Where have you been focusing on what’s missing instead of what God’s already given?",
+    "depth": "fallback",
+    "category": "fallback-estp"
+  },
+  {
+    "id": 31,
+    "content": "What real experience this year proved God’s faithfulness again?",
+    "depth": "fallback",
+    "category": "fallback-estp"
+  },
+  {
+    "id": 32,
+    "content": "Has God surprised you with a breakthrough or unexpected shift lately?",
+    "depth": "fallback",
+    "category": "fallback-estp"
+  },
+  {
+    "id": 33,
+    "content": "What prayer are you still waiting on—but still showing up for?",
+    "depth": "fallback",
+    "category": "fallback-estp"
+  },
+  {
+    "id": 34,
+    "content": "What hope or direction are you holding onto in the second half of this year?",
+    "depth": "fallback",
+    "category": "fallback-estp"
+  },
+  {
+    "id": 35,
+    "content": "What strong, clear word might God be speaking over you for this season?",
+    "depth": "fallback",
+    "category": "fallback-estp"
+  },
+  {
+    "id": 36,
+    "content": "Where do you need others to back you up in prayer or momentum?",
+    "depth": "fallback",
+    "category": "fallback-estp"
+  },
+  {
+    "id": 37,
+    "content": "What answer came differently than expected—but still got the job done?",
+    "depth": "fallback",
+    "category": "fallback-estp"
+  },
+  {
+    "id": 38,
+    "content": "How has God reminded you lately to stay steady, not just fast?",
+    "depth": "fallback",
+    "category": "fallback-estp"
+  },
+  {
+    "id": 39,
+    "content": "What small moment recently reminded you that God’s in your details?",
+    "depth": "fallback",
+    "category": "fallback-estp"
+  },
+  {
+    "id": 40,
+    "content": "How has your focus shifted this year as you’ve followed God’s lead?",
+    "depth": "fallback",
+    "category": "fallback-estp"
+  },
+  {
+    "id": 41,
+    "content": "Where did God show up in a way that changed the outcome for you?",
+    "depth": "fallback",
+    "category": "fallback-estp"
+  },
+  {
+    "id": 42,
+    "content": "When did the Spirit give you clarity under pressure or chaos?",
+    "depth": "fallback",
+    "category": "fallback-estp"
+  },
+  {
+    "id": 43,
+    "content": "What mindset or habit is God challenging you to tweak for real impact?",
+    "depth": "fallback",
+    "category": "fallback-estp"
+  },
+  {
+    "id": 44,
+    "content": "When did grace meet you in a moment you didn’t handle perfectly?",
+    "depth": "fallback",
+    "category": "fallback-estp"
+  },
+  {
+    "id": 45,
+    "content": "What challenge stretched your trust and taught you more about God’s strength?",
+    "depth": "fallback",
+    "category": "fallback-estp"
+  },
+  {
+    "id": 46,
+    "content": "Where are you starting to notice slow but real redemption?",
+    "depth": "fallback",
+    "category": "fallback-estp"
+  },
+  {
+    "id": 47,
+    "content": "What’s one challenge God might be inviting you to rise to?",
+    "depth": "fallback",
+    "category": "fallback-estp"
+  },
+  {
+    "id": 48,
+    "content": "If you stopped for just a minute, what might the Spirit highlight right now?",
+    "depth": "fallback",
+    "category": "fallback-estp"
+  },
+  {
+    "id": 49,
+    "content": "Where do you want God to break through and do something fresh?",
+    "depth": "fallback",
+    "category": "fallback-estp"
+  },
+  {
+    "id": 50,
+    "content": "What bold act of obedience could unlock something greater in your walk?",
+    "depth": "fallback",
+    "category": "fallback-estp"
+  },
+  {
+    "id": 51,
+    "content": "How can you carve out space to breathe, reflect, and refocus this month?",
+    "depth": "fallback",
+    "category": "fallback-estp"
+  },
+  {
+    "id": 52,
+    "content": "What moment are you hoping to look back on and say, “That’s where God moved”?",
+    "depth": "fallback",
+    "category": "fallback-estp"
+  },
+  {
+    "id": 53,
+    "content": "Where are you doing too much—and need to invite God back into the lead?",
+    "depth": "fallback",
+    "category": "fallback-estp"
+  },
+  {
+    "id": 54,
+    "content": "When did you feel most in sync with your calling this year?",
+    "depth": "fallback",
+    "category": "fallback-estp"
+  },
+  {
+    "id": 55,
+    "content": "What changes if you believed God enjoys partnering with your boldness?",
+    "depth": "fallback",
+    "category": "fallback-estp"
+  },
+  {
+    "id": 56,
+    "content": "What truth have you been putting off applying in your daily life?",
+    "depth": "fallback",
+    "category": "fallback-estp"
+  },
+  {
+    "id": 57,
+    "content": "Who recently inspired you to take your faith more seriously in real life?",
+    "depth": "fallback",
+    "category": "fallback-estp"
+  },
+  {
+    "id": 58,
+    "content": "What weight have you been carrying alone that God wants to help carry?",
+    "depth": "fallback",
+    "category": "fallback-estp"
+  },
+  {
+    "id": 59,
+    "content": "When do you most notice Jesus walking with you in the moment?",
+    "depth": "fallback",
+    "category": "fallback-estp"
+  },
+  {
+    "id": 60,
+    "content": "How has God proved faithful both in action and in silence?",
+    "depth": "fallback",
+    "category": "fallback-estp"
+  },
+  {
+    "id": 61,
+    "content": "What’s one thing God has done this year that reminded you: He’s still right here?",
+    "depth": "fallback",
+    "category": "fallback-estp"
+  }
+]
