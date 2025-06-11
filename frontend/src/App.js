@@ -130,8 +130,9 @@ function App() {
         if (mbtiCode.length === 4 && currentQuestionId) {
           try {
             const fallbackUrl = `/fallback_questions/fallback_questions_json/${mbtiCode}_fallback.json`;
-            const fallbackRes = await fetch(fallbackUrl);
+            console.log("🧠 MBTI code:", mbtiCode);
             console.log("📦 Attempting to fetch fallback file from:", fallbackUrl);
+            const fallbackRes = await fetch(fallbackUrl);
             if (!fallbackRes.ok) throw new Error(`Fallback HTTP ${fallbackRes.status}`);
     
             const fallbackSet = await fallbackRes.json();
