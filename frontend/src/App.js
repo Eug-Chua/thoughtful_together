@@ -131,6 +131,7 @@ function App() {
           try {
             const fallbackUrl = `/fallback_questions/fallback_questions_json/${mbtiCode}_fallback.json`;
             const fallbackRes = await fetch(fallbackUrl);
+            console.log("📦 Attempting to fetch fallback file from:", fallbackUrl);
             if (!fallbackRes.ok) throw new Error(`Fallback HTTP ${fallbackRes.status}`);
     
             const fallbackSet = await fallbackRes.json();
