@@ -97,35 +97,62 @@ function App() {
   };
 
   /* ----------  Reframe button handler  ---------- */
-  const reframeWithAI = async () => {
-    if (!question) return;      // must have a question, otherwise do nothing
-
-    setLoading(true);
-    try {
-      const res = await fetch('/.netlify/functions/reframe', {
-      // const res = await fetch('http://localhost:5050/reframe', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          question,
-          mbti: fullMbti || null,      // '' → null
-          enneagram: enneagram || null // '' → null
-        }),
-      });
-
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
-      const data = await res.json();
-      if (!data.reframed) throw new Error('No reframed text in response.');
-
-      setReframed(data.reframed);
-      setFadeKey(prev => prev + 1);
-    } catch (err) {
-      console.error('[Reframe error]', err);
-      setReframed('⚠️ Failed to reframe. Please try again.');
-    } finally {
-      setLoading(false);
-    }
-  };
+    const reframeWithAI = async () => {
+      if (!question) return;
+    
+      setLoading(true);
+    
+      try {
+        const res = await fetch('/.netlify/functions/reframe', {
+        // const res = await fetch('http://localhost:5050/reframe', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            question,
+            mbti: fullMbti || null,
+            enneagram: enneagram || null
+          }),
+        });
+    
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        const data = await res.json();
+        if (!data.reframed) throw new Error('No reframed text in response.');
+    
+        setReframed(data.reframed);
+        setFadeKey(prev => prev + 1);
+      } catch (err) {
+        console.error('[Reframe error]', err);
+    
+        // ✅ Load fallback by MBTI and ID match
+        const mbtiCode = fullMbti.toLowerCase();
+        const currentQuestionId = filtered[questionIndex]?.id;
+    
+        if (mbtiCode.length === 4 && currentQuestionId) {
+          try {
+            const fallbackUrl = `/fallback_questions/fallback_questions_json/${mbtiCode}/fallback-${mbtiCode}.json`;
+            const fallbackRes = await fetch(fallbackUrl);
+            if (!fallbackRes.ok) throw new Error(`Fallback HTTP ${fallbackRes.status}`);
+    
+            const fallbackSet = await fallbackRes.json();
+            const fallbackMatch = fallbackSet.find(q => q.id === currentQuestionId);
+    
+            if (fallbackMatch) {
+              setReframed(fallbackMatch.content);
+            } else {
+              console.warn('⚠️ No fallback match for question ID:', currentQuestionId);
+            }
+          } catch (fallbackErr) {
+            console.error('⚠️ Fallback fetch failed:', fallbackErr);
+            // Do nothing – leave original question
+          }
+    
+          setFadeKey(prev => prev + 1);
+        }
+      } finally {
+        setLoading(false);
+      }
+    };
+    
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-tealLight via-tealMid via-tealBase to-tealBlue flex items-center justify-center relative px-6">
