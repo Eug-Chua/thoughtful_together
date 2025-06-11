@@ -35,7 +35,7 @@ Keep it simple, ≤ 15 words, and do not wrap the response in quotes or markdown
 
     /* 3. Call OpenAI */
     const completion = await openai.chat.completions.create({
-      model: "gpt-4o-mini",          // or gpt-4o / gpt-4o-turbo, etc.
+      model: "test",          // or gpt-4o / gpt-4o-turbo, etc.
       messages: [{ role: "user", content: prompt }],
       max_tokens: 60,
       temperature: 0.7,
