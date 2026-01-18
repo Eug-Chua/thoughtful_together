@@ -92,7 +92,7 @@ function TunerKnob({ value, onChange, min = 0, max = 9 }) {
         <defs>
           <radialGradient id="dialGradient" cx="50%" cy="50%" r="50%">
             <stop offset="0%" stopColor="#595959" />
-            <stop offset="100%" stopColor="#404040" />
+            <stop offset="100%" stopColor="#070C0F" />
           </radialGradient>
         </defs>
   
@@ -102,7 +102,7 @@ function TunerKnob({ value, onChange, min = 0, max = 9 }) {
           r={radius}
           fill="url(#dialGradient)"
           stroke="#4d4d4d"
-          strokeWidth="3"
+          strokeWidth="0.5"
         />
   
         {/* Dots for each step */}
