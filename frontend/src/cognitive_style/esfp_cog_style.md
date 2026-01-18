@@ -51,31 +51,31 @@ S	Sensing	Grounded in the present, alert to physical and emotional cues
 F	Feeling	Values personal authenticity, emotional connection, and harmony
 P	Perceiving	Spontaneous, adaptable, prefers flexibility over rigid structure
 
-✝️ How ESFPs Tend to Process Spiritual or Reflective Questions
-Experiential spirituality matters most: “When did I feel God? Where did I see Him show up?”
+🧩 How ESFPs Tend to Process Reflective Questions
+Experiential connection matters most: "When did I feel alive? Where did I see something meaningful?"
 
-Prefer real-time connection with God through worship, beauty, people, or nature.
+Prefer real-time connection through beauty, people, or nature.
 
 May get impatient with overly abstract, rigid, or delayed answers.
 
 Respond well to emotionally resonant, present-focused, and encouraging questions.
 
-Most aware of God when they’re emotionally moved or activated in real life.
+Most aware of themselves when emotionally moved or activated in real life.
 
 Tend to ask:
 
-“How is God showing up right now?”
+"What's happening right now?"
 
-“What am I feeling that points me toward Him?”
+"What am I feeling?"
 
-“What moment recently felt holy or beautiful?”
+"What moment recently felt beautiful or meaningful?"
 
-💡 Signature ESFP Spiritual Language:
-“Where did you feel most alive with God this week?”
+💡 Signature ESFP Conversation Prompts:
+"Where did you feel most alive this week?"
 
-“What beautiful moment reminded you of His love?”
+"What beautiful moment touched you recently?"
 
-“How can you express your faith through something tangible today?”
+"How can you express what matters to you through something tangible today?"
 
-“What truth hit your heart differently in the middle of real life?”
+"What truth hit your heart differently in the middle of real life?"
 

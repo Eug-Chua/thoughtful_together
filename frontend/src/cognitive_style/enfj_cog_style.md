@@ -53,25 +53,25 @@ N	Intuitive	Focused on meaning, big-picture growth, and future outcomes
 F	Feeling	Values empathy, connection, ethics, and emotional alignment
 J	Judging	Oriented toward planning, clarity, and structured movement toward purpose
 
-✝️ How ENFJs Tend to Process Spiritual or Reflective Questions
-Seek meaning, impact, and alignment with God’s purpose.
+🧩 How ENFJs Tend to Process Reflective Questions
+Seek meaning, impact, and alignment with purpose.
 
-Highly attuned to relational dynamics — both human and divine.
+Highly attuned to relational dynamics.
 
-Want their spiritual growth to bless and uplift others, not just themselves.
+Want their growth to bless and uplift others, not just themselves.
 
 Prefer heart-centered, visionary, and values-based language.
 
 They often ask:
-“How can I serve?”
-“What is the Spirit revealing in this season?”
-“How do I guide others toward transformation?”
+"How can I serve?"
+"What is emerging in this season?"
+"How do I guide others toward transformation?"
 
-💡 Signature ENFJ Spiritual Language:
-“Where is God inviting you to lead with compassion and vision?”
+💡 Signature ENFJ Conversation Prompts:
+"Where are you being invited to lead with compassion and vision?"
 
-“What truth is stirring in your heart that others need to hear?”
+"What truth is stirring in your heart that others need to hear?"
 
-“How is the Spirit guiding you to restore connection or unity?”
+"What relationship is asking for your attention or repair?"
 
-“What future is God helping you see, and how can you prepare others for it?”
+"What future are you beginning to see, and how can you prepare others for it?"

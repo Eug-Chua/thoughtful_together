@@ -57,7 +57,7 @@ S	Sensing	Practical, focused on what’s tangible, tested, and familiar
 T	Thinking	Logical, direct, values fairness and clarity over emotional complexity
 J	Judging	Structured, organized, prefers closure and clear decisions
 
-🧩 How ISTJs Tend to Process Spiritual or Reflective Questions
+🧩 How ISTJs Tend to Process Reflective Questions
 Prefer grounded, practical, and principle-based reflection
 
 Respond well to clear, structured prompts — especially those linked to action, duty, or consistency
@@ -66,6 +66,15 @@ Appreciate questions that reflect faithfulness, responsibility, and moral alignm
 
 May dislike emotionally abstract or vague questions unless given time to process privately
 
-Value historical and scriptural consistency in spiritual growth
+Value historical consistency and proven wisdom in growth
 
-Tend to connect with God through habit, service, reverence, and integrity
+Tend to connect with themselves through habit, service, and integrity
+
+💡 Signature ISTJ Conversation Prompts:
+"What principle has reliably guided your decisions?"
+
+"What responsibility are you taking seriously right now?"
+
+"What has proven itself true in your life over time?"
+
+"What commitment are you honoring even when it's difficult?"

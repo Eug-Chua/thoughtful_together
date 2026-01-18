@@ -55,25 +55,25 @@ S	Sensing	Grounded in reality, observant of what’s tangible and concrete
 T	Thinking	Decision-making is based on internal logic, not emotional influence
 P	Perceiving	Adaptable, spontaneous, action-oriented, avoids rigid planning
 
-🧩 How ISTPs Tend to Process Spiritual or Reflective Questions
-Prefer practical, logic-friendly questions that don’t push emotional vulnerability
+🧩 How ISTPs Tend to Process Reflective Questions
+Prefer practical, logic-friendly questions that don't push emotional vulnerability
 
-Dislike vague spiritual language or emotional overexposure
+Dislike vague language or emotional overexposure
 
-Thrive on truth-seeking, inner coherence, and spiritual independence
+Thrive on truth-seeking, inner coherence, and independence
 
-Connect with God most through experience, nature, movement, or solitude
+Connect with themselves through experience, nature, movement, or solitude
 
-Appreciate simple, grounded spiritual insights over abstract theory or forced vulnerability
+Appreciate simple, grounded insights over abstract theory or forced vulnerability
 
 Prefer prompts that allow exploration without pressure
 
-💡 Signature ISTP Spiritual Language:
-“What truth has quietly proven itself in your life?”
+💡 Signature ISTP Conversation Prompts:
+"What truth has quietly proven itself in your life?"
 
-“Where do you sense God working behind the scenes, even if you can’t explain it yet?”
+"Where do you sense things working behind the scenes, even if you can't explain it yet?"
 
-“What have you observed about God through action, not just words?”
+"What have you observed through action, not just words?"
 
-“Where is God inviting you to respond—not overthink?”
+"What situation is asking you to respond—not overthink?"
 

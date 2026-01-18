@@ -1,368 +1,82 @@
 [
-  {
-    "id": 1,
-    "content": "Where has God's faithfulness surprised you in the most beautiful, unexpected ways?",
-    "depth": "fallback",
-    "category": "fallback-enfp"
-  },
-  {
-    "id": 2,
-    "content": "How has your faith blossomed in directions that feel authentically you?",
-    "depth": "fallback",
-    "category": "fallback-enfp"
-  },
-  {
-    "id": 3,
-    "content": "What dreams from January have grown wings or transformed into something even better?",
-    "depth": "fallback",
-    "category": "fallback-enfp"
-  },
-  {
-    "id": 4,
-    "content": "What moment of God's goodness still makes your heart smile when you remember it?",
-    "depth": "fallback",
-    "category": "fallback-enfp"
-  },
-  {
-    "id": 5,
-    "content": "What part of your soul is ready for God's tender healing touch?",
-    "depth": "fallback",
-    "category": "fallback-enfp"
-  },
-  {
-    "id": 6,
-    "content": "What way of connecting with God has felt most alive and genuine for you?",
-    "depth": "fallback",
-    "category": "fallback-enfp"
-  },
-  {
-    "id": 7,
-    "content": "What beautiful calling or adventure is God whispering to your heart?",
-    "depth": "fallback",
-    "category": "fallback-enfp"
-  },
-  {
-    "id": 8,
-    "content": "What's one heartfelt way you want to grow closer to God?",
-    "depth": "fallback",
-    "category": "fallback-enfp"
-  },
-  {
-    "id": 9,
-    "content": "If your heart could dream without limits, what would you ask God for?",
-    "depth": "fallback",
-    "category": "fallback-enfp"
-  },
-  {
-    "id": 10,
-    "content": "Who could you champion or encourage in ways that reflect your unique heart?",
-    "depth": "fallback",
-    "category": "fallback-enfp"
-  },
-  {
-    "id": 11,
-    "content": "What old story about yourself is God lovingly helping you rewrite?",
-    "depth": "fallback",
-    "category": "fallback-enfp"
-  },
-  {
-    "id": 12,
-    "content": "What transformation are you most excited to witness God create?",
-    "depth": "fallback",
-    "category": "fallback-enfp"
-  },
-  {
-    "id": 13,
-    "content": "Where has God's grace embraced you exactly as you are, mess and all?",
-    "depth": "fallback",
-    "category": "fallback-enfp"
-  },
-  {
-    "id": 14,
-    "content": "What truth about God has been resonating deeply in your heart lately?",
-    "depth": "fallback",
-    "category": "fallback-enfp"
-  },
-  {
-    "id": 15,
-    "content": "What beautiful version of yourself do you sense God calling forth?",
-    "depth": "fallback",
-    "category": "fallback-enfp"
-  },
-  {
-    "id": 16,
-    "content": "How could you love others in ways that feel genuine and inspired?",
-    "depth": "fallback",
-    "category": "fallback-enfp"
-  },
-  {
-    "id": 17,
-    "content": "What situation needs God's creative breakthrough more than your passionate efforts?",
-    "depth": "fallback",
-    "category": "fallback-enfp"
-  },
-  {
-    "id": 18,
-    "content": "Where have you been trying to make things happen without inviting Jesus in?",
-    "depth": "fallback",
-    "category": "fallback-enfp"
-  },
-  {
-    "id": 19,
-    "content": "When has well-meaning advice felt heavy instead of life-giving?",
-    "depth": "fallback",
-    "category": "fallback-enfp"
-  },
-  {
-    "id": 20,
-    "content": "What kind of wisdom stirs your soul most - intuitive insight, heart clarity, or inspired action?",
-    "depth": "fallback",
-    "category": "fallback-enfp"
-  },
-  {
-    "id": 21,
-    "content": "Do you read Scripture seeking inspiration, comfort, or intimate connection with Jesus?",
-    "depth": "fallback",
-    "category": "fallback-enfp"
-  },
-  {
-    "id": 22,
-    "content": "How has God provided in ways that felt personally crafted just for you?",
-    "depth": "fallback",
-    "category": "fallback-enfp"
-  },
-  {
-    "id": 23,
-    "content": "What gifts might flow more freely if you stayed connected to Jesus' heart?",
-    "depth": "fallback",
-    "category": "fallback-enfp"
-  },
-  {
-    "id": 24,
-    "content": "When did you last pause to sense Jesus' heart before responding to pressure?",
-    "depth": "fallback",
-    "category": "fallback-enfp"
-  },
-  {
-    "id": 25,
-    "content": "Where do you think more passion or effort will accomplish what needs divine wisdom?",
-    "depth": "fallback",
-    "category": "fallback-enfp"
-  },
-  {
-    "id": 26,
-    "content": "Have you ever approached Scripture as a task instead of a love letter?",
-    "depth": "fallback",
-    "category": "fallback-enfp"
-  },
-  {
-    "id": 27,
-    "content": "Do you experience Jesus more as Beloved Friend, Creative Inspirer, or Gentle Liberator?",
-    "depth": "fallback",
-    "category": "fallback-enfp"
-  },
-  {
-    "id": 28,
-    "content": "When did you dismiss a stirring in your heart as just wishful thinking?",
-    "depth": "fallback",
-    "category": "fallback-enfp"
-  },
-  {
-    "id": 29,
-    "content": "How could staying close to Jesus become part of your natural rhythm?",
-    "depth": "fallback",
-    "category": "fallback-enfp"
-  },
-  {
-    "id": 30,
-    "content": "Where are you focused on what's missing instead of celebrating God's current gifts?",
-    "depth": "fallback",
-    "category": "fallback-enfp"
-  },
-  {
-    "id": 31,
-    "content": "How has Jesus revealed his heart to you in fresh, personal ways?",
-    "depth": "fallback",
-    "category": "fallback-enfp"
-  },
-  {
-    "id": 32,
-    "content": "Have you experienced any beautiful resurrections where hope came alive again?",
-    "depth": "fallback",
-    "category": "fallback-enfp"
-  },
-  {
-    "id": 33,
-    "content": "What dreams are still unfolding and how are you finding peace in the process?",
-    "depth": "fallback",
-    "category": "fallback-enfp"
-  },
-  {
-    "id": 34,
-    "content": "What hope-filled promise are you carrying in your heart for these next months?",
-    "depth": "fallback",
-    "category": "fallback-enfp"
-  },
-  {
-    "id": 35,
-    "content": "What encouraging word do you sense Jesus wants to speak over your soul?",
-    "depth": "fallback",
-    "category": "fallback-enfp"
-  },
-  {
-    "id": 36,
-    "content": "How can your people walk alongside you and cheer you on?",
-    "depth": "fallback",
-    "category": "fallback-enfp"
-  },
-  {
-    "id": 37,
-    "content": "Looking at your January prayers, how has God answered with his own beautiful creativity?",
-    "depth": "fallback",
-    "category": "fallback-enfp"
-  },
-  {
-    "id": 38,
-    "content": "What hopes are still in process and how has God been tender with your waiting heart?",
-    "depth": "fallback",
-    "category": "fallback-enfp"
-  },
-  {
-    "id": 39,
-    "content": "What gentle answered prayers reminded you that God sees and cares about everything?",
-    "depth": "fallback",
-    "category": "fallback-enfp"
-  },
-  {
-    "id": 40,
-    "content": "How have your heart's desires shifted or deepened since you first prayed them?",
-    "depth": "fallback",
-    "category": "fallback-enfp"
-  },
-  {
-    "id": 41,
-    "content": "Where have you quietly witnessed God's faithfulness painting beauty from ordinary moments?",
-    "depth": "fallback",
-    "category": "fallback-enfp"
-  },
-  {
-    "id": 42,
-    "content": "How has the Spirit comforted or redirected you when anxiety tried to steal your peace?",
-    "depth": "fallback",
-    "category": "fallback-enfp"
-  },
-  {
-    "id": 43,
-    "content": "What thought pattern or heart posture has God been gently transforming?",
-    "depth": "fallback",
-    "category": "fallback-enfp"
-  },
-  {
-    "id": 44,
-    "content": "When have you felt most grateful for grace that loves you beyond your mistakes?",
-    "depth": "fallback",
-    "category": "fallback-enfp"
-  },
-  {
-    "id": 45,
-    "content": "What has stretched your understanding of God and what beautiful truth emerged?",
-    "depth": "fallback",
-    "category": "fallback-enfp"
-  },
-  {
-    "id": 46,
-    "content": "What painful place now shows hints of beauty or purpose you couldn't see before?",
-    "depth": "fallback",
-    "category": "fallback-enfp"
-  },
-  {
-    "id": 47,
-    "content": "What is God tenderly inviting you to embrace or release?",
-    "depth": "fallback",
-    "category": "fallback-enfp"
-  },
-  {
-    "id": 48,
-    "content": "If you listened to your heart's whisper, what next step might the Spirit be suggesting?",
-    "depth": "fallback",
-    "category": "fallback-enfp"
-  },
-  {
-    "id": 49,
-    "content": "Where are you longing for God to birth something beautiful and new?",
-    "depth": "fallback",
-    "category": "fallback-enfp"
-  },
-  {
-    "id": 50,
-    "content": "What small act of love might create space for deeper intimacy with Christ?",
-    "depth": "fallback",
-    "category": "fallback-enfp"
-  },
-  {
-    "id": 51,
-    "content": "How could you create more room for wonder, rest, and heart connection?",
-    "depth": "fallback",
-    "category": "fallback-enfp"
-  },
-  {
-    "id": 52,
-    "content": "What do you hope to look back on and say God met you there so personally?",
-    "depth": "fallback",
-    "category": "fallback-enfp"
-  },
-  {
-    "id": 53,
-    "content": "Where have you been striving in your own strength instead of dancing with Jesus?",
-    "depth": "fallback",
-    "category": "fallback-enfp"
-  },
-  {
-    "id": 54,
-    "content": "When did you last feel completely known and delighted in by God?",
-    "depth": "fallback",
-    "category": "fallback-enfp"
-  },
-  {
-    "id": 55,
-    "content": "How might your life transform if you believed God is genuinely enchanted with who you are?",
-    "depth": "fallback",
-    "category": "fallback-enfp"
-  },
-  {
-    "id": 56,
-    "content": "What truth about God's heart do you need to hold close right now?",
-    "depth": "fallback",
-    "category": "fallback-enfp"
-  },
-  {
-    "id": 57,
-    "content": "Whose authentic faith has recently inspired or challenged your own journey?",
-    "depth": "fallback",
-    "category": "fallback-enfp"
-  },
-  {
-    "id": 58,
-    "content": "What's been stirring in your soul that you haven't had space to explore?",
-    "depth": "fallback",
-    "category": "fallback-enfp"
-  },
-  {
-    "id": 59,
-    "content": "When do you feel most naturally aware of Jesus walking beside you?",
-    "depth": "fallback",
-    "category": "fallback-enfp"
-  },
-  {
-    "id": 60,
-    "content": "How has your heart's understanding of God deepened through seasons of joy and waiting?",
-    "depth": "fallback",
-    "category": "fallback-enfp"
-  },
-  {
-    "id": 61,
-    "content": "How does noticing God's goodness in surprising moments multiply the wonder in your heart?",
-    "depth": "fallback",
-    "category": "fallback-enfp"
-  }
+  {"id": 1, "content": "What belief have you outgrown that once felt so central to who you are?"},
+  {"id": 2, "content": "What tiny, delightful moment caught you by surprise recently?"},
+  {"id": 3, "content": "How has your sense of possibility evolved from your childhood dreams?"},
+  {"id": 4, "content": "What unexpected gift or connection are you most thankful for?"},
+  {"id": 5, "content": "What inner struggle are you working through right now?"},
+  {"id": 6, "content": "What practice has helped you stay grounded amidst all your ideas?"},
+  {"id": 7, "content": "What exciting new path or skill is calling to you?"},
+  {"id": 8, "content": "What does a day filled with meaning and connection look like for you?"},
+  {"id": 9, "content": "Whose story would you most want to hear over a long dinner?"},
+  {"id": 10, "content": "Who saw something in you that changed how you saw yourself?"},
+  {"id": 11, "content": "What passion have you gently set aside to make room for who you're becoming?"},
+  {"id": 12, "content": "What possibility has you feeling most alive right now?"},
+  {"id": 13, "content": "When did you feel most authentically, unapologetically yourself?"},
+  {"id": 14, "content": "What story, song, or idea touched something deep in you?"},
+  {"id": 15, "content": "What kind of growth are you hoping to experience in the coming year?"},
+  {"id": 16, "content": "What act of kindness still warms you when you think about it?"},
+  {"id": 17, "content": "What crossroads are you feeling your way through right now?"},
+  {"id": 18, "content": "What do you do differently that feels true even if others don't get it?"},
+  {"id": 19, "content": "What piece of wisdom has stayed with you through different seasons?"},
+  {"id": 20, "content": "What do people miss about you when they only see your enthusiasm?"},
+  {"id": 21, "content": "What does a life well-lived mean to you at this moment?"},
+  {"id": 22, "content": "What experience opened your heart or mind in a lasting way?"},
+  {"id": 23, "content": "What are you quietly proud of that others might not see?"},
+  {"id": 24, "content": "What makes a friendship feel real and nourishing to you?"},
+  {"id": 25, "content": "What fear have you been gently facing and moving through?"},
+  {"id": 26, "content": "What always seems to lift your spirits when you're feeling off?"},
+  {"id": 27, "content": "What truth do you hold that might surprise people who know you?"},
+  {"id": 28, "content": "What's been sparking your curiosity and imagination lately?"},
+  {"id": 29, "content": "What stumble taught you something you couldn't have learned otherwise?"},
+  {"id": 30, "content": "How do you refill your cup when you've given too much away?"},
+  {"id": 31, "content": "What have you had to release that was painful but necessary?"},
+  {"id": 32, "content": "What place holds a special kind of magic for you?"},
+  {"id": 33, "content": "What would you pour yourself into if nothing could stop you?"},
+  {"id": 34, "content": "What keeps swirling through your thoughts and feelings lately?"},
+  {"id": 35, "content": "What ability would open up new worlds for you?"},
+  {"id": 36, "content": "How do you navigate tension with people you care about deeply?"},
+  {"id": 37, "content": "What have you recently learned about your own heart?"},
+  {"id": 38, "content": "How do you love to spend time when it's truly yours?"},
+  {"id": 39, "content": "What hard truth have you had to sit with and accept?"},
+  {"id": 40, "content": "What never fails to spark joy in you?"},
+  {"id": 41, "content": "What does feeling at home mean to your wandering spirit?"},
+  {"id": 42, "content": "What conversation left a lasting impression on your soul?"},
+  {"id": 43, "content": "What do you keep doing just because it brings you joy, even if you're not great at it?"},
+  {"id": 44, "content": "What spontaneous choice became one of your favorite memories?"},
+  {"id": 45, "content": "What makes you lose yourself in the best possible way?"},
+  {"id": 46, "content": "What part of yourself are you still discovering?"},
+  {"id": 47, "content": "What relationship has shaped who you're becoming?"},
+  {"id": 48, "content": "What question would help someone understand your inner world?"},
+  {"id": 49, "content": "What are you trying to be more present and intentional about?"},
+  {"id": 50, "content": "What tradition or ritual would you love to create?"},
+  {"id": 51, "content": "What re-energizes you when you're running on empty?"},
+  {"id": 52, "content": "What did you nurture into being that felt really meaningful?"},
+  {"id": 53, "content": "What would you whisper to your younger, more uncertain self?"},
+  {"id": 54, "content": "What dream both terrifies and thrills you?"},
+  {"id": 55, "content": "What moment would you love to live inside again?"},
+  {"id": 56, "content": "How do you sense when someone is safe to trust with your real self?"},
+  {"id": 57, "content": "What have you been meaning to do that keeps slipping away?"},
+  {"id": 58, "content": "What do people misunderstand about the depth beneath your generation's optimism?"},
+  {"id": 59, "content": "What do you need but struggle to voice?"},
+  {"id": 60, "content": "What compliment touched something real in you?"},
+  {"id": 61, "content": "What would open up if you fully believed in your own path?"},
+  {"id": 62, "content": "What two values you cherish sometimes pull you in different directions?"},
+  {"id": 63, "content": "Where does your inspiring presence mask your private struggles?"},
+  {"id": 64, "content": "What role do you play for others that sometimes feels like a costume?"},
+  {"id": 65, "content": "What version of 'positive you' are you tired of performing?"},
+  {"id": 66, "content": "What mistake still visits you when you're being honest with yourself?"},
+  {"id": 67, "content": "What past choice do you keep turning over in your heart?"},
+  {"id": 68, "content": "What part of yourself have you tried to brighten or smooth over?"},
+  {"id": 69, "content": "What would you take back if you could rewrite that chapter?"},
+  {"id": 70, "content": "What feeling lives beneath your optimism that you rarely share?"},
+  {"id": 71, "content": "When has your hunger for connection left you feeling most alone?"},
+  {"id": 72, "content": "What does it take for you to feel truly seen beyond your warmth?"},
+  {"id": 73, "content": "What do you need from others that you find hard to ask for?"},
+  {"id": 74, "content": "When does the distance between your inner world and how others see you feel widest?"},
+  {"id": 75, "content": "What would it feel like to find people who truly get all of you?"},
+  {"id": 76, "content": "What truth about yourself do you keep at arm's length?"},
+  {"id": 77, "content": "What thought keeps returning that you've never fully voiced?"},
+  {"id": 78, "content": "What do you believe about life that you're hesitant to say?"},
+  {"id": 79, "content": "What are you clinging to that you know isn't serving you?"},
+  {"id": 80, "content": "What question about your own heart have you been avoiding?"}
 ]

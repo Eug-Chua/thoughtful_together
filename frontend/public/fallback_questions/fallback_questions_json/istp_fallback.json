@@ -1,368 +1,82 @@
 [
-  {
-    "id": 1,
-    "content": "What evidence of God's faithfulness actually makes sense to you this year?",
-    "depth": "fallback",
-    "category": "fallback-istp"
-  },
-  {
-    "id": 2,
-    "content": "How has your faith grown in ways you can observe or measure?",
-    "depth": "fallback",
-    "category": "fallback-istp"
-  },
-  {
-    "id": 3,
-    "content": "What hopes or goals have evolved as you've learned more this year?",
-    "depth": "fallback",
-    "category": "fallback-istp"
-  },
-  {
-    "id": 4,
-    "content": "What specific thing would you genuinely thank God for?",
-    "depth": "fallback",
-    "category": "fallback-istp"
-  },
-  {
-    "id": 5,
-    "content": "What area of your life needs God's help most practically?",
-    "depth": "fallback",
-    "category": "fallback-istp"
-  },
-  {
-    "id": 6,
-    "content": "What approach to connecting with God has actually worked for you?",
-    "depth": "fallback",
-    "category": "fallback-istp"
-  },
-  {
-    "id": 7,
-    "content": "What is God pointing you toward that feels worth pursuing?",
-    "depth": "fallback",
-    "category": "fallback-istp"
-  },
-  {
-    "id": 8,
-    "content": "What practical change would strengthen your spiritual life?",
-    "depth": "fallback",
-    "category": "fallback-istp"
-  },
-  {
-    "id": 9,
-    "content": "What would you go after if fear wasn't holding you back?",
-    "depth": "fallback",
-    "category": "fallback-istp"
-  },
-  {
-    "id": 10,
-    "content": "Who in your life could you actually help in a meaningful way?",
-    "depth": "fallback",
-    "category": "fallback-istp"
-  },
-  {
-    "id": 11,
-    "content": "What does God want you to drop so you can focus better?",
-    "depth": "fallback",
-    "category": "fallback-istp"
-  },
-  {
-    "id": 12,
-    "content": "What do you think God will realistically accomplish this year?",
-    "depth": "fallback",
-    "category": "fallback-istp"
-  },
-  {
-    "id": 13,
-    "content": "Where has God's grace covered mistakes you've actually made?",
-    "depth": "fallback",
-    "category": "fallback-istp"
-  },
-  {
-    "id": 14,
-    "content": "What truth about God has proven reliable in your experience?",
-    "depth": "fallback",
-    "category": "fallback-istp"
-  },
-  {
-    "id": 15,
-    "content": "How do you want to be different by the end of this year?",
-    "depth": "fallback",
-    "category": "fallback-istp"
-  },
-  {
-    "id": 16,
-    "content": "What's one realistic way you could love others better?",
-    "depth": "fallback",
-    "category": "fallback-istp"
-  },
-  {
-    "id": 17,
-    "content": "What situation needs wisdom you don't currently have?",
-    "depth": "fallback",
-    "category": "fallback-istp"
-  },
-  {
-    "id": 18,
-    "content": "Where have you been operating solo instead of following Jesus?",
-    "depth": "fallback",
-    "category": "fallback-istp"
-  },
-  {
-    "id": 19,
-    "content": "When has popular advice actually backfired or disappointed you?",
-    "depth": "fallback",
-    "category": "fallback-istp"
-  },
-  {
-    "id": 20,
-    "content": "What kind of wisdom do you need for your current situation?",
-    "depth": "fallback",
-    "category": "fallback-istp"
-  },
-  {
-    "id": 21,
-    "content": "Do you read Scripture for information, comfort, or actual guidance?",
-    "depth": "fallback",
-    "category": "fallback-istp"
-  },
-  {
-    "id": 22,
-    "content": "How has God provided what you needed when things looked tight?",
-    "depth": "fallback",
-    "category": "fallback-istp"
-  },
-  {
-    "id": 23,
-    "content": "What abilities might develop if you stayed connected to Christ?",
-    "depth": "fallback",
-    "category": "fallback-istp"
-  },
-  {
-    "id": 24,
-    "content": "When did you last pause to consider God's input before acting?",
-    "depth": "fallback",
-    "category": "fallback-istp"
-  },
-  {
-    "id": 25,
-    "content": "Where do you still think your methods work better than God's?",
-    "depth": "fallback",
-    "category": "fallback-istp"
-  },
-  {
-    "id": 26,
-    "content": "Have you been reading Scripture out of habit rather than interest?",
-    "depth": "fallback",
-    "category": "fallback-istp"
-  },
-  {
-    "id": 27,
-    "content": "Do you relate to Jesus as Savior, Guide, or source of Wisdom?",
-    "depth": "fallback",
-    "category": "fallback-istp"
-  },
-  {
-    "id": 28,
-    "content": "When did you sense something from God but brush it off?",
-    "depth": "fallback",
-    "category": "fallback-istp"
-  },
-  {
-    "id": 29,
-    "content": "What does following Christ's lead look like in your daily routine?",
-    "depth": "fallback",
-    "category": "fallback-istp"
-  },
-  {
-    "id": 30,
-    "content": "Where are you focused on what's missing instead of what's available?",
-    "depth": "fallback",
-    "category": "fallback-istp"
-  },
-  {
-    "id": 31,
-    "content": "How has Jesus shown up in areas you didn't expect this year?",
-    "depth": "fallback",
-    "category": "fallback-istp"
-  },
-  {
-    "id": 32,
-    "content": "What breakthrough or positive change have you experienced this year?",
-    "depth": "fallback",
-    "category": "fallback-istp"
-  },
-  {
-    "id": 33,
-    "content": "How are you learning to wait when God's timing differs from yours?",
-    "depth": "fallback",
-    "category": "fallback-istp"
-  },
-  {
-    "id": 34,
-    "content": "What promise from God are you actually counting on?",
-    "depth": "fallback",
-    "category": "fallback-istp"
-  },
-  {
-    "id": 35,
-    "content": "What do you think Jesus would say about your current direction?",
-    "depth": "fallback",
-    "category": "fallback-istp"
-  },
-  {
-    "id": 36,
-    "content": "How can others support you without getting in your way?",
-    "depth": "fallback",
-    "category": "fallback-istp"
-  },
-  {
-    "id": 37,
-    "content": "Which prayers has God answered, even if not how you expected?",
-    "depth": "fallback",
-    "category": "fallback-istp"
-  },
-  {
-    "id": 38,
-    "content": "How has God kept you going while you waited for answers?",
-    "depth": "fallback",
-    "category": "fallback-istp"
-  },
-  {
-    "id": 39,
-    "content": "What small but real answer reminded you God pays attention?",
-    "depth": "fallback",
-    "category": "fallback-istp"
-  },
-  {
-    "id": 40,
-    "content": "How have your prayers changed based on what you've learned?",
-    "depth": "fallback",
-    "category": "fallback-istp"
-  },
-  {
-    "id": 41,
-    "content": "Where have you seen God's faithfulness beyond what you expected?",
-    "depth": "fallback",
-    "category": "fallback-istp"
-  },
-  {
-    "id": 42,
-    "content": "How has the Spirit redirected you during confusing times?",
-    "depth": "fallback",
-    "category": "fallback-istp"
-  },
-  {
-    "id": 43,
-    "content": "What pattern in yourself has God been gradually changing?",
-    "depth": "fallback",
-    "category": "fallback-istp"
-  },
-  {
-    "id": 44,
-    "content": "When have you been most aware that you needed grace?",
-    "depth": "fallback",
-    "category": "fallback-istp"
-  },
-  {
-    "id": 45,
-    "content": "What challenge has actually strengthened your trust in God?",
-    "depth": "fallback",
-    "category": "fallback-istp"
-  },
-  {
-    "id": 46,
-    "content": "Where do you now see purpose in something that was difficult?",
-    "depth": "fallback",
-    "category": "fallback-istp"
-  },
-  {
-    "id": 47,
-    "content": "What is God asking you to take on or let go of?",
-    "depth": "fallback",
-    "category": "fallback-istp"
-  },
-  {
-    "id": 48,
-    "content": "What next step makes sense if you're listening to God?",
-    "depth": "fallback",
-    "category": "fallback-istp"
-  },
-  {
-    "id": 49,
-    "content": "Where are you most ready for God to work in your life?",
-    "depth": "fallback",
-    "category": "fallback-istp"
-  },
-  {
-    "id": 50,
-    "content": "What simple step would bring you closer to Christ?",
-    "depth": "fallback",
-    "category": "fallback-istp"
-  },
-  {
-    "id": 51,
-    "content": "How could you build in time for quiet reflection that works?",
-    "depth": "fallback",
-    "category": "fallback-istp"
-  },
-  {
-    "id": 52,
-    "content": "What do you hope to clearly see God's involvement in next month?",
-    "depth": "fallback",
-    "category": "fallback-istp"
-  },
-  {
-    "id": 53,
-    "content": "Where have you been pushing hard instead of trusting Christ's strength?",
-    "depth": "fallback",
-    "category": "fallback-istp"
-  },
-  {
-    "id": 54,
-    "content": "When did you feel most clearly understood by God?",
-    "depth": "fallback",
-    "category": "fallback-istp"
-  },
-  {
-    "id": 55,
-    "content": "How would believing God enjoys you change your daily approach?",
-    "depth": "fallback",
-    "category": "fallback-istp"
-  },
-  {
-    "id": 56,
-    "content": "What truth about God's character do you need to hold onto?",
-    "depth": "fallback",
-    "category": "fallback-istp"
-  },
-  {
-    "id": 57,
-    "content": "Whose genuine faith has impressed or challenged you recently?",
-    "depth": "fallback",
-    "category": "fallback-istp"
-  },
-  {
-    "id": 58,
-    "content": "What's been weighing on you that you haven't addressed?",
-    "depth": "fallback",
-    "category": "fallback-istp"
-  },
-  {
-    "id": 59,
-    "content": "When do you most naturally sense Christ's presence?",
-    "depth": "fallback",
-    "category": "fallback-istp"
-  },
-  {
-    "id": 60,
-    "content": "How have both good and difficult times shown you God's character?",
-    "depth": "fallback",
-    "category": "fallback-istp"
-  },
-  {
-    "id": 61,
-    "content": "How does noticing God's goodness in small things affect your perspective?",
-    "depth": "fallback",
-    "category": "fallback-istp"
-  }
+  {"id": 1, "content": "What belief did you revise once you tested it against reality?"},
+  {"id": 2, "content": "What small, unexpected thing gave you a moment of satisfaction?"},
+  {"id": 3, "content": "How have your childhood interests in how things work evolved?"},
+  {"id": 4, "content": "What outcome surprised you by working out better than expected?"},
+  {"id": 5, "content": "What problem are you currently troubleshooting?"},
+  {"id": 6, "content": "What routine or system actually makes your life work better?"},
+  {"id": 7, "content": "What skill or craft do you want to get better at?"},
+  {"id": 8, "content": "What does your ideal day of hands-on focus look like?"},
+  {"id": 9, "content": "Whose expertise would you most want to learn from directly?"},
+  {"id": 10, "content": "Who taught you something that changed how you approach problems?"},
+  {"id": 11, "content": "What former interest have you set aside?"},
+  {"id": 12, "content": "What challenge or project has your attention right now?"},
+  {"id": 13, "content": "When did everything click and you were fully in the zone?"},
+  {"id": 14, "content": "What experience or insight permanently changed your approach?"},
+  {"id": 15, "content": "What ability do you want to sharpen this year?"},
+  {"id": 16, "content": "What practical help from someone stood out to you?"},
+  {"id": 17, "content": "What decision are you weighing right now?"},
+  {"id": 18, "content": "What method do you use that others find unconventional?"},
+  {"id": 19, "content": "What practical wisdom has consistently served you?"},
+  {"id": 20, "content": "What do people misunderstand about your quiet or independent way?"},
+  {"id": 21, "content": "What does success actually look like for you?"},
+  {"id": 22, "content": "What experience made you see something fundamentally differently?"},
+  {"id": 23, "content": "What have you accomplished that matters to you but isn't obvious to others?"},
+  {"id": 24, "content": "What makes someone worth spending time with?"},
+  {"id": 25, "content": "What fear have you worked through or faced directly?"},
+  {"id": 26, "content": "What restores your equilibrium when things are off?"},
+  {"id": 27, "content": "What position do you hold that most people haven't thought through?"},
+  {"id": 28, "content": "What's been occupying your practical attention lately?"},
+  {"id": 29, "content": "What mistake taught you something useful?"},
+  {"id": 30, "content": "How do you reset when you need space?"},
+  {"id": 31, "content": "What did you let go of to focus on what matters?"},
+  {"id": 32, "content": "What place holds significance for you?"},
+  {"id": 33, "content": "What would you build or master if nothing held you back?"},
+  {"id": 34, "content": "What keeps running in the back of your mind?"},
+  {"id": 35, "content": "What capability would expand what you can do?"},
+  {"id": 36, "content": "How do you handle disagreement with someone you respect?"},
+  {"id": 37, "content": "What have you noticed about your own patterns?"},
+  {"id": 38, "content": "How do you actually prefer to spend your time?"},
+  {"id": 39, "content": "What uncomfortable reality have you had to accept?"},
+  {"id": 40, "content": "What reliably gets you back to a good state?"},
+  {"id": 41, "content": "What does stability or home mean to someone who values independence?"},
+  {"id": 42, "content": "What conversation or exchange stuck with you?"},
+  {"id": 43, "content": "What do you keep doing even though it's not your strong point?"},
+  {"id": 44, "content": "When did acting on instinct turn out well?"},
+  {"id": 45, "content": "What pulls you into complete focus?"},
+  {"id": 46, "content": "What are you still trying to figure out about yourself?"},
+  {"id": 47, "content": "What relationship has impacted you in ways you didn't expect?"},
+  {"id": 48, "content": "What question would get past your surface to something real?"},
+  {"id": 49, "content": "What are you trying to be more intentional about?"},
+  {"id": 50, "content": "What practice would you actually maintain?"},
+  {"id": 51, "content": "What restores your energy when it's depleted?"},
+  {"id": 52, "content": "What did you accomplish through sustained effort?"},
+  {"id": 53, "content": "What would you tell your younger self?"},
+  {"id": 54, "content": "What challenge both attracts and intimidates you?"},
+  {"id": 55, "content": "What experience would you want to have again?"},
+  {"id": 56, "content": "What shows you someone is trustworthy?"},
+  {"id": 57, "content": "What keeps getting delayed?"},
+  {"id": 58, "content": "What do people misunderstand about your generation?"},
+  {"id": 59, "content": "What do you need but rarely mention?"},
+  {"id": 60, "content": "What recognition surprised you by mattering?"},
+  {"id": 61, "content": "What would be different if you fully trusted yourself?"},
+  {"id": 62, "content": "What two principles you follow sometimes conflict?"},
+  {"id": 63, "content": "Where does your capable exterior hide real uncertainty?"},
+  {"id": 64, "content": "What detached persona do you default to that isn't complete?"},
+  {"id": 65, "content": "What self-sufficient version of yourself takes effort to maintain?"},
+  {"id": 66, "content": "What past action still bothers you?"},
+  {"id": 67, "content": "What decision do you keep turning over?"},
+  {"id": 68, "content": "What part of yourself have you tried to suppress?"},
+  {"id": 69, "content": "What would you undo if you could?"},
+  {"id": 70, "content": "What feeling runs beneath your calm that you rarely show?"},
+  {"id": 71, "content": "When has independence felt more like isolation?"},
+  {"id": 72, "content": "What would it take for someone to really understand you?"},
+  {"id": 73, "content": "What do you need from others that's hard to request?"},
+  {"id": 74, "content": "When is the gap between your inner experience and outer manner widest?"},
+  {"id": 75, "content": "What would genuine connection actually look like for you?"},
+  {"id": 76, "content": "What truth about yourself do you work around rather than face?"},
+  {"id": 77, "content": "What recurring thought haven't you fully addressed?"},
+  {"id": 78, "content": "What do you believe that you don't usually say?"},
+  {"id": 79, "content": "What are you holding onto that you know should go?"},
+  {"id": 80, "content": "What question about yourself have you been avoiding?"}
 ]

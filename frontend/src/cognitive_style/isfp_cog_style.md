@@ -57,7 +57,7 @@ S	Sensing	Tuned into physical reality, beauty, and sensory details
 F	Feeling	Values harmony with internal emotions and personal ethics
 P	Perceiving	Flexible, spontaneous, flows with life rather than controlling it
 
-🧩 How ISFPs Tend to Process Spiritual or Reflective Questions
+🧩 How ISFPs Tend to Process Reflective Questions
 Prefer gentle, emotionally resonant prompts that feel safe and personal
 
 Thrive when questions evoke beauty, nature, emotion, or personal integrity
@@ -68,13 +68,13 @@ Reflect best in quiet, safe, peaceful spaces — often through art, nature, or m
 
 Need freedom to feel their way through something, not be boxed in by structure
 
-Connect deeply with questions about God’s presence in everyday beauty or subtle guidance
+Connect deeply with questions about everyday beauty or subtle guidance
 
-💡 Signature ISFP Spiritual Language:
-“Where has God met you in beauty lately?”
+💡 Signature ISFP Conversation Prompts:
+"Where has beauty met you lately?"
 
-“What are you quietly carrying that God wants to hold with you?”
+"What are you quietly carrying that you wish someone could hold with you?"
 
-“What truth have you been feeling more than saying?”
+"What truth have you been feeling more than saying?"
 
-“How is God gently inviting you toward freedom or peace?”
+"What is gently inviting you toward freedom or peace?"

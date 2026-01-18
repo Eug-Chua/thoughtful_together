@@ -1,368 +1,82 @@
 [
-  {
-    "id": 1,
-    "content": "What consistent patterns of God's faithfulness emerge when you examine this year objectively?",
-    "depth": "fallback",
-    "category": "fallback-intp"
-  },
-  {
-    "id": 2,
-    "content": "How has your faith framework evolved in ways that actually make more sense now?",
-    "depth": "fallback",
-    "category": "fallback-intp"
-  },
-  {
-    "id": 3,
-    "content": "What assumptions about your dreams or goals have been tested or refined this year?",
-    "depth": "fallback",
-    "category": "fallback-intp"
-  },
-  {
-    "id": 4,
-    "content": "What concrete evidence would you cite for God's goodness in these past months?",
-    "depth": "fallback",
-    "category": "fallback-intp"
-  },
-  {
-    "id": 5,
-    "content": "What aspect of your internal world most needs God's systematic restoration?",
-    "depth": "fallback",
-    "category": "fallback-intp"
-  },
-  {
-    "id": 6,
-    "content": "Which approach to connecting with God has proven most logically sustainable for you?",
-    "depth": "fallback",
-    "category": "fallback-intp"
-  },
-  {
-    "id": 7,
-    "content": "What direction is God logically pointing you toward in the next six months?",
-    "depth": "fallback",
-    "category": "fallback-intp"
-  },
-  {
-    "id": 8,
-    "content": "What's one measurable way you want to develop spiritually?",
-    "depth": "fallback",
-    "category": "fallback-intp"
-  },
-  {
-    "id": 9,
-    "content": "If you removed all external constraints, what would you rationally ask God for?",
-    "depth": "fallback",
-    "category": "fallback-intp"
-  },
-  {
-    "id": 10,
-    "content": "Who could benefit from your particular way of thinking or problem-solving?",
-    "depth": "fallback",
-    "category": "fallback-intp"
-  },
-  {
-    "id": 11,
-    "content": "What thought patterns or mental frameworks might God be restructuring in you?",
-    "depth": "fallback",
-    "category": "fallback-intp"
-  },
-  {
-    "id": 12,
-    "content": "What outcome are you most curious to observe God accomplish?",
-    "depth": "fallback",
-    "category": "fallback-intp"
-  },
-  {
-    "id": 13,
-    "content": "Where has God's grace compensated for gaps in your understanding or effort?",
-    "depth": "fallback",
-    "category": "fallback-intp"
-  },
-  {
-    "id": 14,
-    "content": "What theological concept or biblical principle has been particularly compelling lately?",
-    "depth": "fallback",
-    "category": "fallback-intp"
-  },
-  {
-    "id": 15,
-    "content": "What would a more coherent version of yourself look like by year's end?",
-    "depth": "fallback",
-    "category": "fallback-intp"
-  },
-  {
-    "id": 16,
-    "content": "How could you love others in ways that align with your natural thinking style?",
-    "depth": "fallback",
-    "category": "fallback-intp"
-  },
-  {
-    "id": 17,
-    "content": "What complex situation requires divine wisdom rather than more human analysis?",
-    "depth": "fallback",
-    "category": "fallback-intp"
-  },
-  {
-    "id": 18,
-    "content": "Where have you been attempting to solve problems independently of Jesus' input?",
-    "depth": "fallback",
-    "category": "fallback-intp"
-  },
-  {
-    "id": 19,
-    "content": "When has conventional wisdom actually contradicted what proved to be true?",
-    "depth": "fallback",
-    "category": "fallback-intp"
-  },
-  {
-    "id": 20,
-    "content": "What type of wisdom do you need most - analytical insight, practical understanding, or strategic clarity?",
-    "depth": "fallback",
-    "category": "fallback-intp"
-  },
-  {
-    "id": 21,
-    "content": "Do you approach Scripture primarily for information, comfort, or relationship with Jesus?",
-    "depth": "fallback",
-    "category": "fallback-intp"
-  },
-  {
-    "id": 22,
-    "content": "How has God provided resources in ways that defied your logical expectations?",
-    "depth": "fallback",
-    "category": "fallback-intp"
-  },
-  {
-    "id": 23,
-    "content": "What capabilities might develop naturally through consistent connection with Jesus?",
-    "depth": "fallback",
-    "category": "fallback-intp"
-  },
-  {
-    "id": 24,
-    "content": "When did you last pause to consult Jesus before responding to a problem?",
-    "depth": "fallback",
-    "category": "fallback-intp"
-  },
-  {
-    "id": 25,
-    "content": "Where do you assume more data or analysis will solve what requires wisdom?",
-    "depth": "fallback",
-    "category": "fallback-intp"
-  },
-  {
-    "id": 26,
-    "content": "Have you ever treated Bible reading as research rather than relationship?",
-    "depth": "fallback",
-    "category": "fallback-intp"
-  },
-  {
-    "id": 27,
-    "content": "Do you relate to Jesus more as Teacher, Problem-Solver, or Truth itself?",
-    "depth": "fallback",
-    "category": "fallback-intp"
-  },
-  {
-    "id": 28,
-    "content": "When did you dismiss a spiritual impression as merely subjective thinking?",
-    "depth": "fallback",
-    "category": "fallback-intp"
-  },
-  {
-    "id": 29,
-    "content": "How could maintaining connection with Jesus integrate into your natural thought processes?",
-    "depth": "fallback",
-    "category": "fallback-intp"
-  },
-  {
-    "id": 30,
-    "content": "Where are you fixated on missing information instead of appreciating current understanding?",
-    "depth": "fallback",
-    "category": "fallback-intp"
-  },
-  {
-    "id": 31,
-    "content": "How has Jesus revealed himself through your particular way of processing experience?",
-    "depth": "fallback",
-    "category": "fallback-intp"
-  },
-  {
-    "id": 32,
-    "content": "Have you observed any situations transform from impossible to possible this year?",
-    "depth": "fallback",
-    "category": "fallback-intp"
-  },
-  {
-    "id": 33,
-    "content": "What developing situations require patience while you wait for more data?",
-    "depth": "fallback",
-    "category": "fallback-intp"
-  },
-  {
-    "id": 34,
-    "content": "What reasonable hope are you maintaining for the remainder of this year?",
-    "depth": "fallback",
-    "category": "fallback-intp"
-  },
-  {
-    "id": 35,
-    "content": "What logical next step do you sense Jesus would recommend for your growth?",
-    "depth": "fallback",
-    "category": "fallback-intp"
-  },
-  {
-    "id": 36,
-    "content": "How can others support your thinking process as you navigate this year?",
-    "depth": "fallback",
-    "category": "fallback-intp"
-  },
-  {
-    "id": 37,
-    "content": "Reviewing your January prayers, what has God resolved through unexpected methods?",
-    "depth": "fallback",
-    "category": "fallback-intp"
-  },
-  {
-    "id": 38,
-    "content": "What requests remain unresolved and how has God sustained your reasoning meanwhile?",
-    "depth": "fallback",
-    "category": "fallback-intp"
-  },
-  {
-    "id": 39,
-    "content": "What subtle answered prayers demonstrated God's attention to logical details?",
-    "depth": "fallback",
-    "category": "fallback-intp"
-  },
-  {
-    "id": 40,
-    "content": "How have your original prayer requests been refined through deeper understanding?",
-    "depth": "fallback",
-    "category": "fallback-intp"
-  },
-  {
-    "id": 41,
-    "content": "Where have you detected God's faithfulness operating beneath surface appearances?",
-    "depth": "fallback",
-    "category": "fallback-intp"
-  },
-  {
-    "id": 42,
-    "content": "How has the Spirit provided clarity or redirection when uncertainty clouded your thinking?",
-    "depth": "fallback",
-    "category": "fallback-intp"
-  },
-  {
-    "id": 43,
-    "content": "What mental habits or assumptions has God been gradually correcting?",
-    "depth": "fallback",
-    "category": "fallback-intp"
-  },
-  {
-    "id": 44,
-    "content": "When have you been most aware that grace covers your analytical limitations?",
-    "depth": "fallback",
-    "category": "fallback-intp"
-  },
-  {
-    "id": 45,
-    "content": "What has challenged your theological framework and what clearer understanding emerged?",
-    "depth": "fallback",
-    "category": "fallback-intp"
-  },
-  {
-    "id": 46,
-    "content": "What difficult circumstances now reveal logical purpose you couldn't see initially?",
-    "depth": "fallback",
-    "category": "fallback-intp"
-  },
-  {
-    "id": 47,
-    "content": "What is God systematically inviting you to examine or implement?",
-    "depth": "fallback",
-    "category": "fallback-intp"
-  },
-  {
-    "id": 48,
-    "content": "If you processed this question thoroughly, what next step might the Spirit suggest?",
-    "depth": "fallback",
-    "category": "fallback-intp"
-  },
-  {
-    "id": 49,
-    "content": "Where are you anticipating God to introduce new variables or possibilities?",
-    "depth": "fallback",
-    "category": "fallback-intp"
-  },
-  {
-    "id": 50,
-    "content": "What small logical step might create conditions for deeper connection with Christ?",
-    "depth": "fallback",
-    "category": "fallback-intp"
-  },
-  {
-    "id": 51,
-    "content": "How could you structure more space for reflection, rest, or mental clarity?",
-    "depth": "fallback",
-    "category": "fallback-intp"
-  },
-  {
-    "id": 52,
-    "content": "What do you hope to analyze retrospectively and conclude God was present there?",
-    "depth": "fallback",
-    "category": "fallback-intp"
-  },
-  {
-    "id": 53,
-    "content": "Where have you been operating through your own reasoning instead of collaborating with Jesus?",
-    "depth": "fallback",
-    "category": "fallback-intp"
-  },
-  {
-    "id": 54,
-    "content": "When did you last feel genuinely understood by God at a thinking level?",
-    "depth": "fallback",
-    "category": "fallback-intp"
-  },
-  {
-    "id": 55,
-    "content": "How might your approach change if you believed God appreciates your analytical nature?",
-    "depth": "fallback",
-    "category": "fallback-intp"
-  },
-  {
-    "id": 56,
-    "content": "What truth about God's character do you need to hold as foundational right now?",
-    "depth": "fallback",
-    "category": "fallback-intp"
-  },
-  {
-    "id": 57,
-    "content": "Whose thoughtful faith has recently influenced or challenged your own reasoning?",
-    "depth": "fallback",
-    "category": "fallback-intp"
-  },
-  {
-    "id": 58,
-    "content": "What's been developing in your thinking that you haven't had time to fully process?",
-    "depth": "fallback",
-    "category": "fallback-intp"
-  },
-  {
-    "id": 59,
-    "content": "When do you most naturally detect Jesus' presence in your thought processes?",
-    "depth": "fallback",
-    "category": "fallback-intp"
-  },
-  {
-    "id": 60,
-    "content": "How has your understanding of God's character deepened through both clarity and confusion?",
-    "depth": "fallback",
-    "category": "fallback-intp"
-  },
-  {
-    "id": 61,
-    "content": "How does recognizing God's goodness in logical details enhance your capacity for appreciation?",
-    "depth": "fallback",
-    "category": "fallback-intp"
-  }
+  {"id": 1, "content": "What theory or framework have you had to revise based on contradictory evidence?"},
+  {"id": 2, "content": "What small, random thing unexpectedly pleased you recently?"},
+  {"id": 3, "content": "How have your childhood intellectual interests evolved into current pursuits?"},
+  {"id": 4, "content": "What serendipitous outcome exceeded what you would have logically expected?"},
+  {"id": 5, "content": "What problem are you currently turning over in your mind?"},
+  {"id": 6, "content": "What structure or routine has actually helped your thinking?"},
+  {"id": 7, "content": "What subject or skill do you want to understand more deeply?"},
+  {"id": 8, "content": "What does an ideal day of uninterrupted thinking and exploration look like?"},
+  {"id": 9, "content": "Whose thought process would you most want to observe directly?"},
+  {"id": 10, "content": "Who introduced you to an idea that fundamentally changed your perspective?"},
+  {"id": 11, "content": "What intellectual rabbit hole have you climbed out of?"},
+  {"id": 12, "content": "What question or concept has your attention right now?"},
+  {"id": 13, "content": "When did your thinking feel most clear and productive?"},
+  {"id": 14, "content": "What book, paper, or idea restructured how you think about something?"},
+  {"id": 15, "content": "What understanding do you want to develop over the next year?"},
+  {"id": 16, "content": "What consideration from someone else surprised you with its thoughtfulness?"},
+  {"id": 17, "content": "What decision are you analyzing from multiple theoretical angles?"},
+  {"id": 18, "content": "What method or process do you use that others find unusual?"},
+  {"id": 19, "content": "What principle has proven consistently reliable in your experience?"},
+  {"id": 20, "content": "What do people misunderstand about your quietness or detachment?"},
+  {"id": 21, "content": "What does achievement or success actually mean when you examine it?"},
+  {"id": 22, "content": "What experience made you fundamentally reconsider something you believed?"},
+  {"id": 23, "content": "What have you accomplished that matters to you but isn't externally visible?"},
+  {"id": 24, "content": "What makes someone worth the effort of sustained engagement?"},
+  {"id": 25, "content": "What irrational fear have you rationally examined and diminished?"},
+  {"id": 26, "content": "What restores your mental clarity when you're overloaded?"},
+  {"id": 27, "content": "What position do you hold that most people haven't thought through?"},
+  {"id": 28, "content": "What has been occupying your analytical attention lately?"},
+  {"id": 29, "content": "What mistake provided useful information for future decisions?"},
+  {"id": 30, "content": "How do you reset when you've depleted your cognitive resources?"},
+  {"id": 31, "content": "What did you have to let go of to make room for clearer thinking?"},
+  {"id": 32, "content": "What place is significant in ways you might not immediately explain?"},
+  {"id": 33, "content": "What would you research or build if resources were unlimited?"},
+  {"id": 34, "content": "What keeps running in the background of your mind these days?"},
+  {"id": 35, "content": "What capability would most expand what you could understand or do?"},
+  {"id": 36, "content": "How do you handle disagreement with someone you intellectually respect?"},
+  {"id": 37, "content": "What have you observed about your own patterns of thought recently?"},
+  {"id": 38, "content": "How do you prefer to spend time when external demands are absent?"},
+  {"id": 39, "content": "What uncomfortable conclusion have you had to accept?"},
+  {"id": 40, "content": "What reliably shifts your state toward calm or focus?"},
+  {"id": 41, "content": "What does stability or belonging mean to someone who lives in their head?"},
+  {"id": 42, "content": "What intellectual exchange left a permanent impression?"},
+  {"id": 43, "content": "What do you persist in doing despite knowing it's not your strength?"},
+  {"id": 44, "content": "When did acting without full analysis turn out well?"},
+  {"id": 45, "content": "What pulls you into deep concentration where time stops mattering?"},
+  {"id": 46, "content": "What aspect of yourself remains an unsolved problem?"},
+  {"id": 47, "content": "What relationship has shaped your thinking in ways you didn't expect?"},
+  {"id": 48, "content": "What question would bypass your abstractions and reach something personal?"},
+  {"id": 49, "content": "What are you trying to be more disciplined or intentional about?"},
+  {"id": 50, "content": "What practice would you implement if you could override your inertia?"},
+  {"id": 51, "content": "What restores your capacity for thought when it's exhausted?"},
+  {"id": 52, "content": "What did you figure out through sustained effort that felt like a real win?"},
+  {"id": 53, "content": "What would you explain to your younger self to spare them confusion?"},
+  {"id": 54, "content": "What intellectual challenge both attracts and intimidates you?"},
+  {"id": 55, "content": "What experience would you want to analyze again with fresh eyes?"},
+  {"id": 56, "content": "What indicates that someone thinks carefully enough to be worth trusting?"},
+  {"id": 57, "content": "What keeps getting postponed because other things seem more interesting?"},
+  {"id": 58, "content": "What do people fundamentally misunderstand about how your generation reasons?"},
+  {"id": 59, "content": "What do you need but find difficult to articulate or request?"},
+  {"id": 60, "content": "What acknowledgment surprised you by mattering more than you predicted?"},
+  {"id": 61, "content": "What would be different if you trusted your own conclusions more fully?"},
+  {"id": 62, "content": "What two principles you've derived seem to contradict each other?"},
+  {"id": 63, "content": "Where does your analytical confidence hide actual uncertainty?"},
+  {"id": 64, "content": "What detached or theoretical persona do you default to that isn't the full picture?"},
+  {"id": 65, "content": "What removed, observer version of yourself takes more effort than it's worth?"},
+  {"id": 66, "content": "What past decision still generates uncomfortable analysis?"},
+  {"id": 67, "content": "What choice keeps getting reprocessed without resolution?"},
+  {"id": 68, "content": "What part of yourself have you tried to think your way out of?"},
+  {"id": 69, "content": "What would you undo if you could run the experiment again?"},
+  {"id": 70, "content": "What emotion operates beneath your thinking that you rarely examine?"},
+  {"id": 71, "content": "When has your preference for solitude felt like actual loneliness?"},
+  {"id": 72, "content": "What would it take for someone to understand you beyond your ideas?"},
+  {"id": 73, "content": "What do you need from others that you rarely mention?"},
+  {"id": 74, "content": "When is the distance between your internal world and external engagement widest?"},
+  {"id": 75, "content": "What would genuine connection with people who think like you feel like?"},
+  {"id": 76, "content": "What truth about yourself do you analyze rather than feel?"},
+  {"id": 77, "content": "What recurring thought have you examined but never concluded?"},
+  {"id": 78, "content": "What do you believe that you haven't found the right context to say?"},
+  {"id": 79, "content": "What are you retaining that analysis suggests you should release?"},
+  {"id": 80, "content": "What question about your own functioning have you avoided investigating?"}
 ]

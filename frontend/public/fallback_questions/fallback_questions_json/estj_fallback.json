@@ -1,368 +1,82 @@
 [
-  {
-    "id": 1,
-    "content": "Where have you seen clear evidence of God's faithfulness through your responsibilities this year?",
-    "depth": "fallback",
-    "category": "fallback-estj"
-  },
-  {
-    "id": 2,
-    "content": "What spiritual habit has helped you stay consistent in your walk this year?",
-    "depth": "fallback",
-    "category": "fallback-estj"
-  },
-  {
-    "id": 3,
-    "content": "How have your goals or plans shifted under God's direction over the past months?",
-    "depth": "fallback",
-    "category": "fallback-estj"
-  },
-  {
-    "id": 4,
-    "content": "What specific blessing from this year are you most thankful for?",
-    "depth": "fallback",
-    "category": "fallback-estj"
-  },
-  {
-    "id": 5,
-    "content": "What area of your life needs God’s order and restoration right now?",
-    "depth": "fallback",
-    "category": "fallback-estj"
-  },
-  {
-    "id": 6,
-    "content": "What routine or discipline has helped you stay spiritually grounded?",
-    "depth": "fallback",
-    "category": "fallback-estj"
-  },
-  {
-    "id": 7,
-    "content": "What is one clear next step God might be calling you to take this season?",
-    "depth": "fallback",
-    "category": "fallback-estj"
-  },
-  {
-    "id": 8,
-    "content": "What spiritual goal would help you grow in obedience and maturity right now?",
-    "depth": "fallback",
-    "category": "fallback-estj"
-  },
-  {
-    "id": 9,
-    "content": "If fear weren’t in the way, what God-honoring goal would you pursue boldly?",
-    "depth": "fallback",
-    "category": "fallback-estj"
-  },
-  {
-    "id": 10,
-    "content": "Who might benefit most from your support, structure, or leadership this week?",
-    "depth": "fallback",
-    "category": "fallback-estj"
-  },
-  {
-    "id": 11,
-    "content": "What’s something God might be asking you to release to create room for growth?",
-    "depth": "fallback",
-    "category": "fallback-estj"
-  },
-  {
-    "id": 12,
-    "content": "What are you excited to build or strengthen with God’s help this season?",
-    "depth": "fallback",
-    "category": "fallback-estj"
-  },
-  {
-    "id": 13,
-    "content": "When did God show you grace after a mistake in leadership or follow-through?",
-    "depth": "fallback",
-    "category": "fallback-estj"
-  },
-  {
-    "id": 14,
-    "content": "What Scripture or truth has helped keep you on track recently?",
-    "depth": "fallback",
-    "category": "fallback-estj"
-  },
-  {
-    "id": 15,
-    "content": "How would you like your faith to become more consistent or effective this year?",
-    "depth": "fallback",
-    "category": "fallback-estj"
-  },
-  {
-    "id": 16,
-    "content": "What’s one practical way you could serve someone well this week?",
-    "depth": "fallback",
-    "category": "fallback-estj"
-  },
-  {
-    "id": 17,
-    "content": "What area of your life needs less striving and more wisdom from God?",
-    "depth": "fallback",
-    "category": "fallback-estj"
-  },
-  {
-    "id": 18,
-    "content": "Where have you relied on performance instead of Christ’s strength?",
-    "depth": "fallback",
-    "category": "fallback-estj"
-  },
-  {
-    "id": 19,
-    "content": "When did doing what “made sense” fall short of what God was actually calling you to do?",
-    "depth": "fallback",
-    "category": "fallback-estj"
-  },
-  {
-    "id": 20,
-    "content": "What kind of biblical wisdom do you need to apply more consistently right now?",
-    "depth": "fallback",
-    "category": "fallback-estj"
-  },
-  {
-    "id": 21,
-    "content": "When reading Scripture, what action or principle are you being called to implement?",
-    "depth": "fallback",
-    "category": "fallback-estj"
-  },
-  {
-    "id": 22,
-    "content": "Where has God provided in a way that aligned with your faithful planning?",
-    "depth": "fallback",
-    "category": "fallback-estj"
-  },
-  {
-    "id": 23,
-    "content": "What part of your faith strengthens when you stop striving and simply trust God’s process?",
-    "depth": "fallback",
-    "category": "fallback-estj"
-  },
-  {
-    "id": 24,
-    "content": "When was the last time you stopped to ask for God’s input before solving a problem?",
-    "depth": "fallback",
-    "category": "fallback-estj"
-  },
-  {
-    "id": 25,
-    "content": "Where might your efficiency be getting in the way of listening for God’s wisdom?",
-    "depth": "fallback",
-    "category": "fallback-estj"
-  },
-  {
-    "id": 26,
-    "content": "Have you been checking spiritual boxes or genuinely receiving truth and applying it?",
-    "depth": "fallback",
-    "category": "fallback-estj"
-  },
-  {
-    "id": 27,
-    "content": "Which part of Jesus’ role—Leader, Shepherd, or Truth—feels most important to you now?",
-    "depth": "fallback",
-    "category": "fallback-estj"
-  },
-  {
-    "id": 28,
-    "content": "Have you brushed past a quiet conviction that might have been God redirecting you?",
-    "depth": "fallback",
-    "category": "fallback-estj"
-  },
-  {
-    "id": 29,
-    "content": "What does it look like for you to walk daily under Christ’s authority and guidance?",
-    "depth": "fallback",
-    "category": "fallback-estj"
-  },
-  {
-    "id": 30,
-    "content": "Where have you been focused on lack instead of the provision already in front of you?",
-    "depth": "fallback",
-    "category": "fallback-estj"
-  },
-  {
-    "id": 31,
-    "content": "In what real-world situation has God’s faithfulness been proven over time?",
-    "depth": "fallback",
-    "category": "fallback-estj"
-  },
-  {
-    "id": 32,
-    "content": "Where has God brought surprising clarity or momentum this year?",
-    "depth": "fallback",
-    "category": "fallback-estj"
-  },
-  {
-    "id": 33,
-    "content": "What long-term prayer are you still pursuing, and how are you staying faithful in it?",
-    "depth": "fallback",
-    "category": "fallback-estj"
-  },
-  {
-    "id": 34,
-    "content": "What promise from God are you working to hold fast to right now?",
-    "depth": "fallback",
-    "category": "fallback-estj"
-  },
-  {
-    "id": 35,
-    "content": "If Jesus gave you a clear instruction for this season, what might it be?",
-    "depth": "fallback",
-    "category": "fallback-estj"
-  },
-  {
-    "id": 36,
-    "content": "Where do you need to let others in to support or pray with you?",
-    "depth": "fallback",
-    "category": "fallback-estj"
-  },
-  {
-    "id": 37,
-    "content": "What answered prayer came through in a form that still fulfilled its purpose?",
-    "depth": "fallback",
-    "category": "fallback-estj"
-  },
-  {
-    "id": 38,
-    "content": "How has God reminded you to be patient and diligent while waiting?",
-    "depth": "fallback",
-    "category": "fallback-estj"
-  },
-  {
-    "id": 39,
-    "content": "What small answered prayer reminded you that God is always involved in the details?",
-    "depth": "fallback",
-    "category": "fallback-estj"
-  },
-  {
-    "id": 40,
-    "content": "Have any of your spiritual priorities shifted over time as you've walked with God this year?",
-    "depth": "fallback",
-    "category": "fallback-estj"
-  },
-  {
-    "id": 41,
-    "content": "What memory proves that God has been consistently faithful in your journey?",
-    "depth": "fallback",
-    "category": "fallback-estj"
-  },
-  {
-    "id": 42,
-    "content": "How has God shown you direction during a recent challenge or setback?",
-    "depth": "fallback",
-    "category": "fallback-estj"
-  },
-  {
-    "id": 43,
-    "content": "What habit or mindset is God calling you to refine for greater impact?",
-    "depth": "fallback",
-    "category": "fallback-estj"
-  },
-  {
-    "id": 44,
-    "content": "When did you most clearly feel your need for grace and correction?",
-    "depth": "fallback",
-    "category": "fallback-estj"
-  },
-  {
-    "id": 45,
-    "content": "What test of faith led to greater clarity about God's character or your calling?",
-    "depth": "fallback",
-    "category": "fallback-estj"
-  },
-  {
-    "id": 46,
-    "content": "Is there a tough situation where God is slowly building something lasting?",
-    "depth": "fallback",
-    "category": "fallback-estj"
-  },
-  {
-    "id": 47,
-    "content": "What area might God be calling you to lead with renewed conviction?",
-    "depth": "fallback",
-    "category": "fallback-estj"
-  },
-  {
-    "id": 48,
-    "content": "If you quieted the noise, what next step might God clearly place before you?",
-    "depth": "fallback",
-    "category": "fallback-estj"
-  },
-  {
-    "id": 49,
-    "content": "Where is God inviting you to build something new, based on His truth?",
-    "depth": "fallback",
-    "category": "fallback-estj"
-  },
-  {
-    "id": 50,
-    "content": "What action of obedience might open new doors for God to move through you?",
-    "depth": "fallback",
-    "category": "fallback-estj"
-  },
-  {
-    "id": 51,
-    "content": "How can you intentionally create space for rest and spiritual clarity?",
-    "depth": "fallback",
-    "category": "fallback-estj"
-  },
-  {
-    "id": 52,
-    "content": "What outcome would you love to see a month from now that reveals God’s hand?",
-    "depth": "fallback",
-    "category": "fallback-estj"
-  },
-  {
-    "id": 53,
-    "content": "Where are you overworking—and how might God be asking you to trust more?",
-    "depth": "fallback",
-    "category": "fallback-estj"
-  },
-  {
-    "id": 54,
-    "content": "When have you felt most aligned with your God-given purpose this year?",
-    "depth": "fallback",
-    "category": "fallback-estj"
-  },
-  {
-    "id": 55,
-    "content": "How would your leadership shift if you remembered God takes joy in partnering with you?",
-    "depth": "fallback",
-    "category": "fallback-estj"
-  },
-  {
-    "id": 56,
-    "content": "What biblical principle do you need to return to and act on right now?",
-    "depth": "fallback",
-    "category": "fallback-estj"
-  },
-  {
-    "id": 57,
-    "content": "Who has modeled faith in action that inspired you to stay the course?",
-    "depth": "fallback",
-    "category": "fallback-estj"
-  },
-  {
-    "id": 58,
-    "content": "What concern or weight are you carrying that God might be asking you to surrender?",
-    "depth": "fallback",
-    "category": "fallback-estj"
-  },
-  {
-    "id": 59,
-    "content": "When do you most clearly recognize God’s presence in your everyday decisions?",
-    "depth": "fallback",
-    "category": "fallback-estj"
-  },
-  {
-    "id": 60,
-    "content": "How has God’s steady character strengthened you through seasons of effort and endurance?",
-    "depth": "fallback",
-    "category": "fallback-estj"
-  },
-  {
-    "id": 61,
-    "content": "How does reflecting on past answered prayers remind you that your labor in the Lord matters?",
-    "depth": "fallback",
-    "category": "fallback-estj"
-  }
+  {"id": 1, "content": "What belief did you revise once you saw the evidence no longer supported it?"},
+  {"id": 2, "content": "What recent accomplishment gave you satisfaction?"},
+  {"id": 3, "content": "How has what you valued as a kid shaped what you work toward now?"},
+  {"id": 4, "content": "What outcome are you grateful turned out better than planned?"},
+  {"id": 5, "content": "What challenge are you actively working to solve?"},
+  {"id": 6, "content": "What system or routine has made your life more effective?"},
+  {"id": 7, "content": "What new skill or responsibility do you want to take on?"},
+  {"id": 8, "content": "What does a productive, well-executed day look like for you?"},
+  {"id": 9, "content": "Whose leadership or expertise would you most want to learn from?"},
+  {"id": 10, "content": "Who taught you something that made you better at what you do?"},
+  {"id": 11, "content": "What past pursuit have you stepped back from?"},
+  {"id": 12, "content": "What goal or project has your full attention right now?"},
+  {"id": 13, "content": "When did you feel most effective and in command?"},
+  {"id": 14, "content": "What experience changed how you approach getting things done?"},
+  {"id": 15, "content": "What capability do you want to strengthen this year?"},
+  {"id": 16, "content": "What practical help from someone made a real difference?"},
+  {"id": 17, "content": "What decision are you weighing right now?"},
+  {"id": 18, "content": "What method do you use that others find unconventional but works?"},
+  {"id": 19, "content": "What principle has consistently guided your decisions?"},
+  {"id": 20, "content": "What do people miss about you when they only see your directness?"},
+  {"id": 21, "content": "What does success actually mean to you?"},
+  {"id": 22, "content": "What experience forced you to rethink your approach?"},
+  {"id": 23, "content": "What achievement matters to you that others might not see?"},
+  {"id": 24, "content": "What makes someone worth respecting?"},
+  {"id": 25, "content": "What fear have you pushed through to get something done?"},
+  {"id": 26, "content": "What gets you back on track when things go sideways?"},
+  {"id": 27, "content": "What position do you hold that most people haven't thought through?"},
+  {"id": 28, "content": "What's been demanding your attention lately?"},
+  {"id": 29, "content": "What mistake taught you something you couldn't learn any other way?"},
+  {"id": 30, "content": "How do you reset when you need to recharge?"},
+  {"id": 31, "content": "What did you have to let go of to focus on what matters?"},
+  {"id": 32, "content": "What place holds real significance for you?"},
+  {"id": 33, "content": "What would you build or lead if nothing held you back?"},
+  {"id": 34, "content": "What's been on your mind that you can't shake?"},
+  {"id": 35, "content": "What skill would make you more effective at what you care about?"},
+  {"id": 36, "content": "How do you handle disagreement with someone you respect?"},
+  {"id": 37, "content": "What have you learned about yourself recently?"},
+  {"id": 38, "content": "What do you actually enjoy when you're not working?"},
+  {"id": 39, "content": "What uncomfortable truth have you had to accept?"},
+  {"id": 40, "content": "What reliably gets your energy back?"},
+  {"id": 41, "content": "What does stability or home mean to you?"},
+  {"id": 42, "content": "What conversation or exchange stuck with you?"},
+  {"id": 43, "content": "What do you keep doing even though it's not your strength?"},
+  {"id": 44, "content": "What quick decision turned out to be the right call?"},
+  {"id": 45, "content": "What absorbs your full focus when you're doing it?"},
+  {"id": 46, "content": "What are you still figuring out about yourself?"},
+  {"id": 47, "content": "What relationship has shaped how you operate?"},
+  {"id": 48, "content": "What question would get past the surface with you?"},
+  {"id": 49, "content": "What are you trying to be more intentional about?"},
+  {"id": 50, "content": "What practice would you actually stick with?"},
+  {"id": 51, "content": "What restores you when you've been running hard?"},
+  {"id": 52, "content": "What did you accomplish through sustained effort?"},
+  {"id": 53, "content": "What would you tell your younger self?"},
+  {"id": 54, "content": "What goal both drives and challenges you?"},
+  {"id": 55, "content": "What moment would you want to experience again?"},
+  {"id": 56, "content": "What tells you someone is trustworthy?"},
+  {"id": 57, "content": "What keeps getting delayed?"},
+  {"id": 58, "content": "What do people get wrong about your generation?"},
+  {"id": 59, "content": "What do you need but rarely ask for?"},
+  {"id": 60, "content": "What recognition actually meant something to you?"},
+  {"id": 61, "content": "What would change if you fully trusted your judgment?"},
+  {"id": 62, "content": "What two things you value sometimes conflict?"},
+  {"id": 63, "content": "Where does your confident exterior hide real doubt?"},
+  {"id": 64, "content": "What role do you play that doesn't show all of who you are?"},
+  {"id": 65, "content": "What in-charge version of yourself gets tiring to maintain?"},
+  {"id": 66, "content": "What past action still bothers you?"},
+  {"id": 67, "content": "What decision do you keep replaying?"},
+  {"id": 68, "content": "What part of yourself have you tried to manage or suppress?"},
+  {"id": 69, "content": "What would you undo if you could?"},
+  {"id": 70, "content": "What feeling runs beneath your composure that you don't show?"},
+  {"id": 71, "content": "When has being responsible for others left you feeling alone?"},
+  {"id": 72, "content": "What does it take for someone to really get you?"},
+  {"id": 73, "content": "What do you need but find hard to ask for?"},
+  {"id": 74, "content": "When is the gap between your outer authority and inner experience widest?"},
+  {"id": 75, "content": "What would genuine support actually look like for you?"},
+  {"id": 76, "content": "What truth about yourself do you work around rather than face?"},
+  {"id": 77, "content": "What thought keeps coming back that you haven't addressed?"},
+  {"id": 78, "content": "What do you believe that you don't usually say out loud?"},
+  {"id": 79, "content": "What are you holding onto that isn't serving you?"},
+  {"id": 80, "content": "What question about yourself have you been avoiding?"}
 ]

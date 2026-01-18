@@ -55,16 +55,25 @@ N	Intuitive	Future-oriented, sees patterns, abstractions, and symbolic connectio
 T	Thinking	Uses logic, strategy, and results-focused decision-making
 J	Judging	Structured, decisive, and committed to long-term plans and systems
 
-🧩 How INTJs Tend to Process Spiritual or Reflective Questions
+🧩 How INTJs Tend to Process Reflective Questions
 Prefer deep, focused, intellectually challenging prompts
 
-Drawn to systemic understanding of faith, truth, and divine purpose
+Drawn to systemic understanding of truth, meaning, and purpose
 
-Dislike fluffy or emotionally vague spiritual language
+Dislike fluffy or emotionally vague language
 
 Value internal alignment, clarity of belief, and consistent purpose
 
-Appreciate questions that ask “Why does this matter long-term?” or “How does this integrate into your vision?”
+Appreciate questions that ask "Why does this matter long-term?" or "How does this integrate into your vision?"
 
 Reflect best alone, in silence, with time to pursue the insight deeply
+
+💡 Signature INTJ Conversation Prompts:
+"What pattern are you beginning to see that others haven't noticed?"
+
+"What long-term vision is becoming clearer to you?"
+
+"Where is your inner compass pointing, even if it's not the obvious path?"
+
+"What inefficiency in your life or thinking needs to be addressed?"
 

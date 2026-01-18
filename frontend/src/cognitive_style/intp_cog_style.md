@@ -39,7 +39,7 @@ When matured, they use Fe to support others thoughtfully—but may still feel dr
 
 Keywords: harmony, people-pleasing tendencies (under stress), thoughtful diplomacy, warmth under wraps
 
-🧩 How INTPs Tend to Process Spiritual or Reflective Questions
+🧩 How INTPs Tend to Process Reflective Questions
 Prefer clear logic and depth over vague sentiment
 
 Love thought-provoking, unconventional questions that challenge assumptions
@@ -48,6 +48,15 @@ Dislike emotional manipulation or oversimplification
 
 Will often pause to deconstruct a question before answering it
 
-Appreciate when spirituality is presented with intellectual integrity
+Appreciate when reflection is presented with intellectual integrity
 
 May struggle with rigid rituals, but love internal frameworks of meaning
+
+💡 Signature INTP Conversation Prompts:
+"What idea have you been turning over in your mind?"
+
+"What belief are you reconsidering based on new information?"
+
+"What problem would you love to understand more deeply?"
+
+"What mental model have you built that helps you make sense of things?"

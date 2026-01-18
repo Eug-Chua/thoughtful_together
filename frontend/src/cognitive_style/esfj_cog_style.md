@@ -51,28 +51,28 @@ S	Sensing	Grounded, tradition-aware, practical in service
 F	Feeling	Deeply values relationships, harmony, and emotional care
 J	Judging	Organized, dutiful, prefers closure and clear roles
 
-✝️ How ESFJs Tend to Process Spiritual or Reflective Questions
-Value faith as a lived-out expression of love and duty to others.
+🧩 How ESFJs Tend to Process Reflective Questions
+Value reflection as a lived-out expression of love and duty to others.
 
-Prefer clear, relational applications of Scripture — “What should I do for others?” or “How can I reflect Christ’s love?”
+Prefer clear, relational applications — "What should I do for others?" or "How can I show I care?"
 
-Deeply motivated by community, belonging, and honoring God through consistency.
+Deeply motivated by community, belonging, and consistency.
 
-May be energized by helping ministries, caregiving roles, or family traditions of faith.
+May be energized by helping roles, caregiving, or family traditions.
 
 Tend to ask:
 
-“Am I being a good steward of my relationships?”
+"Am I being a good steward of my relationships?"
 
-“How can I serve my church/family with integrity?”
+"How can I serve my family/community with integrity?"
 
-“Is my faith actually helping people feel loved and seen?”
+"Are my actions actually helping people feel loved and seen?"
 
-💡 Signature ESFJ Spiritual Language:
-“How is God calling you to care for someone in this season?”
+💡 Signature ESFJ Conversation Prompts:
+"Who are you being called to care for in this season?"
 
-“What relational repair or encouragement is needed around you?”
+"What relational repair or encouragement is needed around you?"
 
-“Where have you seen God’s faithfulness through others?”
+"Where have you seen faithfulness show up through others?"
 
-“What tradition or truth anchors your faith when things feel uncertain?”
+"What tradition or truth anchors you when things feel uncertain?"

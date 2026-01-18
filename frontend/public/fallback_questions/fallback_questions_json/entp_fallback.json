@@ -1,368 +1,82 @@
 [
-  {
-    "id": 1,
-    "content": "What unexpected pattern of God's faithfulness have you discovered this year?",
-    "depth": "fallback",
-    "category": "fallback-entp"
-  },
-  {
-    "id": 2,
-    "content": "What surprising spiritual breakthrough caught you off guard recently?",
-    "depth": "fallback",
-    "category": "fallback-entp"
-  },
-  {
-    "id": 3,
-    "content": "How have your big dreams evolved as God revealed new possibilities?",
-    "depth": "fallback",
-    "category": "fallback-entp"
-  },
-  {
-    "id": 4,
-    "content": "What one divine surprise are you most grateful for lately?",
-    "depth": "fallback",
-    "category": "fallback-entp"
-  },
-  {
-    "id": 5,
-    "content": "Where do you sense God wanting to innovate healing in your life?",
-    "depth": "fallback",
-    "category": "fallback-entp"
-  },
-  {
-    "id": 6,
-    "content": "What unconventional spiritual practice has energized your faith most?",
-    "depth": "fallback",
-    "category": "fallback-entp"
-  },
-  {
-    "id": 7,
-    "content": "What bold new adventure is God stirring in your spirit?",
-    "depth": "fallback",
-    "category": "fallback-entp"
-  },
-  {
-    "id": 8,
-    "content": "What creative spiritual experiment could you try this season?",
-    "depth": "fallback",
-    "category": "fallback-entp"
-  },
-  {
-    "id": 9,
-    "content": "What impossible dream would you pursue if fear vanished completely?",
-    "depth": "fallback",
-    "category": "fallback-entp"
-  },
-  {
-    "id": 10,
-    "content": "Which relationships could you impact through fresh, creative investment?",
-    "depth": "fallback",
-    "category": "fallback-entp"
-  },
-  {
-    "id": 11,
-    "content": "What outdated patterns might God be clearing for breakthrough?",
-    "depth": "fallback",
-    "category": "fallback-entp"
-  },
-  {
-    "id": 12,
-    "content": "What exciting divine possibility has you most intrigued right now?",
-    "depth": "fallback",
-    "category": "fallback-entp"
-  },
-  {
-    "id": 13,
-    "content": "Where has God's grace surprised you by covering your mistakes?",
-    "depth": "fallback",
-    "category": "fallback-entp"
-  },
-  {
-    "id": 14,
-    "content": "What biblical truth recently sparked a new insight about God?",
-    "depth": "fallback",
-    "category": "fallback-entp"
-  },
-  {
-    "id": 15,
-    "content": "What fascinating transformation do you want to see by year-end?",
-    "depth": "fallback",
-    "category": "fallback-entp"
-  },
-  {
-    "id": 16,
-    "content": "How could you love others in a surprisingly creative way?",
-    "depth": "fallback",
-    "category": "fallback-entp"
-  },
-  {
-    "id": 17,
-    "content": "Where do you need divine insight over human strategy right now?",
-    "depth": "fallback",
-    "category": "fallback-entp"
-  },
-  {
-    "id": 18,
-    "content": "What areas tempt you toward spiritual independence instead of connection?",
-    "depth": "fallback",
-    "category": "fallback-entp"
-  },
-  {
-    "id": 19,
-    "content": "When did conventional wisdom disappoint compared to God's alternative approach?",
-    "depth": "fallback",
-    "category": "fallback-entp"
-  },
-  {
-    "id": 20,
-    "content": "What type of divine insight excites you most this season?",
-    "depth": "fallback",
-    "category": "fallback-entp"
-  },
-  {
-    "id": 21,
-    "content": "Do you read Scripture for ideas, comfort, or personal connection?",
-    "depth": "fallback",
-    "category": "fallback-entp"
-  },
-  {
-    "id": 22,
-    "content": "How has God creatively provided when conventional resources seemed limited?",
-    "depth": "fallback",
-    "category": "fallback-entp"
-  },
-  {
-    "id": 23,
-    "content": "What hidden potential might emerge through deeper spiritual connection?",
-    "depth": "fallback",
-    "category": "fallback-entp"
-  },
-  {
-    "id": 24,
-    "content": "When did you last pause mid-chaos to check with God?",
-    "depth": "fallback",
-    "category": "fallback-entp"
-  },
-  {
-    "id": 25,
-    "content": "Where do you chase knowledge over divine wisdom for solutions?",
-    "depth": "fallback",
-    "category": "fallback-entp"
-  },
-  {
-    "id": 26,
-    "content": "Have you treated Scripture like homework instead of personal guidance?",
-    "depth": "fallback",
-    "category": "fallback-entp"
-  },
-  {
-    "id": 27,
-    "content": "Do you see Jesus as Rescuer, Guide, or Ultimate Wisdom?",
-    "depth": "fallback",
-    "category": "fallback-entp"
-  },
-  {
-    "id": 28,
-    "content": "When did you dismiss a spiritual nudge as random thinking?",
-    "depth": "fallback",
-    "category": "fallback-entp"
-  },
-  {
-    "id": 29,
-    "content": "How do you practically stay connected to Jesus throughout your day?",
-    "depth": "fallback",
-    "category": "fallback-entp"
-  },
-  {
-    "id": 30,
-    "content": "Where do you focus on lacks instead of celebrating provisions?",
-    "depth": "fallback",
-    "category": "fallback-entp"
-  },
-  {
-    "id": 31,
-    "content": "How has Jesus surprised you in completely unexpected areas lately?",
-    "depth": "fallback",
-    "category": "fallback-entp"
-  },
-  {
-    "id": 32,
-    "content": "What turnaround moment felt like a personal resurrection this year?",
-    "depth": "fallback",
-    "category": "fallback-entp"
-  },
-  {
-    "id": 33,
-    "content": "How are you learning patience with God's timing on dreams?",
-    "depth": "fallback",
-    "category": "fallback-entp"
-  },
-  {
-    "id": 34,
-    "content": "What fresh promise has captured your imagination for this year?",
-    "depth": "fallback",
-    "category": "fallback-entp"
-  },
-  {
-    "id": 35,
-    "content": "What encouraging word do you sense Jesus whispering over you?",
-    "depth": "fallback",
-    "category": "fallback-entp"
-  },
-  {
-    "id": 36,
-    "content": "How can others join you in believing for breakthrough together?",
-    "depth": "fallback",
-    "category": "fallback-entp"
-  },
-  {
-    "id": 37,
-    "content": "How has God answered prayers differently than you originally imagined?",
-    "depth": "fallback",
-    "category": "fallback-entp"
-  },
-  {
-    "id": 38,
-    "content": "How has God encouraged you while you wait for answers?",
-    "depth": "fallback",
-    "category": "fallback-entp"
-  },
-  {
-    "id": 39,
-    "content": "What small answered prayer reminded you God notices your details?",
-    "depth": "fallback",
-    "category": "fallback-entp"
-  },
-  {
-    "id": 40,
-    "content": "How have your prayer priorities shifted as you've grown spiritually?",
-    "depth": "fallback",
-    "category": "fallback-entp"
-  },
-  {
-    "id": 41,
-    "content": "Where have you noticed God's faithfulness in unexpected, quiet ways?",
-    "depth": "fallback",
-    "category": "fallback-entp"
-  },
-  {
-    "id": 42,
-    "content": "How has the Spirit redirected your fears into fresh possibilities?",
-    "depth": "fallback",
-    "category": "fallback-entp"
-  },
-  {
-    "id": 43,
-    "content": "What mental pattern has God been creatively reshaping in you?",
-    "depth": "fallback",
-    "category": "fallback-entp"
-  },
-  {
-    "id": 44,
-    "content": "When did you recently feel your deep need for grace?",
-    "depth": "fallback",
-    "category": "fallback-entp"
-  },
-  {
-    "id": 45,
-    "content": "What challenging situation taught you something new about God's character?",
-    "depth": "fallback",
-    "category": "fallback-entp"
-  },
-  {
-    "id": 46,
-    "content": "Where do you now see hope emerging from difficult circumstances?",
-    "depth": "fallback",
-    "category": "fallback-entp"
-  },
-  {
-    "id": 47,
-    "content": "What is God inviting you to try or release next?",
-    "depth": "fallback",
-    "category": "fallback-entp"
-  },
-  {
-    "id": 48,
-    "content": "What might God be suggesting if you paused the busyness?",
-    "depth": "fallback",
-    "category": "fallback-entp"
-  },
-  {
-    "id": 49,
-    "content": "Where are you most eager for God to create something new?",
-    "depth": "fallback",
-    "category": "fallback-entp"
-  },
-  {
-    "id": 50,
-    "content": "What simple step might deepen your connection with Christ?",
-    "depth": "fallback",
-    "category": "fallback-entp"
-  },
-  {
-    "id": 51,
-    "content": "How could you add more wonder and rest to life?",
-    "depth": "fallback",
-    "category": "fallback-entp"
-  },
-  {
-    "id": 52,
-    "content": "What future moment do you hope to recognize God's presence?",
-    "depth": "fallback",
-    "category": "fallback-entp"
-  },
-  {
-    "id": 53,
-    "content": "Where might Jesus be inviting you toward rest over striving?",
-    "depth": "fallback",
-    "category": "fallback-entp"
-  },
-  {
-    "id": 54,
-    "content": "When did you last feel completely understood by God?",
-    "depth": "fallback",
-    "category": "fallback-entp"
-  },
-  {
-    "id": 55,
-    "content": "How would your routines change if you believed God enjoys you?",
-    "depth": "fallback",
-    "category": "fallback-entp"
-  },
-  {
-    "id": 56,
-    "content": "What truth about God's character needs deeper roots right now?",
-    "depth": "fallback",
-    "category": "fallback-entp"
-  },
-  {
-    "id": 57,
-    "content": "Whose faith recently inspired or challenged your own spiritual journey?",
-    "depth": "fallback",
-    "category": "fallback-entp"
-  },
-  {
-    "id": 58,
-    "content": "What unspoken burden needs space to be acknowledged and processed?",
-    "depth": "fallback",
-    "category": "fallback-entp"
-  },
-  {
-    "id": 59,
-    "content": "When do you most naturally sense Jesus with you daily?",
-    "depth": "fallback",
-    "category": "fallback-entp"
-  },
-  {
-    "id": 60,
-    "content": "How has your view of God grown through both blessings and waiting?",
-    "depth": "fallback",
-    "category": "fallback-entp"
-  },
-  {
-    "id": 61,
-    "content": "How does noticing God's small gifts expand your joy capacity?",
-    "depth": "fallback",
-    "category": "fallback-entp"
-  }
+  {"id": 1, "content": "What assumption or belief did you recently discard after stress-testing it?"},
+  {"id": 2, "content": "What random, small thing gave you an unexpected hit of joy lately?"},
+  {"id": 3, "content": "How have your wild childhood ideas evolved into your current ambitions?"},
+  {"id": 4, "content": "What lucky break or unexpected opportunity are you grateful for?"},
+  {"id": 5, "content": "What problem are you currently wrestling with that won't leave you alone?"},
+  {"id": 6, "content": "What practice or constraint has actually helped focus your energy?"},
+  {"id": 7, "content": "What's the next thing you want to figure out or experiment with?"},
+  {"id": 8, "content": "What does an ideal day of interesting problems and good conversation look like?"},
+  {"id": 9, "content": "Whose brain would you most want to pick over drinks?"},
+  {"id": 10, "content": "Who challenged you in a way that actually upgraded your thinking?"},
+  {"id": 11, "content": "What former fascination have you moved on from?"},
+  {"id": 12, "content": "What idea or project has your attention locked in right now?"},
+  {"id": 13, "content": "When were you most in your element—what made that click?"},
+  {"id": 14, "content": "What concept, book, or debate permanently changed how you see things?"},
+  {"id": 15, "content": "What new capability or insight do you want to develop this year?"},
+  {"id": 16, "content": "What favor or gesture from someone stuck with you more than expected?"},
+  {"id": 17, "content": "What dilemma are you currently arguing both sides of in your head?"},
+  {"id": 18, "content": "What unconventional approach do you take that others find confusing?"},
+  {"id": 19, "content": "What piece of counterintuitive wisdom has served you well?"},
+  {"id": 20, "content": "What do people misread about you based on your debating or joking?"},
+  {"id": 21, "content": "What does winning at life actually mean to you right now?"},
+  {"id": 22, "content": "What experience forced you to completely reframe your understanding?"},
+  {"id": 23, "content": "What accomplishment do you value that doesn't fit the typical success narrative?"},
+  {"id": 24, "content": "What makes someone worth your time and mental energy?"},
+  {"id": 25, "content": "What fear have you talked yourself through or faced head-on?"},
+  {"id": 26, "content": "What gets you back on track when you're scattered or stuck?"},
+  {"id": 27, "content": "What view do you hold that you enjoy defending against popular opinion?"},
+  {"id": 28, "content": "What's captured your curiosity or sparked new connections lately?"},
+  {"id": 29, "content": "What failure turned out to be unexpectedly useful?"},
+  {"id": 30, "content": "How do you reboot when you've been running in too many directions?"},
+  {"id": 31, "content": "What did you have to abandon to pursue something better?"},
+  {"id": 32, "content": "What location means something significant in your story?"},
+  {"id": 33, "content": "What would you build or prove if you had unlimited runway?"},
+  {"id": 34, "content": "What keeps pulling at your attention these days?"},
+  {"id": 35, "content": "What skill would make you dangerous in the best way?"},
+  {"id": 36, "content": "How do you handle pushback from people whose opinions matter to you?"},
+  {"id": 37, "content": "What have you figured out about yourself that surprised you?"},
+  {"id": 38, "content": "What do you actually enjoy doing when you're not chasing the next thing?"},
+  {"id": 39, "content": "What inconvenient truth have you had to accept about yourself or the world?"},
+  {"id": 40, "content": "What reliably flips your mood or energy in a good direction?"},
+  {"id": 41, "content": "What does stability or home mean to someone who's always exploring?"},
+  {"id": 42, "content": "What conversation or debate left a lasting mark on you?"},
+  {"id": 43, "content": "What do you keep doing even though you're clearly not optimized for it?"},
+  {"id": 44, "content": "What impulsive move turned out to be one of your best decisions?"},
+  {"id": 45, "content": "What absorbs you to the point where time disappears?"},
+  {"id": 46, "content": "What are you still trying to figure out about yourself?"},
+  {"id": 47, "content": "What relationship has pushed or shaped you in unexpected ways?"},
+  {"id": 48, "content": "What question would get past your clever deflection to something real?"},
+  {"id": 49, "content": "What are you trying to get more serious or intentional about?"},
+  {"id": 50, "content": "What practice or ritual would you actually stick with if you started it?"},
+  {"id": 51, "content": "What gets you going again when your energy is depleted?"},
+  {"id": 52, "content": "What did you make happen through persistent effort that felt earned?"},
+  {"id": 53, "content": "What would you tell your past self that would have saved some pain?"},
+  {"id": 54, "content": "What possibility excites and terrifies you in equal measure?"},
+  {"id": 55, "content": "What moment would you want to experience again from scratch?"},
+  {"id": 56, "content": "What tells you someone is intellectually honest enough to trust?"},
+  {"id": 57, "content": "What important thing keeps getting bumped by more interesting distractions?"},
+  {"id": 58, "content": "What do people get wrong about the way your generation thinks?"},
+  {"id": 59, "content": "What do you actually need but rarely admit or request?"},
+  {"id": 60, "content": "What recognition or feedback hit you harder than you expected?"},
+  {"id": 61, "content": "What would change if you stopped second-guessing your own instincts?"},
+  {"id": 62, "content": "What two principles you argue for sometimes contradict each other?"},
+  {"id": 63, "content": "Where does your confident debate style mask real uncertainty?"},
+  {"id": 64, "content": "What persona do you perform that doesn't capture your whole story?"},
+  {"id": 65, "content": "What clever, quick version of yourself are you tired of being?"},
+  {"id": 66, "content": "What past action do you still feel weird about?"},
+  {"id": 67, "content": "What decision do you keep mentally revisiting and relitigating?"},
+  {"id": 68, "content": "What part of yourself have you tried to argue away or suppress?"},
+  {"id": 69, "content": "What would you take back if you could edit your history?"},
+  {"id": 70, "content": "What feeling runs under your wit that you don't often show?"},
+  {"id": 71, "content": "When has being around people still left you feeling alone?"},
+  {"id": 72, "content": "What does it take for someone to see past your surface and actually get you?"},
+  {"id": 73, "content": "What do you need but struggle to ask for directly?"},
+  {"id": 74, "content": "When does the gap between how you come across and how you feel get widest?"},
+  {"id": 75, "content": "What would real intellectual and emotional belonging feel like?"},
+  {"id": 76, "content": "What truth about yourself do you joke about but don't fully face?"},
+  {"id": 77, "content": "What thought keeps circling back that you've never really addressed?"},
+  {"id": 78, "content": "What do you believe that you strategically avoid stating outright?"},
+  {"id": 79, "content": "What are you holding onto that logic says to let go of?"},
+  {"id": 80, "content": "What question about yourself have you cleverly avoided answering?"}
 ]

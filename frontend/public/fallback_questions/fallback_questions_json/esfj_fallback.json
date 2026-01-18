@@ -1,368 +1,82 @@
 [
-  {
-    "id": 1,
-    "content": "How has God's faithfulness become a story you want to share with others?",
-    "depth": "fallback",
-    "category": "fallback-esfj"
-  },
-  {
-    "id": 2,
-    "content": "What growth in your faith this year could encourage someone else on their journey?",
-    "depth": "fallback",
-    "category": "fallback-esfj"
-  },
-  {
-    "id": 3,
-    "content": "How have your dreams evolved in ways that could bless or inspire others?",
-    "depth": "fallback",
-    "category": "fallback-esfj"
-  },
-  {
-    "id": 4,
-    "content": "What specific goodness from God would you love to celebrate with your community?",
-    "depth": "fallback",
-    "category": "fallback-esfj"
-  },
-  {
-    "id": 5,
-    "content": "What area of your life is ready for God's healing so you can pour out more freely?",
-    "depth": "fallback",
-    "category": "fallback-esfj"
-  },
-  {
-    "id": 6,
-    "content": "What practice has deepened your connection with God and others simultaneously?",
-    "depth": "fallback",
-    "category": "fallback-esfj"
-  },
-  {
-    "id": 7,
-    "content": "What vision or calling is God stirring in you to serve his kingdom?",
-    "depth": "fallback",
-    "category": "fallback-esfj"
-  },
-  {
-    "id": 8,
-    "content": "How do you want to grow spiritually in ways that overflow to others?",
-    "depth": "fallback",
-    "category": "fallback-esfj"
-  },
-  {
-    "id": 9,
-    "content": "If fear wasn't holding you back, what would you ask God to accomplish through you?",
-    "depth": "fallback",
-    "category": "fallback-esfj"
-  },
-  {
-    "id": 10,
-    "content": "Who is God calling you to invest in, mentor, or champion this season?",
-    "depth": "fallback",
-    "category": "fallback-esfj"
-  },
-  {
-    "id": 11,
-    "content": "What patterns is God inviting you to release so you can lead more freely?",
-    "depth": "fallback",
-    "category": "fallback-esfj"
-  },
-  {
-    "id": 12,
-    "content": "What transformation are you most excited to see God bring through your influence?",
-    "depth": "fallback",
-    "category": "fallback-esfj"
-  },
-  {
-    "id": 13,
-    "content": "Where has God's grace equipped you to extend grace to others?",
-    "depth": "fallback",
-    "category": "fallback-esfj"
-  },
-  {
-    "id": 14,
-    "content": "What truth about God has been burning in your heart to share?",
-    "depth": "fallback",
-    "category": "fallback-esfj"
-  },
-  {
-    "id": 15,
-    "content": "How do you want to be different by year's end for the sake of those you serve?",
-    "depth": "fallback",
-    "category": "fallback-esfj"
-  },
-  {
-    "id": 16,
-    "content": "What's one way you could love others that reflects God's heart more clearly?",
-    "depth": "fallback",
-    "category": "fallback-esfj"
-  },
-  {
-    "id": 17,
-    "content": "What complex situation needs God's wisdom more than your natural leadership instincts?",
-    "depth": "fallback",
-    "category": "fallback-esfj"
-  },
-  {
-    "id": 18,
-    "content": "Where have you been trying to create change without staying connected to Jesus?",
-    "depth": "fallback",
-    "category": "fallback-esfj"
-  },
-  {
-    "id": 19,
-    "content": "When has conventional wisdom conflicted with what the Spirit was revealing?",
-    "depth": "fallback",
-    "category": "fallback-esfj"
-  },
-  {
-    "id": 20,
-    "content": "What kind of wisdom do you need most - relational insight, visionary clarity, or practical guidance?",
-    "depth": "fallback",
-    "category": "fallback-esfj"
-  },
-  {
-    "id": 21,
-    "content": "Do you approach Scripture seeking truth, comfort, or deeper communion with Jesus?",
-    "depth": "fallback",
-    "category": "fallback-esfj"
-  },
-  {
-    "id": 22,
-    "content": "How has God provided resources in ways that blessed both you and others?",
-    "depth": "fallback",
-    "category": "fallback-esfj"
-  },
-  {
-    "id": 23,
-    "content": "What gifts might flourish more naturally through closer connection with Jesus?",
-    "depth": "fallback",
-    "category": "fallback-esfj"
-  },
-  {
-    "id": 24,
-    "content": "When did you last seek Jesus' heart before responding to a leadership challenge?",
-    "depth": "fallback",
-    "category": "fallback-esfj"
-  },
-  {
-    "id": 25,
-    "content": "Where do you think more effort or strategy will accomplish what needs divine wisdom?",
-    "depth": "fallback",
-    "category": "fallback-esfj"
-  },
-  {
-    "id": 26,
-    "content": "Have you ever treated Bible reading as preparation instead of relationship?",
-    "depth": "fallback",
-    "category": "fallback-esfj"
-  },
-  {
-    "id": 27,
-    "content": "Do you relate to Jesus more as Leader, Guide, or the Heart of all relationships?",
-    "depth": "fallback",
-    "category": "fallback-esfj"
-  },
-  {
-    "id": 28,
-    "content": "When did you dismiss a spiritual prompting as just your emotions or intuition?",
-    "depth": "fallback",
-    "category": "fallback-esfj"
-  },
-  {
-    "id": 29,
-    "content": "How could staying connected to Jesus become integrated into your leadership rhythm?",
-    "depth": "fallback",
-    "category": "fallback-esfj"
-  },
-  {
-    "id": 30,
-    "content": "Where are you focused on what's missing instead of stewarding what God has already given?",
-    "depth": "fallback",
-    "category": "fallback-esfj"
-  },
-  {
-    "id": 31,
-    "content": "How has Jesus revealed himself through your relationships and calling this year?",
-    "depth": "fallback",
-    "category": "fallback-esfj"
-  },
-  {
-    "id": 32,
-    "content": "Have you witnessed any resurrections in relationships, communities, or broken situations?",
-    "depth": "fallback",
-    "category": "fallback-esfj"
-  },
-  {
-    "id": 33,
-    "content": "What hopes are still developing and how are you trusting God's timing while leading?",
-    "depth": "fallback",
-    "category": "fallback-esfj"
-  },
-  {
-    "id": 34,
-    "content": "What vision are you carrying with expectation for the remainder of this year?",
-    "depth": "fallback",
-    "category": "fallback-esfj"
-  },
-  {
-    "id": 35,
-    "content": "What encouraging word do you sense Jesus wants to speak over your leadership?",
-    "depth": "fallback",
-    "category": "fallback-esfj"
-  },
-  {
-    "id": 36,
-    "content": "How can your community support and pray for the vision God has given you?",
-    "depth": "fallback",
-    "category": "fallback-esfj"
-  },
-  {
-    "id": 37,
-    "content": "Looking at your January prayers, how has God answered in ways that blessed others too?",
-    "depth": "fallback",
-    "category": "fallback-esfj"
-  },
-  {
-    "id": 38,
-    "content": "What requests are still unfolding and how has God sustained your faith while waiting?",
-    "depth": "fallback",
-    "category": "fallback-esfj"
-  },
-  {
-    "id": 39,
-    "content": "What small answered prayers reminded you that God cares about your relationships and calling?",
-    "depth": "fallback",
-    "category": "fallback-esfj"
-  },
-  {
-    "id": 40,
-    "content": "How have your original prayer requests grown to include broader kingdom impact?",
-    "depth": "fallback",
-    "category": "fallback-esfj"
-  },
-  {
-    "id": 41,
-    "content": "Where have you quietly seen God's faithfulness working through your influence on others?",
-    "depth": "fallback",
-    "category": "fallback-esfj"
-  },
-  {
-    "id": 42,
-    "content": "How has the Spirit redirected or encouraged you when leadership felt overwhelming?",
-    "depth": "fallback",
-    "category": "fallback-esfj"
-  },
-  {
-    "id": 43,
-    "content": "What leadership habit or mindset has God been gently reshaping in you?",
-    "depth": "fallback",
-    "category": "fallback-esfj"
-  },
-  {
-    "id": 44,
-    "content": "When have you been most grateful that grace covers your imperfect attempts to serve?",
-    "depth": "fallback",
-    "category": "fallback-esfj"
-  },
-  {
-    "id": 45,
-    "content": "What has challenged your assumptions about leadership and what wisdom emerged?",
-    "depth": "fallback",
-    "category": "fallback-esfj"
-  },
-  {
-    "id": 46,
-    "content": "What difficult relationship or situation now shows potential for redemption?",
-    "depth": "fallback",
-    "category": "fallback-esfj"
-  },
-  {
-    "id": 47,
-    "content": "What is God inviting you to embrace or release for the sake of your calling?",
-    "depth": "fallback",
-    "category": "fallback-esfj"
-  },
-  {
-    "id": 48,
-    "content": "If you listened deeply, what next step might the Spirit be guiding for your leadership?",
-    "depth": "fallback",
-    "category": "fallback-esfj"
-  },
-  {
-    "id": 49,
-    "content": "Where are you longing for God to bring breakthrough in your sphere of influence?",
-    "depth": "fallback",
-    "category": "fallback-esfj"
-  },
-  {
-    "id": 50,
-    "content": "What small act of faithful obedience might unlock greater kingdom impact?",
-    "depth": "fallback",
-    "category": "fallback-esfj"
-  },
-  {
-    "id": 51,
-    "content": "How could you create more space for listening, rest, and vision-casting with God?",
-    "depth": "fallback",
-    "category": "fallback-esfj"
-  },
-  {
-    "id": 52,
-    "content": "What do you hope to look back on and say God used you powerfully there?",
-    "depth": "fallback",
-    "category": "fallback-esfj"
-  },
-  {
-    "id": 53,
-    "content": "Where have you been leading in your own strength instead of partnering with Jesus?",
-    "depth": "fallback",
-    "category": "fallback-esfj"
-  },
-  {
-    "id": 54,
-    "content": "When did you last feel deeply known and affirmed by God in your calling?",
-    "depth": "fallback",
-    "category": "fallback-esfj"
-  },
-  {
-    "id": 55,
-    "content": "How might your leadership transform if you believed God delights in using you?",
-    "depth": "fallback",
-    "category": "fallback-esfj"
-  },
-  {
-    "id": 56,
-    "content": "What truth about God's character do you need to anchor your leadership on?",
-    "depth": "fallback",
-    "category": "fallback-esfj"
-  },
-  {
-    "id": 57,
-    "content": "Whose faithful leadership has recently inspired or challenged your own approach?",
-    "depth": "fallback",
-    "category": "fallback-esfj"
-  },
-  {
-    "id": 58,
-    "content": "What vision has been stirring in your heart that you haven't had space to explore?",
-    "depth": "fallback",
-    "category": "fallback-esfj"
-  },
-  {
-    "id": 59,
-    "content": "When do you feel most naturally aware of Jesus leading alongside you?",
-    "depth": "fallback",
-    "category": "fallback-esfj"
-  },
-  {
-    "id": 60,
-    "content": "How has your understanding of God's heart deepened through seasons of fruitful and challenging leadership?",
-    "depth": "fallback",
-    "category": "fallback-esfj"
-  },
-  {
-    "id": 61,
-    "content": "How does recognizing God's goodness in your relationships multiply your capacity to bless others?",
-    "depth": "fallback",
-    "category": "fallback-esfj"
-  }
+  {"id": 1, "content": "What belief did you let go of once it stopped serving the people you care about?"},
+  {"id": 2, "content": "What small moment of connection touched you recently?"},
+  {"id": 3, "content": "How has what you valued as a child shaped how you care for others now?"},
+  {"id": 4, "content": "What unexpected kindness are you grateful for?"},
+  {"id": 5, "content": "What challenge in a relationship are you working through?"},
+  {"id": 6, "content": "What routine or tradition helps ground you?"},
+  {"id": 7, "content": "What new way of supporting others are you drawn to?"},
+  {"id": 8, "content": "What does a day full of meaningful connection look like for you?"},
+  {"id": 9, "content": "Whose warmth or wisdom would you most want to spend time with?"},
+  {"id": 10, "content": "Who believed in you in a way that helped you grow?"},
+  {"id": 11, "content": "What role or commitment have you stepped back from?"},
+  {"id": 12, "content": "What relationship or community has your heart right now?"},
+  {"id": 13, "content": "When did you feel most appreciated and connected?"},
+  {"id": 14, "content": "What experience changed how you show up for others?"},
+  {"id": 15, "content": "What do you want to get better at this year?"},
+  {"id": 16, "content": "What gesture from someone else made you feel truly seen?"},
+  {"id": 17, "content": "What relational decision are you sitting with?"},
+  {"id": 18, "content": "What do you do in your own way that others appreciate?"},
+  {"id": 19, "content": "What value has guided how you treat people?"},
+  {"id": 20, "content": "What do people miss about you when they only see your warmth?"},
+  {"id": 21, "content": "What does a meaningful life look like to you?"},
+  {"id": 22, "content": "What experience deepened how you understand others?"},
+  {"id": 23, "content": "What are you proud of that others might not see?"},
+  {"id": 24, "content": "What makes a relationship feel real and trustworthy to you?"},
+  {"id": 25, "content": "What fear have you worked through to stay close to someone?"},
+  {"id": 26, "content": "What always brings you back to yourself?"},
+  {"id": 27, "content": "What conviction do you hold that might surprise people?"},
+  {"id": 28, "content": "What's been on your heart lately?"},
+  {"id": 29, "content": "What mistake taught you something about relationships?"},
+  {"id": 30, "content": "How do you restore yourself when you've given too much?"},
+  {"id": 31, "content": "What did you have to let go of to keep growing?"},
+  {"id": 32, "content": "What place holds special meaning for you?"},
+  {"id": 33, "content": "What would you create or nurture if nothing held you back?"},
+  {"id": 34, "content": "What's been weighing on you?"},
+  {"id": 35, "content": "What ability would help you better support the people you love?"},
+  {"id": 36, "content": "How do you handle conflict with someone you care about?"},
+  {"id": 37, "content": "What have you learned about yourself recently?"},
+  {"id": 38, "content": "What do you enjoy doing when you have time for yourself?"},
+  {"id": 39, "content": "What hard truth have you had to accept about a relationship?"},
+  {"id": 40, "content": "What never fails to lift your spirits?"},
+  {"id": 41, "content": "What does belonging or home mean to you?"},
+  {"id": 42, "content": "What conversation left a lasting impression?"},
+  {"id": 43, "content": "What do you keep doing even though it's not your strength?"},
+  {"id": 44, "content": "What spontaneous moment became a cherished memory?"},
+  {"id": 45, "content": "What makes you lose track of time in a good way?"},
+  {"id": 46, "content": "What are you still discovering about yourself?"},
+  {"id": 47, "content": "What relationship has quietly shaped who you're becoming?"},
+  {"id": 48, "content": "What question would help someone really know you?"},
+  {"id": 49, "content": "What are you trying to honor more in your life?"},
+  {"id": 50, "content": "What tradition or ritual would you love to have?"},
+  {"id": 51, "content": "What renews you when you've been stretched thin?"},
+  {"id": 52, "content": "What did you help create or build that felt meaningful?"},
+  {"id": 53, "content": "What would you tell your younger self?"},
+  {"id": 54, "content": "What hope both excites and scares you?"},
+  {"id": 55, "content": "What moment would you want to experience again?"},
+  {"id": 56, "content": "How do you know when someone is safe to open up to?"},
+  {"id": 57, "content": "What keeps getting postponed that matters to you?"},
+  {"id": 58, "content": "What do people get wrong about your generation?"},
+  {"id": 59, "content": "What do you need but find hard to ask for?"},
+  {"id": 60, "content": "What recognition or thanks really meant something to you?"},
+  {"id": 61, "content": "What would change if you fully trusted your instincts?"},
+  {"id": 62, "content": "What two things you care about sometimes pull in different directions?"},
+  {"id": 63, "content": "Where does your caring exterior hide your own struggles?"},
+  {"id": 64, "content": "What supportive role do you play that doesn't show all of who you are?"},
+  {"id": 65, "content": "What always-there-for-everyone version of yourself gets exhausting?"},
+  {"id": 66, "content": "What past moment still weighs on you?"},
+  {"id": 67, "content": "What decision about a relationship do you keep revisiting?"},
+  {"id": 68, "content": "What part of yourself have you tried to smooth over?"},
+  {"id": 69, "content": "What would you take back if you could?"},
+  {"id": 70, "content": "What feeling do you rarely let others see?"},
+  {"id": 71, "content": "When has taking care of everyone else left you feeling alone?"},
+  {"id": 72, "content": "What does it take for you to feel truly understood?"},
+  {"id": 73, "content": "What do you need that feels too vulnerable to ask for?"},
+  {"id": 74, "content": "When does the gap between how you support others and how you feel inside feel widest?"},
+  {"id": 75, "content": "What would real reciprocity in relationships feel like for you?"},
+  {"id": 76, "content": "What truth about yourself do you keep at the edges?"},
+  {"id": 77, "content": "What thought keeps coming back that you haven't shared?"},
+  {"id": 78, "content": "What do you believe that you hold close?"},
+  {"id": 79, "content": "What are you carrying that you know you should set down?"},
+  {"id": 80, "content": "What question about your own needs have you been avoiding?"}
 ]

@@ -51,30 +51,30 @@ S	Sensing	Detail-aware, practical, lives in the now
 T	Thinking	Logical, detached decision-making, values efficiency
 P	Perceiving	Flexible, spontaneous, fast to respond and adapt
 
-✝️ How ESTPs Tend to Process Spiritual or Reflective Questions
-Prefer real-world faith: "How does this matter now?" or "What can I do with this?"
+🧩 How ESTPs Tend to Process Reflective Questions
+Prefer real-world relevance: "How does this matter now?" or "What can I do with this?"
 
 May get restless with over-philosophizing or slow processes.
 
-Most responsive to challenge-oriented questions, active examples, or dynamic teaching styles.
+Most responsive to challenge-oriented questions, active examples, or dynamic conversation.
 
-Love seeing God show up in unexpected, high-impact, or immediate ways.
+Love seeing things come together in unexpected, high-impact, or immediate ways.
 
-May need help slowing down to notice inner transformation or divine timing.
+May need help slowing down to notice inner transformation.
 
 Tend to ask:
 
-“What’s God doing here and now?”
+"What's happening here and now?"
 
-“What action am I supposed to take?”
+"What action am I supposed to take?"
 
-“Where do I need to take a leap?”
+"Where do I need to take a leap?"
 
-💡 Signature ESTP Spiritual Language:
-“What bold move might God be calling you into today?”
+💡 Signature ESTP Conversation Prompts:
+"What bold move might you need to make today?"
 
-“Where did you see God come through in a real, practical way?”
+"Where did things come through in a real, practical way recently?"
 
-“How are you being sharpened in the moment?”
+"How are you being sharpened right now?"
 
-“What situation needs your quick, courageous action right now?”
+"What situation needs your quick, courageous action?"

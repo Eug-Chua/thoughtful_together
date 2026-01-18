@@ -1,368 +1,82 @@
 [
-  {
-    "id": 1,
-    "content": "Looking back, where has God’s steady care stood out most clearly to you?",
-    "depth": "fallback",
-    "category": "fallback-isfj"
-  },
-  {
-    "id": 2,
-    "content": "What small moment of growth this year has stayed with you?",
-    "depth": "fallback",
-    "category": "fallback-isfj"
-  },
-  {
-    "id": 3,
-    "content": "How have your hopes shifted gently over the course of the year?",
-    "depth": "fallback",
-    "category": "fallback-isfj"
-  },
-  {
-    "id": 4,
-    "content": "What blessing from the past six months are you most thankful for?",
-    "depth": "fallback",
-    "category": "fallback-isfj"
-  },
-  {
-    "id": 5,
-    "content": "What part of your life needs God’s quiet restoration right now?",
-    "depth": "fallback",
-    "category": "fallback-isfj"
-  },
-  {
-    "id": 6,
-    "content": "What familiar practice has helped you stay close to God this year?",
-    "depth": "fallback",
-    "category": "fallback-isfj"
-  },
-  {
-    "id": 7,
-    "content": "Where might God be leading you to take a small, faithful next step?",
-    "depth": "fallback",
-    "category": "fallback-isfj"
-  },
-  {
-    "id": 8,
-    "content": "What gentle goal could help you grow more rooted in your walk with Jesus?",
-    "depth": "fallback",
-    "category": "fallback-isfj"
-  },
-  {
-    "id": 9,
-    "content": "If fear wasn’t holding you back, what would you ask God to help you begin?",
-    "depth": "fallback",
-    "category": "fallback-isfj"
-  },
-  {
-    "id": 10,
-    "content": "Who in your life could use your steady care or encouragement right now?",
-    "depth": "fallback",
-    "category": "fallback-isfj"
-  },
-  {
-    "id": 11,
-    "content": "What might God be inviting you to lay down so something new can grow?",
-    "depth": "fallback",
-    "category": "fallback-isfj"
-  },
-  {
-    "id": 12,
-    "content": "What do you quietly hope God will do in the coming months?",
-    "depth": "fallback",
-    "category": "fallback-isfj"
-  },
-  {
-    "id": 13,
-    "content": "When did God meet you with grace when you felt undeserving?",
-    "depth": "fallback",
-    "category": "fallback-isfj"
-  },
-  {
-    "id": 14,
-    "content": "What truth about Jesus has gently stayed with you lately?",
-    "depth": "fallback",
-    "category": "fallback-isfj"
-  },
-  {
-    "id": 15,
-    "content": "By year’s end, how would you love to see your heart changed?",
-    "depth": "fallback",
-    "category": "fallback-isfj"
-  },
-  {
-    "id": 16,
-    "content": "How could you serve or support someone more intentionally this season?",
-    "depth": "fallback",
-    "category": "fallback-isfj"
-  },
-  {
-    "id": 17,
-    "content": "What current situation needs more of God’s wisdom than your own effort?",
-    "depth": "fallback",
-    "category": "fallback-isfj"
-  },
-  {
-    "id": 18,
-    "content": "Where have you felt pressure to fix things instead of resting in Jesus?",
-    "depth": "fallback",
-    "category": "fallback-isfj"
-  },
-  {
-    "id": 19,
-    "content": "When did well-meaning advice leave you feeling unseen or misunderstood?",
-    "depth": "fallback",
-    "category": "fallback-isfj"
-  },
-  {
-    "id": 20,
-    "content": "What kind of wisdom brings you peace in this season?",
-    "depth": "fallback",
-    "category": "fallback-isfj"
-  },
-  {
-    "id": 21,
-    "content": "When reading Scripture, what are you hoping to receive most right now?",
-    "depth": "fallback",
-    "category": "fallback-isfj"
-  },
-  {
-    "id": 22,
-    "content": "How has God provided quietly, even when resources felt stretched?",
-    "depth": "fallback",
-    "category": "fallback-isfj"
-  },
-  {
-    "id": 23,
-    "content": "What part of your life grows stronger when you choose to abide instead of strive?",
-    "depth": "fallback",
-    "category": "fallback-isfj"
-  },
-  {
-    "id": 24,
-    "content": "When did you last slow down and invite Jesus into a stressful moment?",
-    "depth": "fallback",
-    "category": "fallback-isfj"
-  },
-  {
-    "id": 25,
-    "content": "Where are you tempted to overdo—when Jesus may be asking you to trust instead?",
-    "depth": "fallback",
-    "category": "fallback-isfj"
-  },
-  {
-    "id": 26,
-    "content": "When have you felt disconnected while reading Scripture, and what might help it feel real again?",
-    "depth": "fallback",
-    "category": "fallback-isfj"
-  },
-  {
-    "id": 27,
-    "content": "What aspect of Jesus—His love, wisdom, or presence—feels closest to you now?",
-    "depth": "fallback",
-    "category": "fallback-isfj"
-  },
-  {
-    "id": 28,
-    "content": "Was there a quiet prompting you pushed aside, unsure if it was really God?",
-    "depth": "fallback",
-    "category": "fallback-isfj"
-  },
-  {
-    "id": 29,
-    "content": "What helps you remember to stay closely connected to Christ in your daily routine?",
-    "depth": "fallback",
-    "category": "fallback-isfj"
-  },
-  {
-    "id": 30,
-    "content": "Where are you focused on what's missing, rather than what God’s already providing?",
-    "depth": "fallback",
-    "category": "fallback-isfj"
-  },
-  {
-    "id": 31,
-    "content": "Where has God surprised you with faithfulness in a familiar place?",
-    "depth": "fallback",
-    "category": "fallback-isfj"
-  },
-  {
-    "id": 32,
-    "content": "Has anything in your life felt like a quiet resurrection this year?",
-    "depth": "fallback",
-    "category": "fallback-isfj"
-  },
-  {
-    "id": 33,
-    "content": "What long-held prayer are you still waiting on, and how are you learning to trust in it?",
-    "depth": "fallback",
-    "category": "fallback-isfj"
-  },
-  {
-    "id": 34,
-    "content": "What gentle promise are you holding onto as the year unfolds?",
-    "depth": "fallback",
-    "category": "fallback-isfj"
-  },
-  {
-    "id": 35,
-    "content": "What do you imagine Jesus might be whispering to you for this next season?",
-    "depth": "fallback",
-    "category": "fallback-isfj"
-  },
-  {
-    "id": 36,
-    "content": "Where could others come alongside you in prayer or quiet support?",
-    "depth": "fallback",
-    "category": "fallback-isfj"
-  },
-  {
-    "id": 37,
-    "content": "What past prayer did God answer differently—but still lovingly?",
-    "depth": "fallback",
-    "category": "fallback-isfj"
-  },
-  {
-    "id": 38,
-    "content": "How is God meeting you in the waiting with comfort or reminders of His care?",
-    "depth": "fallback",
-    "category": "fallback-isfj"
-  },
-  {
-    "id": 39,
-    "content": "What small answered prayer recently reminded you that God still sees you?",
-    "depth": "fallback",
-    "category": "fallback-isfj"
-  },
-  {
-    "id": 40,
-    "content": "How have your hopes or priorities shifted as you’ve prayed this year?",
-    "depth": "fallback",
-    "category": "fallback-isfj"
-  },
-  {
-    "id": 41,
-    "content": "In what memory do you see God’s quiet faithfulness most clearly?",
-    "depth": "fallback",
-    "category": "fallback-isfj"
-  },
-  {
-    "id": 42,
-    "content": "In a recent challenge, how did God give peace or direction?",
-    "depth": "fallback",
-    "category": "fallback-isfj"
-  },
-  {
-    "id": 43,
-    "content": "What part of your mindset or habits is God gently refining?",
-    "depth": "fallback",
-    "category": "fallback-isfj"
-  },
-  {
-    "id": 44,
-    "content": "When have you felt most aware of your need for grace this season?",
-    "depth": "fallback",
-    "category": "fallback-isfj"
-  },
-  {
-    "id": 45,
-    "content": "What situation stretched your faith and taught you more about God's heart?",
-    "depth": "fallback",
-    "category": "fallback-isfj"
-  },
-  {
-    "id": 46,
-    "content": "Is there a hard place that’s slowly starting to feel hopeful?",
-    "depth": "fallback",
-    "category": "fallback-isfj"
-  },
-  {
-    "id": 47,
-    "content": "What gentle invitation from God do you sense for the next season?",
-    "depth": "fallback",
-    "category": "fallback-isfj"
-  },
-  {
-    "id": 48,
-    "content": "If you paused to listen, what quiet direction might the Spirit be offering?",
-    "depth": "fallback",
-    "category": "fallback-isfj"
-  },
-  {
-    "id": 49,
-    "content": "Where do you long for God to renew something old or worn down?",
-    "depth": "fallback",
-    "category": "fallback-isfj"
-  },
-  {
-    "id": 50,
-    "content": "What small step of obedience might open space for deeper connection?",
-    "depth": "fallback",
-    "category": "fallback-isfj"
-  },
-  {
-    "id": 51,
-    "content": "How could you make time for rest or quiet joy this month?",
-    "depth": "fallback",
-    "category": "fallback-isfj"
-  },
-  {
-    "id": 52,
-    "content": "What moment do you hope to look back on and say, “God was there”?",
-    "depth": "fallback",
-    "category": "fallback-isfj"
-  },
-  {
-    "id": 53,
-    "content": "Where have you taken on too much, and how could you return to rest in Christ?",
-    "depth": "fallback",
-    "category": "fallback-isfj"
-  },
-  {
-    "id": 54,
-    "content": "When did you last feel deeply known by God, even in small details?",
-    "depth": "fallback",
-    "category": "fallback-isfj"
-  },
-  {
-    "id": 55,
-    "content": "How might your days change if you remembered God delights in your presence?",
-    "depth": "fallback",
-    "category": "fallback-isfj"
-  },
-  {
-    "id": 56,
-    "content": "What truth about God’s faithfulness do you need to hold onto right now?",
-    "depth": "fallback",
-    "category": "fallback-isfj"
-  },
-  {
-    "id": 57,
-    "content": "Whose example of faith recently reminded you what steady trust looks like?",
-    "depth": "fallback",
-    "category": "fallback-isfj"
-  },
-  {
-    "id": 58,
-    "content": "What quiet burden have you been carrying that God wants to help with?",
-    "depth": "fallback",
-    "category": "fallback-isfj"
-  },
-  {
-    "id": 59,
-    "content": "When do you most feel Jesus is near, even if nothing is said?",
-    "depth": "fallback",
-    "category": "fallback-isfj"
-  },
-  {
-    "id": 60,
-    "content": "How has God shown you His goodness in both peace and struggle?",
-    "depth": "fallback",
-    "category": "fallback-isfj"
-  },
-  {
-    "id": 61,
-    "content": "How does noticing small kindnesses from God shift your sense of joy?",
-    "depth": "fallback",
-    "category": "fallback-isfj"
-  }
+  {"id": 1, "content": "What belief did you quietly let go of once it no longer felt true?"},
+  {"id": 2, "content": "What small, gentle moment touched you recently?"},
+  {"id": 3, "content": "How has what you cared about as a child shaped how you care for others now?"},
+  {"id": 4, "content": "What unexpected kindness are you holding gratitude for?"},
+  {"id": 5, "content": "What challenge are you patiently working through?"},
+  {"id": 6, "content": "What routine or practice helps keep you grounded?"},
+  {"id": 7, "content": "What new way of helping or connecting is calling to you?"},
+  {"id": 8, "content": "What does a day of quiet meaning and care look like for you?"},
+  {"id": 9, "content": "Whose gentle wisdom or warmth would you most want to learn from?"},
+  {"id": 10, "content": "Who saw something in you that helped you see it too?"},
+  {"id": 11, "content": "What responsibility or role have you stepped back from?"},
+  {"id": 12, "content": "What relationship or commitment has your heart right now?"},
+  {"id": 13, "content": "When did you feel most valued and at peace?"},
+  {"id": 14, "content": "What experience changed how you show care for others?"},
+  {"id": 15, "content": "What do you want to nurture or develop this year?"},
+  {"id": 16, "content": "What gesture from someone else stayed with you?"},
+  {"id": 17, "content": "What quiet decision are you sitting with?"},
+  {"id": 18, "content": "What do you do in your own thoughtful way that feels right?"},
+  {"id": 19, "content": "What value has guided how you treat people over time?"},
+  {"id": 20, "content": "What do people miss about you when they only see your helpfulness?"},
+  {"id": 21, "content": "What does a meaningful life look like to you now?"},
+  {"id": 22, "content": "What experience deepened your understanding of someone you care about?"},
+  {"id": 23, "content": "What are you quietly proud of?"},
+  {"id": 24, "content": "What makes a connection feel safe and real to you?"},
+  {"id": 25, "content": "What fear have you gently worked through?"},
+  {"id": 26, "content": "What always brings you back to yourself?"},
+  {"id": 27, "content": "What conviction do you hold that might surprise people?"},
+  {"id": 28, "content": "What's been on your mind or heart lately?"},
+  {"id": 29, "content": "What mistake taught you something about caring for others?"},
+  {"id": 30, "content": "How do you restore yourself when you've given too much?"},
+  {"id": 31, "content": "What have you had to release to keep growing?"},
+  {"id": 32, "content": "What place holds quiet, personal meaning for you?"},
+  {"id": 33, "content": "What would you nurture or create if nothing held you back?"},
+  {"id": 34, "content": "What's been weighing on your heart?"},
+  {"id": 35, "content": "What ability would help you better support the people you love?"},
+  {"id": 36, "content": "How do you handle tension with someone you care about?"},
+  {"id": 37, "content": "What have you discovered about yourself recently?"},
+  {"id": 38, "content": "How do you love to spend time in your own quiet way?"},
+  {"id": 39, "content": "What difficult truth have you had to make room for?"},
+  {"id": 40, "content": "What simple thing always lifts your spirit?"},
+  {"id": 41, "content": "What does feeling at home mean to you?"},
+  {"id": 42, "content": "What conversation or exchange left a lasting impression?"},
+  {"id": 43, "content": "What do you keep doing even though it's not your strength?"},
+  {"id": 44, "content": "What unplanned moment became something precious?"},
+  {"id": 45, "content": "What draws you into a state of quiet focus?"},
+  {"id": 46, "content": "What are you still learning about yourself?"},
+  {"id": 47, "content": "What relationship has quietly shaped who you're becoming?"},
+  {"id": 48, "content": "What question would help someone really know you?"},
+  {"id": 49, "content": "What are you trying to honor more intentionally?"},
+  {"id": 50, "content": "What tradition or ritual would you want in your life?"},
+  {"id": 51, "content": "What renews you when you've been stretched thin?"},
+  {"id": 52, "content": "What did you help nurture or create that felt meaningful?"},
+  {"id": 53, "content": "What gentle words would you offer your younger self?"},
+  {"id": 54, "content": "What hope both calls to you and feels vulnerable?"},
+  {"id": 55, "content": "What memory would you want to return to?"},
+  {"id": 56, "content": "How do you sense when someone is safe to be real with?"},
+  {"id": 57, "content": "What keeps getting postponed that matters to you?"},
+  {"id": 58, "content": "What do people misunderstand about your generation's depth?"},
+  {"id": 59, "content": "What do you need but find almost impossible to ask for?"},
+  {"id": 60, "content": "What recognition or thanks touched something true in you?"},
+  {"id": 61, "content": "What would blossom if you fully trusted your own way of caring?"},
+  {"id": 62, "content": "What two values you hold dear sometimes pull in different directions?"},
+  {"id": 63, "content": "Where does your helpful exterior hide your own needs?"},
+  {"id": 64, "content": "What supportive role do you play that doesn't show who you really are?"},
+  {"id": 65, "content": "What dependable, always-there version of yourself are you tired of?"},
+  {"id": 66, "content": "What past moment are you still learning to forgive yourself for?"},
+  {"id": 67, "content": "What old decision do you keep revisiting in your mind?"},
+  {"id": 68, "content": "What part of yourself have you tried to keep small or hidden?"},
+  {"id": 69, "content": "What would you undo if you could?"},
+  {"id": 70, "content": "What feeling lives in you that you rarely let others see?"},
+  {"id": 71, "content": "When has caring for everyone else left you feeling most alone?"},
+  {"id": 72, "content": "What does it take for you to feel truly understood?"},
+  {"id": 73, "content": "What do you need from others that feels too vulnerable to name?"},
+  {"id": 74, "content": "When does the gap between what you give and what you receive feel widest?"},
+  {"id": 75, "content": "What would genuine reciprocity feel like for you?"},
+  {"id": 76, "content": "What truth about yourself do you keep at the edges of awareness?"},
+  {"id": 77, "content": "What thought has accompanied you without being spoken?"},
+  {"id": 78, "content": "What do you believe that you hold close?"},
+  {"id": 79, "content": "What are you carrying that you know you should set down?"},
+  {"id": 80, "content": "What question about your own needs have you been avoiding?"}
 ]

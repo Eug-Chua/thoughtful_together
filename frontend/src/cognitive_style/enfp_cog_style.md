@@ -53,14 +53,23 @@ N	Intuitive	Seeks symbolic meaning, sees patterns and future possibilities
 F	Feeling	Makes decisions based on alignment with internal values
 P	Perceiving	Flexible, open-ended, resists rigid structure or early closure
 
-🧩 How ENFPs Tend to Process Spiritual or Reflective Questions
+🧩 How ENFPs Tend to Process Reflective Questions
 Prefer open, imaginative, and emotionally resonant prompts
 
-Thrive when questions touch on freedom, calling, authenticity, and God’s surprises
+Thrive when questions touch on freedom, calling, authenticity, and surprises
 
 Get bored or discouraged by rigid, repetitive formats
 
-Crave spiritual growth that feels inspired, evolving, and personally meaningful
+Crave growth that feels inspired, evolving, and personally meaningful
 
 Respond well to language of wonder, movement, transformation, and hope
+
+💡 Signature ENFP Conversation Prompts:
+"What new possibility is stirring in your heart right now?"
+
+"What part of your life is asking to be explored or reimagined?"
+
+"What truth about yourself are you beginning to embrace?"
+
+"Where is your passion leading you — and what's the next bold step?"
 

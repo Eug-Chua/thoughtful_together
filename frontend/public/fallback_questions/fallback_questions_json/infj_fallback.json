@@ -1,368 +1,82 @@
 [
-  {
-    "id": 1,
-    "content": "What deeper pattern of God's faithfulness has been quietly unfolding this year?",
-    "depth": "fallback",
-    "category": "fallback-infj"
-  },
-  {
-    "id": 2,
-    "content": "How has your faith grown in ways that surprise your soul?",
-    "depth": "fallback",
-    "category": "fallback-infj"
-  },
-  {
-    "id": 3,
-    "content": "What sacred dreams has God been nurturing or reshaping within you?",
-    "depth": "fallback",
-    "category": "fallback-infj"
-  },
-  {
-    "id": 4,
-    "content": "What tender mercy from God still moves your heart most deeply?",
-    "depth": "fallback",
-    "category": "fallback-infj"
-  },
-  {
-    "id": 5,
-    "content": "Where does your spirit most ache for God's healing touch?",
-    "depth": "fallback",
-    "category": "fallback-infj"
-  },
-  {
-    "id": 6,
-    "content": "What spiritual rhythm has drawn you closest to God's heart?",
-    "depth": "fallback",
-    "category": "fallback-infj"
-  },
-  {
-    "id": 7,
-    "content": "What calling is God gently awakening in your soul?",
-    "depth": "fallback",
-    "category": "fallback-infj"
-  },
-  {
-    "id": 8,
-    "content": "What sacred practice would nurture your spiritual depths?",
-    "depth": "fallback",
-    "category": "fallback-infj"
-  },
-  {
-    "id": 9,
-    "content": "What would you dare to dream if fear couldn't whisper?",
-    "depth": "fallback",
-    "category": "fallback-infj"
-  },
-  {
-    "id": 10,
-    "content": "Whose heart is God inviting you to tend more lovingly?",
-    "depth": "fallback",
-    "category": "fallback-infj"
-  },
-  {
-    "id": 11,
-    "content": "What is God asking you to release so new life can bloom?",
-    "depth": "fallback",
-    "category": "fallback-infj"
-  },
-  {
-    "id": 12,
-    "content": "What beautiful work do you sense God preparing to do?",
-    "depth": "fallback",
-    "category": "fallback-infj"
-  },
-  {
-    "id": 13,
-    "content": "Where has God's grace embraced your brokenness with tenderness?",
-    "depth": "fallback",
-    "category": "fallback-infj"
-  },
-  {
-    "id": 14,
-    "content": "What truth about God has become a sanctuary for your soul?",
-    "depth": "fallback",
-    "category": "fallback-infj"
-  },
-  {
-    "id": 15,
-    "content": "How does your heart long to be transformed by year's end?",
-    "depth": "fallback",
-    "category": "fallback-infj"
-  },
-  {
-    "id": 16,
-    "content": "What deeper way of loving is stirring within you?",
-    "depth": "fallback",
-    "category": "fallback-infj"
-  },
-  {
-    "id": 17,
-    "content": "What situation needs divine wisdom rather than human understanding?",
-    "depth": "fallback",
-    "category": "fallback-infj"
-  },
-  {
-    "id": 18,
-    "content": "Where have you been walking alone instead of following Jesus?",
-    "depth": "fallback",
-    "category": "fallback-infj"
-  },
-  {
-    "id": 19,
-    "content": "When did worldly wisdom leave your soul feeling empty or misled?",
-    "depth": "fallback",
-    "category": "fallback-infj"
-  },
-  {
-    "id": 20,
-    "content": "What kind of divine wisdom does your heart need most deeply?",
-    "depth": "fallback",
-    "category": "fallback-infj"
-  },
-  {
-    "id": 21,
-    "content": "Do you approach Scripture seeking knowledge, comfort, or communion with Christ?",
-    "depth": "fallback",
-    "category": "fallback-infj"
-  },
-  {
-    "id": 22,
-    "content": "How has God provided exactly what your soul needed unexpectedly?",
-    "depth": "fallback",
-    "category": "fallback-infj"
-  },
-  {
-    "id": 23,
-    "content": "What hidden gifts might flourish through deeper union with Jesus?",
-    "depth": "fallback",
-    "category": "fallback-infj"
-  },
-  {
-    "id": 24,
-    "content": "When did you last pause to listen before responding?",
-    "depth": "fallback",
-    "category": "fallback-infj"
-  },
-  {
-    "id": 25,
-    "content": "Where do you still believe effort can replace God's wisdom?",
-    "depth": "fallback",
-    "category": "fallback-infj"
-  },
-  {
-    "id": 26,
-    "content": "Have you read Scripture out of duty rather than hunger?",
-    "depth": "fallback",
-    "category": "fallback-infj"
-  },
-  {
-    "id": 27,
-    "content": "Does Jesus feel more like Savior, Shepherd, or Wisdom to you?",
-    "depth": "fallback",
-    "category": "fallback-infj"
-  },
-  {
-    "id": 28,
-    "content": "When did you sense God's gentle nudge but dismiss it?",
-    "depth": "fallback",
-    "category": "fallback-infj"
-  },
-  {
-    "id": 29,
-    "content": "What does staying connected to Jesus look like in your daily life?",
-    "depth": "fallback",
-    "category": "fallback-infj"
-  },
-  {
-    "id": 30,
-    "content": "Where are you fixated on lack instead of grateful for provision?",
-    "depth": "fallback",
-    "category": "fallback-infj"
-  },
-  {
-    "id": 31,
-    "content": "How has Jesus revealed himself intimately in unexpected places?",
-    "depth": "fallback",
-    "category": "fallback-infj"
-  },
-  {
-    "id": 32,
-    "content": "What breakthrough or resurrection have you experienced this year?",
-    "depth": "fallback",
-    "category": "fallback-infj"
-  },
-  {
-    "id": 33,
-    "content": "How are you learning to rest peacefully in God's timing?",
-    "depth": "fallback",
-    "category": "fallback-infj"
-  },
-  {
-    "id": 34,
-    "content": "What sacred promise is anchoring your hope right now?",
-    "depth": "fallback",
-    "category": "fallback-infj"
-  },
-  {
-    "id": 35,
-    "content": "What do you sense Jesus tenderly speaking over your life?",
-    "depth": "fallback",
-    "category": "fallback-infj"
-  },
-  {
-    "id": 36,
-    "content": "How can your community hold space for your spiritual journey?",
-    "depth": "fallback",
-    "category": "fallback-infj"
-  },
-  {
-    "id": 37,
-    "content": "What prayers has God answered in beautifully unexpected ways?",
-    "depth": "fallback",
-    "category": "fallback-infj"
-  },
-  {
-    "id": 38,
-    "content": "How has God comforted you while you wait for answers?",
-    "depth": "fallback",
-    "category": "fallback-infj"
-  },
-  {
-    "id": 39,
-    "content": "What quiet miracle reminds you of God's intimate care?",
-    "depth": "fallback",
-    "category": "fallback-infj"
-  },
-  {
-    "id": 40,
-    "content": "How have your heart's deepest prayers evolved this year?",
-    "depth": "fallback",
-    "category": "fallback-infj"
-  },
-  {
-    "id": 41,
-    "content": "Where have you witnessed God's faithful love beyond expectations?",
-    "depth": "fallback",
-    "category": "fallback-infj"
-  },
-  {
-    "id": 42,
-    "content": "How has the Spirit carried you through seasons of uncertainty?",
-    "depth": "fallback",
-    "category": "fallback-infj"
-  },
-  {
-    "id": 43,
-    "content": "What inner pattern has God been gently transforming within you?",
-    "depth": "fallback",
-    "category": "fallback-infj"
-  },
-  {
-    "id": 44,
-    "content": "When have you felt most aware of your need for grace?",
-    "depth": "fallback",
-    "category": "fallback-infj"
-  },
-  {
-    "id": 45,
-    "content": "What has stretched your trust and revealed God's character?",
-    "depth": "fallback",
-    "category": "fallback-infj"
-  },
-  {
-    "id": 46,
-    "content": "Where do you now see redemption blooming in difficult soil?",
-    "depth": "fallback",
-    "category": "fallback-infj"
-  },
-  {
-    "id": 47,
-    "content": "What is God tenderly inviting you toward this season?",
-    "depth": "fallback",
-    "category": "fallback-infj"
-  },
-  {
-    "id": 48,
-    "content": "What whispered invitation might you hear if you listened deeply?",
-    "depth": "fallback",
-    "category": "fallback-infj"
-  },
-  {
-    "id": 49,
-    "content": "Where is your heart most ready for God's renewal?",
-    "depth": "fallback",
-    "category": "fallback-infj"
-  },
-  {
-    "id": 50,
-    "content": "What small step of obedience would open your heart wider?",
-    "depth": "fallback",
-    "category": "fallback-infj"
-  },
-  {
-    "id": 51,
-    "content": "How could you create sacred space for stillness and wonder?",
-    "depth": "fallback",
-    "category": "fallback-infj"
-  },
-  {
-    "id": 52,
-    "content": "Where do you hope to meet God in the coming month?",
-    "depth": "fallback",
-    "category": "fallback-infj"
-  },
-  {
-    "id": 53,
-    "content": "Where have you been striving instead of resting in Christ's embrace?",
-    "depth": "fallback",
-    "category": "fallback-infj"
-  },
-  {
-    "id": 54,
-    "content": "When did you feel most deeply known and loved by God?",
-    "depth": "fallback",
-    "category": "fallback-infj"
-  },
-  {
-    "id": 55,
-    "content": "How would your life change if you truly believed God delights in you?",
-    "depth": "fallback",
-    "category": "fallback-infj"
-  },
-  {
-    "id": 56,
-    "content": "What truth about God's heart do you need to hold close?",
-    "depth": "fallback",
-    "category": "fallback-infj"
-  },
-  {
-    "id": 57,
-    "content": "Whose faith has recently stirred something beautiful in your soul?",
-    "depth": "fallback",
-    "category": "fallback-infj"
-  },
-  {
-    "id": 58,
-    "content": "What burden has been weighing on your heart in silence?",
-    "depth": "fallback",
-    "category": "fallback-infj"
-  },
-  {
-    "id": 59,
-    "content": "When do you most naturally feel wrapped in Jesus' presence?",
-    "depth": "fallback",
-    "category": "fallback-infj"
-  },
-  {
-    "id": 60,
-    "content": "How have seasons of joy and sorrow both revealed God's faithfulness?",
-    "depth": "fallback",
-    "category": "fallback-infj"
-  },
-  {
-    "id": 61,
-    "content": "How does noticing God's goodness in small moments expand your heart?",
-    "depth": "fallback",
-    "category": "fallback-infj"
-  }
+  {"id": 1, "content": "What belief about people or the world have you quietly revised?"},
+  {"id": 2, "content": "What small, unexpected moment of beauty touched you recently?"},
+  {"id": 3, "content": "How has your childhood sense of purpose transformed over time?"},
+  {"id": 4, "content": "What unexpected gift or connection are you holding gratitude for?"},
+  {"id": 5, "content": "What inner tension are you sitting with right now?"},
+  {"id": 6, "content": "What practice helps you stay grounded in your own truth?"},
+  {"id": 7, "content": "What deeper understanding or path is calling to you?"},
+  {"id": 8, "content": "What does a day of meaning and inner alignment look like?"},
+  {"id": 9, "content": "Whose inner world would you most want to truly understand?"},
+  {"id": 10, "content": "Who saw something in you that helped you see it too?"},
+  {"id": 11, "content": "What vision or commitment have you released to grow into who you're becoming?"},
+  {"id": 12, "content": "What quiet hope or possibility is stirring in you?"},
+  {"id": 13, "content": "When did you feel most aligned with your deepest self?"},
+  {"id": 14, "content": "What idea, book, or insight spoke to something you couldn't name?"},
+  {"id": 15, "content": "What inner transformation are you hoping to cultivate?"},
+  {"id": 16, "content": "What kindness from someone else still lives in your memory?"},
+  {"id": 17, "content": "What inner conflict are you navigating right now?"},
+  {"id": 18, "content": "What do you do differently that feels true to who you really are?"},
+  {"id": 19, "content": "What truth about people has guided you through different seasons?"},
+  {"id": 20, "content": "What do people miss when they only see your calm exterior?"},
+  {"id": 21, "content": "What does a meaningful life look like from where you stand now?"},
+  {"id": 22, "content": "What experience touched something deep and lasting in you?"},
+  {"id": 23, "content": "What are you quietly proud of that others don't see?"},
+  {"id": 24, "content": "What makes a connection feel authentic and worth protecting?"},
+  {"id": 25, "content": "What fear have you been gently working to understand?"},
+  {"id": 26, "content": "What always brings you back to yourself when you've drifted?"},
+  {"id": 27, "content": "What conviction do you hold that might surprise people?"},
+  {"id": 28, "content": "What has been stirring your imagination and intuition lately?"},
+  {"id": 29, "content": "What misstep taught you something valuable about yourself?"},
+  {"id": 30, "content": "How do you restore yourself after absorbing too much from the world?"},
+  {"id": 31, "content": "What have you had to grieve to make space for growth?"},
+  {"id": 32, "content": "What place holds a special, almost sacred meaning for you?"},
+  {"id": 33, "content": "What would you create or become if fear wasn't a factor?"},
+  {"id": 34, "content": "What has been weighing on your heart and intuition lately?"},
+  {"id": 35, "content": "What gift or ability do you wish you could develop?"},
+  {"id": 36, "content": "How do you navigate conflict with someone you care about?"},
+  {"id": 37, "content": "What have you recently discovered about your own inner landscape?"},
+  {"id": 38, "content": "How do you prefer to spend time in your own company?"},
+  {"id": 39, "content": "What painful truth have you had to make room for?"},
+  {"id": 40, "content": "What simple thing always reconnects you to peace?"},
+  {"id": 41, "content": "What does belonging mean to someone who often feels different?"},
+  {"id": 42, "content": "What conversation left an imprint on your soul?"},
+  {"id": 43, "content": "What do you keep returning to even though it's not your strength?"},
+  {"id": 44, "content": "What unplanned moment became unexpectedly precious?"},
+  {"id": 45, "content": "What draws you into a state of timelessness?"},
+  {"id": 46, "content": "What mystery about yourself are you still unfolding?"},
+  {"id": 47, "content": "What relationship has quietly shaped who you're becoming?"},
+  {"id": 48, "content": "What question would open a window into your true inner world?"},
+  {"id": 49, "content": "What are you trying to honor more intentionally in yourself?"},
+  {"id": 50, "content": "What meaningful ritual would you want to weave into your life?"},
+  {"id": 51, "content": "What renews you when you've taken on too much?"},
+  {"id": 52, "content": "What did you nurture into being through quiet persistence?"},
+  {"id": 53, "content": "What tender words would you offer your younger self?"},
+  {"id": 54, "content": "What vision both frightens and calls to you?"},
+  {"id": 55, "content": "What moment would you want to inhabit again?"},
+  {"id": 56, "content": "How do you sense when someone is safe to trust with your real self?"},
+  {"id": 57, "content": "What keeps getting postponed that your intuition says matters?"},
+  {"id": 58, "content": "What do people misunderstand about the depth of your generation?"},
+  {"id": 59, "content": "What do you need but find nearly impossible to ask for?"},
+  {"id": 60, "content": "What words of recognition touched something true in you?"},
+  {"id": 61, "content": "What would blossom if you fully trusted your own inner knowing?"},
+  {"id": 62, "content": "What two values you treasure sometimes create inner conflict?"},
+  {"id": 63, "content": "Where does your composed exterior hide your private struggles?"},
+  {"id": 64, "content": "What role do you play for others that feels distant from your true self?"},
+  {"id": 65, "content": "What understanding, always-there version of yourself are you tired of?"},
+  {"id": 66, "content": "What past hurt are you still learning to forgive yourself for?"},
+  {"id": 67, "content": "What old decision do you keep revisiting in your inner world?"},
+  {"id": 68, "content": "What part of yourself have you tried to smooth over or hide?"},
+  {"id": 69, "content": "What would you undo if you could rewrite that chapter?"},
+  {"id": 70, "content": "What feeling lives in you that you rarely reveal to others?"},
+  {"id": 71, "content": "When has your capacity for understanding others left you feeling most alone?"},
+  {"id": 72, "content": "What does it take for you to feel truly understood, not just appreciated?"},
+  {"id": 73, "content": "What do you need from others that feels too vulnerable to name?"},
+  {"id": 74, "content": "When does the gap between your inner richness and outer expression feel widest?"},
+  {"id": 75, "content": "What would it feel like to be fully known and still accepted?"},
+  {"id": 76, "content": "What truth about yourself do you keep at the edges of awareness?"},
+  {"id": 77, "content": "What thought has accompanied you for years without being spoken?"},
+  {"id": 78, "content": "What do you believe about people that you're hesitant to say?"},
+  {"id": 79, "content": "What are you carrying that you know you need to set down?"},
+  {"id": 80, "content": "What question about your own path have you been avoiding?"}
 ]

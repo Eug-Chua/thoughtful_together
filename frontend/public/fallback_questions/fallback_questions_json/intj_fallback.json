@@ -1,368 +1,82 @@
 [
-  {
-    "id": 1,
-    "content": "What long-term pattern of God's faithfulness have you observed this year?",
-    "depth": "fallback",
-    "category": "fallback-intj"
-  },
-  {
-    "id": 2,
-    "content": "How has your understanding of faith evolved beyond what you expected?",
-    "depth": "fallback",
-    "category": "fallback-intj"
-  },
-  {
-    "id": 3,
-    "content": "What core vision or hope has God been clarifying for you?",
-    "depth": "fallback",
-    "category": "fallback-intj"
-  },
-  {
-    "id": 4,
-    "content": "What specific evidence of God's provision stands out most clearly?",
-    "depth": "fallback",
-    "category": "fallback-intj"
-  },
-  {
-    "id": 5,
-    "content": "Where do you see the deepest need for God's strategic intervention?",
-    "depth": "fallback",
-    "category": "fallback-intj"
-  },
-  {
-    "id": 6,
-    "content": "What practice consistently creates the most authentic connection with God?",
-    "depth": "fallback",
-    "category": "fallback-intj"
-  },
-  {
-    "id": 7,
-    "content": "What does God's long-term plan seem to be directing you toward?",
-    "depth": "fallback",
-    "category": "fallback-intj"
-  },
-  {
-    "id": 8,
-    "content": "What systematic approach would strengthen your spiritual foundation?",
-    "depth": "fallback",
-    "category": "fallback-intj"
-  },
-  {
-    "id": 9,
-    "content": "If you trusted God completely, what strategic goal would you pursue?",
-    "depth": "fallback",
-    "category": "fallback-intj"
-  },
-  {
-    "id": 10,
-    "content": "Who represents the highest-impact investment of your time and energy?",
-    "depth": "fallback",
-    "category": "fallback-intj"
-  },
-  {
-    "id": 11,
-    "content": "What inefficiency is God calling you to eliminate for greater purpose?",
-    "depth": "fallback",
-    "category": "fallback-intj"
-  },
-  {
-    "id": 12,
-    "content": "What transformation do you anticipate God will accomplish this year?",
-    "depth": "fallback",
-    "category": "fallback-intj"
-  },
-  {
-    "id": 13,
-    "content": "Where has God's grace proven more strategic than your planning?",
-    "depth": "fallback",
-    "category": "fallback-intj"
-  },
-  {
-    "id": 14,
-    "content": "What truth about God has become your most reliable framework?",
-    "depth": "fallback",
-    "category": "fallback-intj"
-  },
-  {
-    "id": 15,
-    "content": "What fundamental change would create the most lasting impact?",
-    "depth": "fallback",
-    "category": "fallback-intj"
-  },
-  {
-    "id": 16,
-    "content": "What systemic improvement in love would transform your relationships?",
-    "depth": "fallback",
-    "category": "fallback-intj"
-  },
-  {
-    "id": 17,
-    "content": "What situation needs divine insight rather than more strategic analysis?",
-    "depth": "fallback",
-    "category": "fallback-intj"
-  },
-  {
-    "id": 18,
-    "content": "Where are you operating independently instead of under Christ's direction?",
-    "depth": "fallback",
-    "category": "fallback-intj"
-  },
-  {
-    "id": 19,
-    "content": "When did worldly wisdom prove insufficient for lasting solutions?",
-    "depth": "fallback",
-    "category": "fallback-intj"
-  },
-  {
-    "id": 20,
-    "content": "Which type of wisdom addresses your deepest strategic need right now?",
-    "depth": "fallback",
-    "category": "fallback-intj"
-  },
-  {
-    "id": 21,
-    "content": "Do you seek Scripture for information, comfort, or genuine transformation?",
-    "depth": "fallback",
-    "category": "fallback-intj"
-  },
-  {
-    "id": 22,
-    "content": "How has God's provision exceeded your resource calculations?",
-    "depth": "fallback",
-    "category": "fallback-intj"
-  },
-  {
-    "id": 23,
-    "content": "What potential might emerge through deeper connection with Christ?",
-    "depth": "fallback",
-    "category": "fallback-intj"
-  },
-  {
-    "id": 24,
-    "content": "When did you last pause for divine guidance before acting?",
-    "depth": "fallback",
-    "category": "fallback-intj"
-  },
-  {
-    "id": 25,
-    "content": "Where do you still believe systems can replace God's wisdom?",
-    "depth": "fallback",
-    "category": "fallback-intj"
-  },
-  {
-    "id": 26,
-    "content": "Have you treated Scripture as obligation rather than strategic counsel?",
-    "depth": "fallback",
-    "category": "fallback-intj"
-  },
-  {
-    "id": 27,
-    "content": "Do you relate to Jesus as Savior, Guide, or Wisdom itself?",
-    "depth": "fallback",
-    "category": "fallback-intj"
-  },
-  {
-    "id": 28,
-    "content": "When did you dismiss a divine prompting as mere intuition?",
-    "depth": "fallback",
-    "category": "fallback-intj"
-  },
-  {
-    "id": 29,
-    "content": "How does following Christ's leadership look in your daily systems?",
-    "depth": "fallback",
-    "category": "fallback-intj"
-  },
-  {
-    "id": 30,
-    "content": "Where are you focused on scarcity instead of God's abundance?",
-    "depth": "fallback",
-    "category": "fallback-intj"
-  },
-  {
-    "id": 31,
-    "content": "How has Jesus revealed deeper purpose in unexpected areas?",
-    "depth": "fallback",
-    "category": "fallback-intj"
-  },
-  {
-    "id": 32,
-    "content": "What breakthrough or transformation have you experienced this year?",
-    "depth": "fallback",
-    "category": "fallback-intj"
-  },
-  {
-    "id": 33,
-    "content": "How are you learning patience with God's timeline?",
-    "depth": "fallback",
-    "category": "fallback-intj"
-  },
-  {
-    "id": 34,
-    "content": "What promise are you building your next season around?",
-    "depth": "fallback",
-    "category": "fallback-intj"
-  },
-  {
-    "id": 35,
-    "content": "What would Jesus say about your direction for this season?",
-    "depth": "fallback",
-    "category": "fallback-intj"
-  },
-  {
-    "id": 36,
-    "content": "How can others support your spiritual goals strategically?",
-    "depth": "fallback",
-    "category": "fallback-intj"
-  },
-  {
-    "id": 37,
-    "content": "Which prayers has God answered differently than you planned?",
-    "depth": "fallback",
-    "category": "fallback-intj"
-  },
-  {
-    "id": 38,
-    "content": "How has God sustained you while you wait for answers?",
-    "depth": "fallback",
-    "category": "fallback-intj"
-  },
-  {
-    "id": 39,
-    "content": "What quiet evidence shows God's active involvement in your life?",
-    "depth": "fallback",
-    "category": "fallback-intj"
-  },
-  {
-    "id": 40,
-    "content": "How have your prayer priorities shifted with greater understanding?",
-    "depth": "fallback",
-    "category": "fallback-intj"
-  },
-  {
-    "id": 41,
-    "content": "Where has God's faithfulness operated beyond your expectations?",
-    "depth": "fallback",
-    "category": "fallback-intj"
-  },
-  {
-    "id": 42,
-    "content": "How has the Spirit redirected your course during uncertainty?",
-    "depth": "fallback",
-    "category": "fallback-intj"
-  },
-  {
-    "id": 43,
-    "content": "What internal pattern has God been systematically reshaping?",
-    "depth": "fallback",
-    "category": "fallback-intj"
-  },
-  {
-    "id": 44,
-    "content": "When have you most clearly recognized your need for grace?",
-    "depth": "fallback",
-    "category": "fallback-intj"
-  },
-  {
-    "id": 45,
-    "content": "What has challenged your trust and deepened your knowledge of God?",
-    "depth": "fallback",
-    "category": "fallback-intj"
-  },
-  {
-    "id": 46,
-    "content": "Where do you now see purpose in previously difficult circumstances?",
-    "depth": "fallback",
-    "category": "fallback-intj"
-  },
-  {
-    "id": 47,
-    "content": "What is God strategically asking you to change this season?",
-    "depth": "fallback",
-    "category": "fallback-intj"
-  },
-  {
-    "id": 48,
-    "content": "What next step would align with God's long-term direction?",
-    "depth": "fallback",
-    "category": "fallback-intj"
-  },
-  {
-    "id": 49,
-    "content": "Where are you most ready for God to implement change?",
-    "depth": "fallback",
-    "category": "fallback-intj"
-  },
-  {
-    "id": 50,
-    "content": "What small alignment would create greater intimacy with Christ?",
-    "depth": "fallback",
-    "category": "fallback-intj"
-  },
-  {
-    "id": 51,
-    "content": "How could you systematically create space for deeper spiritual reflection?",
-    "depth": "fallback",
-    "category": "fallback-intj"
-  },
-  {
-    "id": 52,
-    "content": "What do you want to recognize as God's work next month?",
-    "depth": "fallback",
-    "category": "fallback-intj"
-  },
-  {
-    "id": 53,
-    "content": "Where are you relying on personal systems instead of Christ's strength?",
-    "depth": "fallback",
-    "category": "fallback-intj"
-  },
-  {
-    "id": 54,
-    "content": "When did you most clearly sense God's personal knowledge of you?",
-    "depth": "fallback",
-    "category": "fallback-intj"
-  },
-  {
-    "id": 55,
-    "content": "How would believing in God's delight change your operational approach?",
-    "depth": "fallback",
-    "category": "fallback-intj"
-  },
-  {
-    "id": 56,
-    "content": "What truth about God's character needs to anchor your decisions?",
-    "depth": "fallback",
-    "category": "fallback-intj"
-  },
-  {
-    "id": 57,
-    "content": "Whose faith has recently sharpened your own spiritual understanding?",
-    "depth": "fallback",
-    "category": "fallback-intj"
-  },
-  {
-    "id": 58,
-    "content": "What unprocessed concern needs to be brought into the light?",
-    "depth": "fallback",
-    "category": "fallback-intj"
-  },
-  {
-    "id": 59,
-    "content": "When do you most naturally sense Christ's presence with you?",
-    "depth": "fallback",
-    "category": "fallback-intj"
-  },
-  {
-    "id": 60,
-    "content": "How have both blessings and delays revealed God's consistent character?",
-    "depth": "fallback",
-    "category": "fallback-intj"
-  },
-  {
-    "id": 61,
-    "content": "How does recognizing God's goodness in details expand your capacity for joy?",
-    "depth": "fallback",
-    "category": "fallback-intj"
-  }
+  {"id": 1, "content": "What mental model or framework have you revised based on new data?"},
+  {"id": 2, "content": "What small, unexpected moment broke through your usual focus?"},
+  {"id": 3, "content": "How has your childhood vision of the future evolved with experience?"},
+  {"id": 4, "content": "What outcome surprised you by exceeding your careful predictions?"},
+  {"id": 5, "content": "What complex problem are you currently mapping out solutions for?"},
+  {"id": 6, "content": "What system have you built that's actually improved your life?"},
+  {"id": 7, "content": "What deep knowledge domain do you want to explore next?"},
+  {"id": 8, "content": "What does your ideal day of focused, meaningful work look like?"},
+  {"id": 9, "content": "Whose mind would you most want to understand from the inside?"},
+  {"id": 10, "content": "Who pushed your thinking in ways that fundamentally changed it?"},
+  {"id": 11, "content": "What former obsession have you filed away as no longer relevant?"},
+  {"id": 12, "content": "What long-term vision currently has your intellectual attention?"},
+  {"id": 13, "content": "When did your inner and outer worlds feel most aligned?"},
+  {"id": 14, "content": "What idea or theory fundamentally restructured how you see things?"},
+  {"id": 15, "content": "What internal upgrade are you working toward for next year?"},
+  {"id": 16, "content": "What thoughtful gesture from someone surprised you with its impact?"},
+  {"id": 17, "content": "What decision are you modeling multiple scenarios for?"},
+  {"id": 18, "content": "What unusual approach do you take that others find hard to understand?"},
+  {"id": 19, "content": "What insight has proven most reliable across different situations?"},
+  {"id": 20, "content": "What about your intensity or independence do people consistently misread?"},
+  {"id": 21, "content": "How do you define meaningful achievement at this point in your life?"},
+  {"id": 22, "content": "What experience fundamentally rewired how you understand the world?"},
+  {"id": 23, "content": "What accomplishment do you value that others might not even notice?"},
+  {"id": 24, "content": "What makes someone worth the energy of real connection?"},
+  {"id": 25, "content": "What fear have you systematically deconstructed and addressed?"},
+  {"id": 26, "content": "What reliably restores your equilibrium when things are off?"},
+  {"id": 27, "content": "What conclusion have you reached that most people resist?"},
+  {"id": 28, "content": "What question or puzzle has recently captured your analysis?"},
+  {"id": 29, "content": "What failure provided the most valuable data for improvement?"},
+  {"id": 30, "content": "How do you efficiently rebuild your cognitive reserves?"},
+  {"id": 31, "content": "What did you have to release to clear space for what matters?"},
+  {"id": 32, "content": "What place holds significance in your internal landscape?"},
+  {"id": 33, "content": "What would you architect if execution wasn't a constraint?"},
+  {"id": 34, "content": "What keeps cycling through your analysis these days?"},
+  {"id": 35, "content": "What skill would unlock the most leverage in your life?"},
+  {"id": 36, "content": "How do you handle disagreement with someone whose mind you respect?"},
+  {"id": 37, "content": "What pattern about yourself has recently become clearer?"},
+  {"id": 38, "content": "How do you spend unstructured time when you actually have it?"},
+  {"id": 39, "content": "What uncomfortable reality have you had to factor into your models?"},
+  {"id": 40, "content": "What consistently shifts your state toward clarity and focus?"},
+  {"id": 41, "content": "What does security or stability mean to your long-term vision?"},
+  {"id": 42, "content": "What exchange of ideas left a permanent mark on your thinking?"},
+  {"id": 43, "content": "What do you keep doing despite knowing you're not optimized for it?"},
+  {"id": 44, "content": "When did acting on instinct override analysis—and work?"},
+  {"id": 45, "content": "What absorbs you to the point of losing track of time?"},
+  {"id": 46, "content": "What variable in your own psychology are you still solving for?"},
+  {"id": 47, "content": "What relationship has been unexpectedly formative for you?"},
+  {"id": 48, "content": "What question would reveal the architecture of your inner world?"},
+  {"id": 49, "content": "What are you deliberately restructuring in your life?"},
+  {"id": 50, "content": "What recurring practice would you want to embed in your life?"},
+  {"id": 51, "content": "What restores your capacity when you've depleted your reserves?"},
+  {"id": 52, "content": "What did you build through sustained effort that actually worked?"},
+  {"id": 53, "content": "What would you tell your past self to optimize their trajectory?"},
+  {"id": 54, "content": "What vision is both daunting and compelling enough to pursue?"},
+  {"id": 55, "content": "What experience would you want to study again from the inside?"},
+  {"id": 56, "content": "What demonstrates that someone's mental model is trustworthy?"},
+  {"id": 57, "content": "What keeps getting pushed down your priority stack?"},
+  {"id": 58, "content": "What do people misunderstand about how your generation thinks?"},
+  {"id": 59, "content": "What do you need but rarely factor into your plans?"},
+  {"id": 60, "content": "What acknowledgment surprised you by how much it mattered?"},
+  {"id": 61, "content": "What would shift if you fully trusted your own analysis?"},
+  {"id": 62, "content": "What two principles you've reasoned into create logical tension?"},
+  {"id": 63, "content": "Where does your competence mask your actual uncertainty?"},
+  {"id": 64, "content": "What intellectual persona do you maintain that doesn't reflect your full complexity?"},
+  {"id": 65, "content": "What image of yourself requires more energy to project than it's worth?"},
+  {"id": 66, "content": "What past decision still runs through your retrospective analysis?"},
+  {"id": 67, "content": "What choice do you keep re-examining with different variables?"},
+  {"id": 68, "content": "What part of yourself have you tried to engineer out of existence?"},
+  {"id": 69, "content": "What would you undo if you could rerun the simulation?"},
+  {"id": 70, "content": "What emotion operates beneath your rationality that you rarely name?"},
+  {"id": 71, "content": "When has your intellectual isolation felt most acute?"},
+  {"id": 72, "content": "What does someone need to demonstrate before you feel genuinely known?"},
+  {"id": 73, "content": "What do you need from others that you rarely articulate?"},
+  {"id": 74, "content": "When does the distance between your inner world and others feel greatest?"},
+  {"id": 75, "content": "What would it take to find people who actually understand how you think?"},
+  {"id": 76, "content": "What truth about yourself do you intellectualize rather than feel?"},
+  {"id": 77, "content": "What recurring thought have you analyzed but never resolved?"},
+  {"id": 78, "content": "What conclusion have you reached that you hesitate to voice?"},
+  {"id": 79, "content": "What are you still holding that your logic says to release?"},
+  {"id": 80, "content": "What question about your direction have you avoided computing?"}
 ]

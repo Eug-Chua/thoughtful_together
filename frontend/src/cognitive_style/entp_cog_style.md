@@ -41,13 +41,22 @@ However, developing Si brings grounding — helping them test ideas against real
 
 Keywords: resistance to routine, forgetfulness, low nostalgia, blind to physical limits
 
-🧩 How ENTPs Tend to Process Spiritual or Reflective Questions
+🧩 How ENTPs Tend to Process Reflective Questions
 Prefer open-ended, stimulating, future-focused prompts
 
 Thrive on questions that encourage experimentation, reframing, or unexpected insights
 
-Dislike overly emotional or rigidly structured spirituality
+Dislike overly emotional or rigidly structured reflection
 
 Drawn to dynamic metaphors, surprising paradoxes, and practical innovation
 
 Engage best when allowed to explore, not when forced to conform
+
+💡 Signature ENTP Conversation Prompts:
+"What idea have you been playing with that might sound crazy to others?"
+
+"What assumption are you starting to question?"
+
+"What problem would you love to solve if you had unlimited resources?"
+
+"Where is your curiosity leading you right now?"

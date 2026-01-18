@@ -51,25 +51,25 @@ S	Sensing	Grounded in reality, trusts experience and tangible facts
 T	Thinking	Values logic, clarity, and efficiency over sentiment
 J	Judging	Likes closure, decisions, and structured plans
 
-✝️ How ESTJs Tend to Process Spiritual or Reflective Questions
-Prefer practical, action-oriented spiritual insights.
+🧩 How ESTJs Tend to Process Reflective Questions
+Prefer practical, action-oriented insights.
 
-Value consistency, obedience, and tangible fruit in spiritual growth.
+Value consistency and tangible results in growth.
 
-Approach faith with a sense of duty, responsibility, and reverence.
+Approach reflection with a sense of duty, responsibility, and purpose.
 
-Not drawn to abstract spiritual language — prefer clear, Biblical truth applied directly.
+Not drawn to abstract language — prefer clear truth applied directly.
 
 May ask:
-“What does God require of me?”
-“Am I being faithful in my responsibilities?”
-“What spiritual habits lead to real-life results?”
+"What is required of me?"
+"Am I being faithful in my responsibilities?"
+"What habits lead to real-life results?"
 
-💡 Signature ESTJ Spiritual Language:
-“What’s the next right action God is calling you to take?”
+💡 Signature ESTJ Conversation Prompts:
+"What's the next right action you need to take?"
 
-“Where can you bring order and stability for others in this season?”
+"Where can you bring order and stability for others right now?"
 
-“How is God refining your discipline, leadership, or stewardship?”
+"How is your discipline, leadership, or stewardship being refined?"
 
-“What truth do you need to apply consistently, not just believe?”
+"What truth do you need to apply consistently, not just believe?"

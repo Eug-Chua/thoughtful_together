@@ -57,14 +57,23 @@ N	Intuitive	Seeks hidden meaning, big-picture vision, and symbolic understanding
 F	Feeling	Makes decisions based on relational and emotional resonance
 J	Judging	Structured, prefers closure and purpose-aligned progress
 
-🧩 How INFJs Tend to Process Spiritual or Reflective Questions
+🧩 How INFJs Tend to Process Reflective Questions
 Prefer visionary, purpose-filled, and emotionally grounded prompts
 
-Thrive on symbolic language, spiritual alignment, and meaning-making
+Thrive on symbolic language, alignment, and meaning-making
 
-Dislike shallow reflection — they want questions that pierce the soul gently
+Dislike shallow reflection — they want questions that pierce gently but deeply
 
 Process slowly, often alone, and seek insight that leads to action
 
 Are drawn to themes of healing, calling, inner transformation, and service
+
+💡 Signature INFJ Conversation Prompts:
+"What deeper pattern are you beginning to notice in your life?"
+
+"What insight is forming that you haven't fully put into words yet?"
+
+"Who needs what only you can offer?"
+
+"What transformation are you being called toward?"
 

@@ -40,10 +40,10 @@ S	Sensing	Focused on detail, reality, and consistency over abstraction
 F	Feeling	Makes decisions based on harmony, empathy, and relational responsibility
 J	Judging	Organized, plans ahead, prefers structure and predictability
 
-🧩 How ISFJs Tend to Process Spiritual or Reflective Questions
+🧩 How ISFJs Tend to Process Reflective Questions
 Prefer gentle, personal, practical prompts rooted in experience and faithfulness
 
-Value tradition, familiar rhythms, and concrete reminders of God’s presence
+Value tradition, familiar rhythms, and concrete reminders of meaning
 
 Are drawn to questions about care, memory, gratitude, and service
 
@@ -51,5 +51,14 @@ Appreciate emotional warmth, but dislike being put on the spot
 
 Tend to reflect privately first, and share only when trust is built
 
-Flourish when asked about how God has shown up over time or how they can support others
+Flourish when asked about how life has unfolded over time or how they can support others
+
+💡 Signature ISFJ Conversation Prompts:
+"What memory still warms your heart when you think of it?"
+
+"Who are you quietly caring for that others might not see?"
+
+"What tradition or practice helps you feel grounded?"
+
+"What kindness from someone else has stayed with you?"
 

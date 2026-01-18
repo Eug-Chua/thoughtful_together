@@ -1,368 +1,82 @@
 [
-  {
-    "id": 1,
-    "content": "How has God's faithfulness become a source of encouragement for others?",
-    "depth": "fallback",
-    "category": "fallback-enfj"
-  },
-  {
-    "id": 2,
-    "content": "What growth in your faith has equipped you to bless others?",
-    "depth": "fallback",
-    "category": "fallback-enfj"
-  },
-  {
-    "id": 3,
-    "content": "How have your dreams evolved to include God's heart for community?",
-    "depth": "fallback",
-    "category": "fallback-enfj"
-  },
-  {
-    "id": 4,
-    "content": "What blessing from God fills you with gratitude to share?",
-    "depth": "fallback",
-    "category": "fallback-enfj"
-  },
-  {
-    "id": 5,
-    "content": "Where do you sense God calling you to bring healing?",
-    "depth": "fallback",
-    "category": "fallback-enfj"
-  },
-  {
-    "id": 6,
-    "content": "What practice has deepened both your faith and your compassion?",
-    "depth": "fallback",
-    "category": "fallback-enfj"
-  },
-  {
-    "id": 7,
-    "content": "What vision is God stirring in you for serving others?",
-    "depth": "fallback",
-    "category": "fallback-enfj"
-  },
-  {
-    "id": 8,
-    "content": "What spiritual goal would strengthen your ability to encourage others?",
-    "depth": "fallback",
-    "category": "fallback-enfj"
-  },
-  {
-    "id": 9,
-    "content": "What would you pursue if you trusted God's calling completely?",
-    "depth": "fallback",
-    "category": "fallback-enfj"
-  },
-  {
-    "id": 10,
-    "content": "Who is God highlighting for you to mentor or encourage?",
-    "depth": "fallback",
-    "category": "fallback-enfj"
-  },
-  {
-    "id": 11,
-    "content": "What is God asking you to release to make room for greater ministry?",
-    "depth": "fallback",
-    "category": "fallback-enfj"
-  },
-  {
-    "id": 12,
-    "content": "What transformation are you excited to see God accomplish through community?",
-    "depth": "fallback",
-    "category": "fallback-enfj"
-  },
-  {
-    "id": 13,
-    "content": "How has God's grace through your mistakes become a gift to others?",
-    "depth": "fallback",
-    "category": "fallback-enfj"
-  },
-  {
-    "id": 14,
-    "content": "What truth about God has become your source of hope to share?",
-    "depth": "fallback",
-    "category": "fallback-enfj"
-  },
-  {
-    "id": 15,
-    "content": "How do you want to grow in ways that inspire others?",
-    "depth": "fallback",
-    "category": "fallback-enfj"
-  },
-  {
-    "id": 16,
-    "content": "What deeper expression of love is God developing in you?",
-    "depth": "fallback",
-    "category": "fallback-enfj"
-  },
-  {
-    "id": 17,
-    "content": "Where do you need divine wisdom to guide others well?",
-    "depth": "fallback",
-    "category": "fallback-enfj"
-  },
-  {
-    "id": 18,
-    "content": "How have you been leading independently rather than following Jesus?",
-    "depth": "fallback",
-    "category": "fallback-enfj"
-  },
-  {
-    "id": 19,
-    "content": "When has worldly advice failed to create the harmony you sought?",
-    "depth": "fallback",
-    "category": "fallback-enfj"
-  },
-  {
-    "id": 20,
-    "content": "What kind of wisdom do you need for leading with grace?",
-    "depth": "fallback",
-    "category": "fallback-enfj"
-  },
-  {
-    "id": 21,
-    "content": "Do you approach Scripture for information, comfort, or transformation to share?",
-    "depth": "fallback",
-    "category": "fallback-enfj"
-  },
-  {
-    "id": 22,
-    "content": "How has God provided exactly what your community needed?",
-    "depth": "fallback",
-    "category": "fallback-enfj"
-  },
-  {
-    "id": 23,
-    "content": "What gifts might emerge as you draw closer to Jesus?",
-    "depth": "fallback",
-    "category": "fallback-enfj"
-  },
-  {
-    "id": 24,
-    "content": "When did you last seek God's heart before guiding others?",
-    "depth": "fallback",
-    "category": "fallback-enfj"
-  },
-  {
-    "id": 25,
-    "content": "Where do you believe your efforts can replace God's wisdom?",
-    "depth": "fallback",
-    "category": "fallback-enfj"
-  },
-  {
-    "id": 26,
-    "content": "Have you approached Scripture as duty rather than nourishment for ministry?",
-    "depth": "fallback",
-    "category": "fallback-enfj"
-  },
-  {
-    "id": 27,
-    "content": "Do you relate to Jesus as Savior, Shepherd, or guiding Wisdom?",
-    "depth": "fallback",
-    "category": "fallback-enfj"
-  },
-  {
-    "id": 28,
-    "content": "When did you sense God's direction but doubt its importance?",
-    "depth": "fallback",
-    "category": "fallback-enfj"
-  },
-  {
-    "id": 29,
-    "content": "How does staying connected to Jesus shape your leadership?",
-    "depth": "fallback",
-    "category": "fallback-enfj"
-  },
-  {
-    "id": 30,
-    "content": "Where are you focused on limitations instead of God's abundance?",
-    "depth": "fallback",
-    "category": "fallback-enfj"
-  },
-  {
-    "id": 31,
-    "content": "How has Jesus revealed himself through your relationships this year?",
-    "depth": "fallback",
-    "category": "fallback-enfj"
-  },
-  {
-    "id": 32,
-    "content": "What breakthrough or restoration have you witnessed this year?",
-    "depth": "fallback",
-    "category": "fallback-enfj"
-  },
-  {
-    "id": 33,
-    "content": "How are you learning to trust God's timing for your calling?",
-    "depth": "fallback",
-    "category": "fallback-enfj"
-  },
-  {
-    "id": 34,
-    "content": "What promise from God anchors your hope for others?",
-    "depth": "fallback",
-    "category": "fallback-enfj"
-  },
-  {
-    "id": 35,
-    "content": "What do you sense Jesus speaking over your purpose?",
-    "depth": "fallback",
-    "category": "fallback-enfj"
-  },
-  {
-    "id": 36,
-    "content": "How can your community support the vision God is giving you?",
-    "depth": "fallback",
-    "category": "fallback-enfj"
-  },
-  {
-    "id": 37,
-    "content": "How has God answered prayers in ways that blessed your community?",
-    "depth": "fallback",
-    "category": "fallback-enfj"
-  },
-  {
-    "id": 38,
-    "content": "How has God sustained your heart while waiting for breakthrough?",
-    "depth": "fallback",
-    "category": "fallback-enfj"
-  },
-  {
-    "id": 39,
-    "content": "What quiet answer to prayer reminded you of God's personal care?",
-    "depth": "fallback",
-    "category": "fallback-enfj"
-  },
-  {
-    "id": 40,
-    "content": "How have your prayers shifted toward God's heart for others?",
-    "depth": "fallback",
-    "category": "fallback-enfj"
-  },
-  {
-    "id": 41,
-    "content": "Where have you witnessed God's faithfulness in unexpected ways?",
-    "depth": "fallback",
-    "category": "fallback-enfj"
-  },
-  {
-    "id": 42,
-    "content": "How has the Spirit redirected your path during uncertain seasons?",
-    "depth": "fallback",
-    "category": "fallback-enfj"
-  },
-  {
-    "id": 43,
-    "content": "What pattern in your heart has God been reshaping for ministry?",
-    "depth": "fallback",
-    "category": "fallback-enfj"
-  },
-  {
-    "id": 44,
-    "content": "When have you most clearly felt your need for God's grace?",
-    "depth": "fallback",
-    "category": "fallback-enfj"
-  },
-  {
-    "id": 45,
-    "content": "What challenge deepened your trust and your compassion for others?",
-    "depth": "fallback",
-    "category": "fallback-enfj"
-  },
-  {
-    "id": 46,
-    "content": "Where do you now see God's purpose in past difficulties?",
-    "depth": "fallback",
-    "category": "fallback-enfj"
-  },
-  {
-    "id": 47,
-    "content": "What is God inviting you to embrace for others' benefit?",
-    "depth": "fallback",
-    "category": "fallback-enfj"
-  },
-  {
-    "id": 48,
-    "content": "What next step would you take if you listened to God's heart?",
-    "depth": "fallback",
-    "category": "fallback-enfj"
-  },
-  {
-    "id": 49,
-    "content": "Where are you most ready for God to use you?",
-    "depth": "fallback",
-    "category": "fallback-enfj"
-  },
-  {
-    "id": 50,
-    "content": "What act of obedience would open space for deeper ministry?",
-    "depth": "fallback",
-    "category": "fallback-enfj"
-  },
-  {
-    "id": 51,
-    "content": "How could you create space for wonder that refreshes your calling?",
-    "depth": "fallback",
-    "category": "fallback-enfj"
-  },
-  {
-    "id": 52,
-    "content": "Where do you hope to see God work through you next month?",
-    "depth": "fallback",
-    "category": "fallback-enfj"
-  },
-  {
-    "id": 53,
-    "content": "Where have you been striving instead of resting in Christ's strength?",
-    "depth": "fallback",
-    "category": "fallback-enfj"
-  },
-  {
-    "id": 54,
-    "content": "When did you feel most deeply known and loved by God?",
-    "depth": "fallback",
-    "category": "fallback-enfj"
-  },
-  {
-    "id": 55,
-    "content": "How would believing in God's delight change how you serve others?",
-    "depth": "fallback",
-    "category": "fallback-enfj"
-  },
-  {
-    "id": 56,
-    "content": "What truth about God's character do you need to anchor in?",
-    "depth": "fallback",
-    "category": "fallback-enfj"
-  },
-  {
-    "id": 57,
-    "content": "Whose faith has recently inspired your own spiritual journey?",
-    "depth": "fallback",
-    "category": "fallback-enfj"
-  },
-  {
-    "id": 58,
-    "content": "What burden on your heart needs to be shared in community?",
-    "depth": "fallback",
-    "category": "fallback-enfj"
-  },
-  {
-    "id": 59,
-    "content": "When do you most naturally sense Jesus' presence with you?",
-    "depth": "fallback",
-    "category": "fallback-enfj"
-  },
-  {
-    "id": 60,
-    "content": "How have both blessings and trials revealed God's faithful character?",
-    "depth": "fallback",
-    "category": "fallback-enfj"
-  },
-  {
-    "id": 61,
-    "content": "How does recognizing God's goodness in details increase your joy?",
-    "depth": "fallback",
-    "category": "fallback-enfj"
-  }
+  {"id": 1, "content": "What perspective have you grown out of as you've understood people better?"},
+  {"id": 2, "content": "What small moment of connection unexpectedly brightened your day?"},
+  {"id": 3, "content": "How has your childhood vision of making a difference evolved?"},
+  {"id": 4, "content": "What unexpected support or opportunity are you grateful for?"},
+  {"id": 5, "content": "What challenge are you navigating in your relationships or responsibilities right now?"},
+  {"id": 6, "content": "What practice helps you stay grounded when you're giving to others?"},
+  {"id": 7, "content": "What new way of helping or connecting are you drawn to explore?"},
+  {"id": 8, "content": "What does a day of meaningful connection and purpose look like for you?"},
+  {"id": 9, "content": "Whose life story would you most want to hear and understand deeply?"},
+  {"id": 10, "content": "Who saw potential in you that shaped who you've become?"},
+  {"id": 11, "content": "What cause or commitment have you stepped back from to grow in other ways?"},
+  {"id": 12, "content": "What vision for helping others has you feeling most energized?"},
+  {"id": 13, "content": "When did you feel most aligned with your values and your impact?"},
+  {"id": 14, "content": "What story, talk, or idea moved you to see things differently?"},
+  {"id": 15, "content": "What kind of growth are you hoping to experience in how you lead or connect?"},
+  {"id": 16, "content": "What act of care from someone else touched you more than expected?"},
+  {"id": 17, "content": "What tension are you trying to resolve between competing responsibilities?"},
+  {"id": 18, "content": "What do you do for others that feels natural but unique to you?"},
+  {"id": 19, "content": "What wisdom about people or relationships has stayed with you?"},
+  {"id": 20, "content": "What do people miss about your own needs when they see your giving nature?"},
+  {"id": 21, "content": "What does living meaningfully look like to you at this stage?"},
+  {"id": 22, "content": "What experience transformed how you understand yourself or others?"},
+  {"id": 23, "content": "What are you proud of that others might not know you did?"},
+  {"id": 24, "content": "What makes a relationship feel genuinely mutual and fulfilling?"},
+  {"id": 25, "content": "What fear about disappointing others have you been working through?"},
+  {"id": 26, "content": "What restores you when you've been pouring out for too long?"},
+  {"id": 27, "content": "What belief do you hold about people that others might disagree with?"},
+  {"id": 28, "content": "What's been capturing your heart or imagination lately?"},
+  {"id": 29, "content": "What mistake taught you something important about yourself or others?"},
+  {"id": 30, "content": "How do you refill your own cup after caring for others?"},
+  {"id": 31, "content": "What relationship or role have you had to release to move forward?"},
+  {"id": 32, "content": "What place holds deep meaning in your life story?"},
+  {"id": 33, "content": "What would you build or create to help people if nothing held you back?"},
+  {"id": 34, "content": "What's been weighing on your heart lately?"},
+  {"id": 35, "content": "What ability would help you serve or connect with others better?"},
+  {"id": 36, "content": "How do you handle disagreement with people you care about?"},
+  {"id": 37, "content": "What have you learned about your own needs recently?"},
+  {"id": 38, "content": "How do you like to spend time when it's just for you?"},
+  {"id": 39, "content": "What hard truth about relationships have you had to accept?"},
+  {"id": 40, "content": "What always lifts your spirits and reconnects you to yourself?"},
+  {"id": 41, "content": "What does feeling at home mean to someone always focused on others?"},
+  {"id": 42, "content": "What conversation left a lasting impact on how you see people?"},
+  {"id": 43, "content": "What do you keep doing despite it not being your strength?"},
+  {"id": 44, "content": "What spontaneous decision became a meaningful memory?"},
+  {"id": 45, "content": "What absorbs you to the point of losing track of time?"},
+  {"id": 46, "content": "What are you still learning about who you are apart from your roles?"},
+  {"id": 47, "content": "What relationship has shaped you in ways you didn't expect?"},
+  {"id": 48, "content": "What question would help someone understand you beyond your helpfulness?"},
+  {"id": 49, "content": "What are you trying to be more intentional about for yourself?"},
+  {"id": 50, "content": "What tradition or ritual would you want to create for yourself or others?"},
+  {"id": 51, "content": "What re-energizes you when you've given too much away?"},
+  {"id": 52, "content": "What did you help bring about that felt deeply meaningful?"},
+  {"id": 53, "content": "What would you tell your younger self about their own needs?"},
+  {"id": 54, "content": "What vision for your life both excites and scares you?"},
+  {"id": 55, "content": "What moment of connection would you love to experience again?"},
+  {"id": 56, "content": "How do you know when someone genuinely cares about you, not just what you do?"},
+  {"id": 57, "content": "What personal need keeps getting postponed for others?"},
+  {"id": 58, "content": "What do people misunderstand about the depth beneath your generation's idealism?"},
+  {"id": 59, "content": "What do you need but struggle to ask for?"},
+  {"id": 60, "content": "What recognition touched you more than you expected?"},
+  {"id": 61, "content": "What would change if you trusted that your own needs matter too?"},
+  {"id": 62, "content": "What two values you hold dear sometimes conflict in practice?"},
+  {"id": 63, "content": "Where does your inspiring, capable presence hide your private struggles?"},
+  {"id": 64, "content": "What role do you play for others that feels like a performance?"},
+  {"id": 65, "content": "What selfless, always-available version of yourself are you tired of?"},
+  {"id": 66, "content": "What past moment still weighs on you that you're working to release?"},
+  {"id": 67, "content": "What decision about others do you keep second-guessing?"},
+  {"id": 68, "content": "What part of yourself have you minimized to be there for others?"},
+  {"id": 69, "content": "What would you take back if you could?"},
+  {"id": 70, "content": "What feeling do you carry that you rarely let others see?"},
+  {"id": 71, "content": "When has caring for everyone else left you feeling most alone?"},
+  {"id": 72, "content": "What does it take for you to feel truly seen, not just appreciated?"},
+  {"id": 73, "content": "What do you need from others that feels selfish to ask for?"},
+  {"id": 74, "content": "When does the gap between what you give and what you receive feel widest?"},
+  {"id": 75, "content": "What would it feel like to be fully received, not just relied upon?"},
+  {"id": 76, "content": "What truth about your own limits do you avoid acknowledging?"},
+  {"id": 77, "content": "What thought about your own life keeps returning that you haven't voiced?"},
+  {"id": 78, "content": "What do you believe about giving that you're hesitant to question?"},
+  {"id": 79, "content": "What are you holding onto in relationships that isn't serving you?"},
+  {"id": 80, "content": "What question about your own happiness have you been avoiding?"}
 ]
