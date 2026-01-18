@@ -4,7 +4,7 @@ A conversation tool that helps strangers and friends connect beyond small talk.
 ## What it does
 Gives you questions that help people open up and actually get to know each other.
 
-Pick Casual (lighter) or Deep (heavier), and the questions adjust based on your MBTI and Enneagram.
+Pick a depth—Casual, Deep, or Trust—and the questions adjust based on your MBTI and Enneagram.
 
 ## Why personality matters here
 Generic icebreakers get generic answers. "What do you do?" leads to the same surface-level exchange every time.
@@ -14,7 +14,7 @@ Turns out an INTJ and an ENFP need different prompts to open up. The INTJ wants 
 So the questions reframe based on personality type. Same intent, different framing—so everyone actually engages.
 
 ## Features
-Two modes: Casual and Deep
+Three modes: Casual, Deep, and Trust (with consent prompt)
 Questions adapt to MBTI + Enneagram
 GPT-4o does the reframing
 Shake to shuffle on mobile
