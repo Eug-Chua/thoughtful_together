@@ -3,8 +3,8 @@ import TunerKnob from './TunerKnob';
 import questions from './questions';
 import './index.css';
 
-// 💬 Typing animation component for questions
-function Typewriter({ text, speed = 40 }) {
+// Typing animation component for questions
+function Typewriter({ text, speed = 35 }) {
   const [displayed, setDisplayed] = useState('');
   const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -24,7 +24,7 @@ function Typewriter({ text, speed = 40 }) {
     }
   }, [currentIndex, text, speed]);
 
-  return <div>{displayed}</div>;
+  return <span>{displayed}<span className="animate-pulse">|</span></span>;
 }
 
 function App() {
@@ -47,13 +47,13 @@ function App() {
     const shakeThreshold = 25;
     const shakeDeltaThreshold = 10;
     const cooldown = 2000;
-  
+
     const handleMotion = (e) => {
       const acc = e.accelerationIncludingGravity;
       const magnitude = Math.sqrt(acc.x ** 2 + acc.y ** 2 + acc.z ** 2);
       const delta = Math.abs(magnitude - previousMagnitude);
       previousMagnitude = magnitude;
-  
+
       const now = Date.now();
       if (delta > shakeDeltaThreshold && magnitude > shakeThreshold && now - lastShake > cooldown) {
         const random = Math.floor(Math.random() * filtered.length);
@@ -63,7 +63,7 @@ function App() {
         lastShake = now;
       }
     };
-  
+
     const enableMotion = () => {
       if (
         typeof DeviceMotionEvent !== 'undefined' &&
@@ -80,15 +80,13 @@ function App() {
         window.addEventListener('devicemotion', handleMotion);
       }
     };
-  
+
     window.addEventListener('click', enableMotion, { once: true });
-  
+
     return () => {
       window.removeEventListener('devicemotion', handleMotion);
     };
-  }, [filtered.length]);  
-  
-  
+  }, [filtered.length]);
 
   const pickQuestion = (offset) => {
     const newIndex = (questionIndex + offset + filtered.length) % filtered.length;
@@ -97,129 +95,116 @@ function App() {
     setFadeKey(prev => prev + 1);
   };
 
-  /* ----------  Reframe button handler  ---------- */
-    const reframeWithAI = async () => {
-      if (!question) return;
-    
-      setLoading(true);
-    
-      try {
-        const res = await fetch('/.netlify/functions/reframe', {
-        // const res = await fetch('http://localhost:5050/reframe', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({
-            question,
-            mbti: fullMbti || null,
-            enneagram: enneagram || null
-          }),
-        });
-    
-        if (!res.ok) throw new Error(`HTTP ${res.status}`);
-        const data = await res.json();
-        if (!data.reframed) throw new Error('No reframed text in response.');
-    
-        setReframed(data.reframed);
-        setFadeKey(prev => prev + 1);
-      } catch (err) {
-        console.error('[Reframe error]', err);
-    
-        // ✅ Load fallback by MBTI and ID match
-        const mbtiCode = fullMbti.toLowerCase();
-        const currentQuestionId = filtered[questionIndex]?.id;
-    
-        if (mbtiCode.length === 4 && currentQuestionId) {
-          try {
-            const fallbackUrl = `/fallback_questions/fallback_questions_json/${mbtiCode}_fallback.json`;
-            console.log("🧠 MBTI code:", mbtiCode);
-            console.log("📦 Attempting to fetch fallback file from:", fallbackUrl);
-            const fallbackRes = await fetch(fallbackUrl);
-            if (!fallbackRes.ok) throw new Error(`Fallback HTTP ${fallbackRes.status}`);
-    
-            const fallbackSet = await fallbackRes.json();
-            const fallbackMatch = fallbackSet.find(q => q.id === currentQuestionId);
-    
-            if (fallbackMatch) {
-              setReframed(fallbackMatch.content);
-            } else {
-              console.warn('⚠️ No fallback match for question ID:', currentQuestionId);
-            }
-          } catch (fallbackErr) {
-            console.error('⚠️ Fallback fetch failed:', fallbackErr);
-            // Do nothing – leave original question
+  const reframeWithAI = async () => {
+    if (!question) return;
+
+    setLoading(true);
+
+    try {
+      const res = await fetch('/.netlify/functions/reframe', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          question,
+          mbti: fullMbti || null,
+          enneagram: enneagram || null
+        }),
+      });
+
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const data = await res.json();
+      if (!data.reframed) throw new Error('No reframed text in response.');
+
+      setReframed(data.reframed);
+      setFadeKey(prev => prev + 1);
+    } catch (err) {
+      console.error('[Reframe error]', err);
+
+      // Load fallback by MBTI and ID match
+      const mbtiCode = fullMbti.toLowerCase();
+      const currentQuestionId = filtered[questionIndex]?.id;
+
+      if (mbtiCode.length === 4 && currentQuestionId) {
+        try {
+          const fallbackUrl = `/fallback_questions/fallback_questions_json/${mbtiCode}_fallback.json`;
+          const fallbackRes = await fetch(fallbackUrl);
+          if (!fallbackRes.ok) throw new Error(`Fallback HTTP ${fallbackRes.status}`);
+
+          const fallbackSet = await fallbackRes.json();
+          const fallbackMatch = fallbackSet.find(q => q.id === currentQuestionId);
+
+          if (fallbackMatch) {
+            setReframed(fallbackMatch.content);
           }
-    
-          setFadeKey(prev => prev + 1);
+        } catch (fallbackErr) {
+          console.error('Fallback fetch failed:', fallbackErr);
         }
-      } finally {
-        setLoading(false);
+
+        setFadeKey(prev => prev + 1);
       }
-    };
-    
+    } finally {
+      setLoading(false);
+    }
+  };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-tealLight via-tealMid via-tealBase to-tealBlue flex items-center justify-center relative px-6">
-      {/* 🔮 Orbiting blobs — z-index 0 so they stay under content */}
+    <div className="h-screen bg-background flex items-center justify-center relative px-4 overflow-hidden">
+      {/* Subtle background orbs */}
       <div className="absolute inset-0 z-0 overflow-hidden">
         <div className="orb orb--1"></div>
         <div className="orb orb--2"></div>
-        {/* <div className="orb orb--3"></div> */}
-        {/* <div className="orb orb--4"></div> */}
       </div>
 
+      {/* Grain overlay for texture */}
+      <div className="grain-overlay"></div>
 
-      <div className="relative z-10 w-full max-w-xl space-y-6 text-center">
-        {/* 🔘 Depth toggle */}
-        <div className="flex justify-center space-x-4">
-          <button
-            onClick={() => { setDepth('chill'); setQuestionIndex(0); setReframed(''); }}
-            className={`bounce-click px-4 py-2 rounded-full text-sm font-medium shadow-light ${
-              depth === 'chill'
-              ? 'bg-[#09747f] text-white'
-              : 'bg-white bg-opacity-70 text-gray-700'
-            }`}
-          >
-            Casual
-          </button>
-          <button
-            onClick={() => { setDepth('deep'); setQuestionIndex(0); setReframed(''); }}
-            className={`bounce-click px-4 py-2 rounded-full text-sm font-medium shadow-light ${
-              depth === 'deep'
-              ? 'bg-[#09747f] text-white'
-              : 'bg-white bg-opacity-70 text-gray-700'
-            }`}
-          >
-            Deep
-          </button>
-          <button
-            onClick={() => setShowTrustPrompt(true)}
-            className={`bounce-click px-4 py-2 rounded-full text-sm font-medium shadow-light ${
-              depth === 'trust'
-              ? 'bg-[#09747f] text-white'
-              : 'bg-white bg-opacity-70 text-gray-700'
-            }`}
-          >
-            Trust
-          </button>
+      <div className="relative z-10 w-full max-w-md space-y-4 text-center">
+        {/* Depth toggle tabs */}
+        <div className="flex justify-center gap-2">
+          {[
+            { key: 'chill', label: 'Casual' },
+            { key: 'deep', label: 'Deep' },
+            { key: 'trust', label: 'Trust', needsPrompt: true }
+          ].map(({ key, label, needsPrompt }) => (
+            <button
+              key={key}
+              onClick={() => {
+                if (needsPrompt) {
+                  setShowTrustPrompt(true);
+                } else {
+                  setDepth(key);
+                  setQuestionIndex(0);
+                  setReframed('');
+                }
+              }}
+              className={`bounce-click px-5 py-2 rounded-full text-sm font-medium transition-all duration-200 ${
+                depth === key
+                  ? 'bg-white text-black'
+                  : 'bg-surface border border-border text-text-secondary hover:text-text-primary hover:border-border-hover'
+              }`}
+            >
+              {label}
+            </button>
+          ))}
         </div>
 
-        {/* 🔒 Trust mode consent prompt */}
+        {/* Trust mode consent modal */}
         {showTrustPrompt && (
-          <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 px-6">
-            <div className="bg-white rounded-lg p-6 max-w-sm text-center space-y-4">
-              <p className="text-gray-800 text-base">
+          <div className="fixed inset-0 bg-black/70 backdrop-blur-sm flex items-center justify-center z-50 px-6">
+            <div className="glass-card rounded-2xl p-8 max-w-sm text-center space-y-6 animate-fade-in">
+              <p className="text-text-primary text-base leading-relaxed">
                 These questions invite vulnerability. They work best when you feel safe and ready to share.
               </p>
-              <div className="flex space-x-3 justify-center">
+              <div className="flex gap-3 justify-center">
                 <button
                   onClick={() => setShowTrustPrompt(false)}
-                  className="px-4 py-2 rounded-full bg-gray-200 text-gray-700 text-sm"
+                  className="px-5 py-2.5 rounded-full bg-surface border border-border text-text-secondary text-sm font-medium hover:bg-surface-hover transition-colors"
                 >
                   Not yet
                 </button>
                 <button
                   onClick={() => { setDepth('trust'); setQuestionIndex(0); setReframed(''); setShowTrustPrompt(false); }}
-                  className="px-4 py-2 rounded-full bg-[#09747f] text-white text-sm"
+                  className="px-5 py-2.5 rounded-full bg-white text-black text-sm font-medium hover:bg-gray-200 transition-colors"
                 >
                   I'm ready
                 </button>
@@ -228,13 +213,16 @@ function App() {
           </div>
         )}
 
-        {/* 🃏 Question Display with Typing */}
-        <div key={fadeKey} className="bg-white bg-opacity-90 shadow-heavy rounded-lg p-6 text-lg text-gray-800 transition-opacity duration-700 animate-fade-in">
+        {/* Question card */}
+        <div
+          key={fadeKey}
+          className="glass-card gradient-border rounded-xl p-5 text-base text-text-primary leading-relaxed min-h-[80px] flex items-center justify-center animate-fade-in"
+        >
           <Typewriter text={question} />
         </div>
 
-        {/* 🎯 MBTI Buttons */}
-        <div className="grid grid-cols-4 gap-2 w-full ">
+        {/* MBTI toggle buttons */}
+        <div className="grid grid-cols-4 gap-2">
           {['EI', 'NS', 'TF', 'JP'].map((pair, idx) => (
             <button
               key={pair}
@@ -243,91 +231,55 @@ function App() {
                 updated[idx] = updated[idx] === pair[0] ? pair[1] : pair[0];
                 setMbti(updated);
               }}
-              className={`bounce-click px-4 py-3 rounded-full text-sm font-medium w-full shadow-light transition-shadow duration-200 ${
-                mbti[idx] === pair[0] 
-                  ? 'bg-[#5684A9] text-white'
-                  : 'bg-[#BA789D] text-white'
+              className={`bounce-click py-2.5 rounded-full text-sm font-semibold transition-all duration-200 ${
+                mbti[idx] === pair[0]
+                  ? 'bg-violet text-white'
+                  : 'bg-teal text-white'
               }`}
-              
             >
               {mbti[idx]}
             </button>
           ))}
         </div>
 
-        {/* 🔢 Enneagram Selector */}
-        {/* <div className="grid grid-cols-9 gap-1 sm:gap-2 md:gap-3 text-sm">
-          {[...Array(9)].map((_, i) => (
-            <button
-              key={i}
-              onClick={() =>
-                setEnneagram(prev =>
-                  prev === (i + 1).toString() ? '' : (i + 1).toString()
-                )
-              }  
-              className={`bounce-click w-10 h-10 rounded-full flex items-center justify-center font-medium text-sm transition shadow-light ${
-                enneagram === (i + 1).toString()
-                  ? 'bg-[#9292a0] text-white'  // Your slate blue orb
-                  : 'bg-white bg-opacity-80 text-gray-800 hover:bg-white hover:bg-opacity-60'
-              }`}
-            >
-              {i + 1}
-            </button>
-          ))}
-        </div> */}
-        
-          {/* <CircularSlider
-            label="Enneagram"
-            min={1}
-            max={9}
-            data={[...Array(9)].map((_, i) => (i + 1).toString())}
-            width={150}
-            knobSize={30}
-            knobColor="#565ca9"
-            progressSize={15}
-            progressColorFrom="#565ca9"
-            progressColorTo="#BA789D"
-            trackColor="#e5e7eb"
-            labelFontSize="0.75rem"
-            labelColor='white'
-            valueFontSize="2rem"
-            verticalOffset='1.5rem'
-            appendToValue=""
-            trackDraggable='true'
-            
-            onChange={value => setEnneagram(value)}
-          /> */}
+        {/* Enneagram knob */}
         <div className="flex items-center justify-center">
           <TunerKnob value={parseInt(enneagram || 1)} onChange={(val) => setEnneagram(val.toString())} />
         </div>
 
-
-
-        {/* ✨ Actions */}
-        <div className="flex flex-col space-y-4 text-lg">
+        {/* Action buttons */}
+        <div className="flex flex-col gap-3">
+          {/* Reframe button */}
           <button
             onClick={reframeWithAI}
             disabled={loading}
-            className={`bounce-click w-full py-3 rounded-full shadow-medium transition ${
-              loading 
-                ? 'bg-black text-white'  // Cream background when loading
-                : 'bg-[#5d4e6d] text-white hover:bg-[#76638B]'  // Saddle brown with golden tan hover
+            className={`bounce-click w-full py-2.5 rounded-full font-medium text-sm transition-all duration-200 flex items-center justify-center gap-2 ${
+              loading
+                ? 'bg-surface border border-border text-text-secondary cursor-wait'
+                : 'bg-white text-black hover:bg-gray-200'
             }`}
           >
-            {loading ? 'Thinking...' : 'Reframe'}
+            {loading ? (
+              <>
+                <span className="spinner"></span>
+                Thinking...
+              </>
+            ) : (
+              'Reframe'
+            )}
           </button>
 
-          {/* Add spacing between AI button and nav */}
-          <div className="flex justify-between space-x-2">
+          {/* Navigation buttons */}
+          <div className="flex gap-2">
             <button
               onClick={() => pickQuestion(-1)}
-              className="bounce-click w-full py-3 shadow-medium rounded-full text-white bg-[#22262a] hover:bg-[#495057]"
+              className="bounce-click flex-1 py-2.5 rounded-full font-medium text-sm bg-surface border border-border text-text-primary hover:bg-surface-hover hover:border-border-hover transition-all duration-200"
             >
               Previous
             </button>
             <button
               onClick={() => pickQuestion(1)}
-              className="bounce-click w-full py-3 shadow-medium rounded-full text-white bg-[#22262a] hover:bg-[#495057]"
+              className="bounce-click flex-1 py-2.5 rounded-full font-medium text-sm bg-surface border border-border text-text-primary hover:bg-surface-hover hover:border-border-hover transition-all duration-200"
             >
               Next
             </button>

@@ -1,25 +1,87 @@
-/* --- tailwind imports --- */
+/* --- Tailwind imports --- */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
 
-/* Custom shadows */
-.shadow-heavy {
-  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
-}
-.shadow-medium {
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
-}
-.shadow-light {
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+/* --- Fonts --- */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+/* --- Base dark theme --- */
+:root {
+  color-scheme: dark;
 }
 
+html, body, #root {
+  height: 100%;
+  overflow: hidden;
+  background: #0a0a0a;
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  padding: 0;
+}
+
+/* --- Custom component styles --- */
+
+/* Glass card effect */
+.glass-card {
+  background: rgba(23, 23, 23, 0.8);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* Subtle gradient border */
+.gradient-border {
+  position: relative;
+}
+
+.gradient-border::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  padding: 1px;
+  background: linear-gradient(135deg, rgba(124, 58, 237, 0.5), rgba(20, 184, 166, 0.5));
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+}
+
+/* Button styles */
+.btn-primary {
+  @apply bg-white text-black font-medium rounded-full px-6 py-3 transition-all duration-200;
+}
+
+.btn-primary:hover {
+  @apply bg-gray-200;
+}
+
+.btn-secondary {
+  @apply bg-surface border border-border text-text-primary font-medium rounded-full px-6 py-3 transition-all duration-200;
+}
+
+.btn-secondary:hover {
+  @apply bg-surface-hover border-border-hover;
+}
+
+/* Focus states (Vercel style) */
+button:focus-visible,
+input:focus-visible {
+  outline: 2px solid #0070f3;
+  outline-offset: 2px;
+}
+
+/* Tuner knob override */
 .tuner-font-override svg text {
   font-family: inherit !important;
 }
 
-/* in index.css */
 .knob-container {
   display: flex;
   flex-direction: column;
@@ -28,86 +90,85 @@
   touch-action: none;
 }
 
-
-/* ========= Custom animations ========= */
+/* ========= Animations ========= */
 
 /* Bounce on click */
 @keyframes bounce-click {
   0%   { transform: scale(1); }
-  50%  { transform: scale(1.15); }
+  50%  { transform: scale(0.97); }
   100% { transform: scale(1); }
 }
-.bounce-click:active { animation: bounce-click 0.2s ease-in-out; }
+.bounce-click:active {
+  animation: bounce-click 0.15s ease-out;
+}
 
-/* Fade-in */
+/* Fade-in with slide */
 @keyframes fade-in {
   from { opacity: 0; transform: translateY(8px); }
   to   { opacity: 1; transform: translateY(0); }
 }
-.animate-fade-in { animation: fade-in 0.6s ease-out; }
-
-/* ---- NEW: soft pulse for orbs ---- */
-@keyframes pulse {
-  0%, 100% { transform: scale(1); }
-  50%      { transform: scale(1.2); }
+.animate-fade-in {
+  animation: fade-in 0.5s ease-out;
 }
 
-/* =========================================================
-   ORBITING BLOBS
-   ========================================================= */
-
-/* Re-usable defaults for every blob */
+/* ========= Background orbs (subtle glow) ========= */
 .orb {
   position: absolute;
   border-radius: 9999px;
-  filter: blur(40px);
-  opacity: 0.2;                 /* translucent */
-  mix-blend-mode: screen;        /* nicer colour mixing */
-  pointer-events: none;          /* never block clicks */
+  filter: blur(80px);
+  opacity: 0.15;
+  pointer-events: none;
 }
 
-/* ------- 4 blobs in your palette ------- */
-.orb--1 { background: rgb(14, 192, 212); width: 28rem; height: 28rem; animation: orbit1 15s linear infinite; }
-.orb--2 { background: rgb(43, 176, 150); width: 22rem; height: 22rem; animation: orbit2 25s linear infinite reverse; }
-.orb--3 { background: rgb(81, 203, 203); width: 24rem; height: 24rem; animation: orbit3 15s linear infinite; }
-.orb--4 { background: rgb(58, 198, 243); width: 24rem; height: 24rem; animation: orbit4 30s linear infinite reverse; }
+.orb--1 {
+  background: #7c3aed;
+  width: 30rem;
+  height: 30rem;
+  animation: orbit1 20s ease-in-out infinite;
+}
 
-/* =========================================================
-   BIG-SWING ORBIT (full screen)
-   ========================================================= */
-   @keyframes orbit1 {
-    0% {
-      transform: rotate(0deg) translateX(200px) rotate(0deg);
-    }
-    100% {
-      transform: rotate(360deg) translateX(200px) rotate(-360deg);
-    }
-  }
-  @keyframes orbit2 {
-    0%   { transform: translate( 50vw, -10vh); }
-    25%  { transform: translate(-40vw,  40vh); }
-    50%  { transform: translate(-10vw,  70vh); }
-    75%  { transform: translate( 40vw, -30vh); }
-    100% { transform: translate( 50vw, -10vh); }
-  }
-  @keyframes orbit3 {
-    0%   { transform: translate(-20vw,  60vh); }
-    25%  { transform: translate( 60vw,  50vh); }
-    50%  { transform: translate( 70vw, -30vh); }
-    75%  { transform: translate(-50vw, -40vh); }
-    100% { transform: translate(-20vw,  60vh); }
-  }
-  @keyframes orbit4 {
-    0%   { transform: translate( 10vw, -50vh); }
-    25%  { transform: translate( 70vw,   0vh); }
-    50%  { transform: translate(-40vw,  50vh); }
-    75%  { transform: translate(-50vw, -60vh); }
-    100% { transform: translate( 10vw, -50vh); }
-  }
+.orb--2 {
+  background: #14b8a6;
+  width: 25rem;
+  height: 25rem;
+  animation: orbit2 25s ease-in-out infinite reverse;
+}
 
-.grain-background {
-  background-image: 
-    radial-gradient(circle at 20% 80%, rgba(120, 119, 198, 0.3) 0%, transparent 50%),
-    radial-gradient(circle at 80% 20%, rgba(255, 255, 255, 0.15) 0%, transparent 50%),
-    radial-gradient(circle at 40% 40%, rgba(120, 119, 198, 0.15) 0%, transparent 50%);
+@keyframes orbit1 {
+  0%   { transform: translate(-10vw, -10vh); }
+  25%  { transform: translate(20vw, 10vh); }
+  50%  { transform: translate(10vw, 30vh); }
+  75%  { transform: translate(-20vw, 15vh); }
+  100% { transform: translate(-10vw, -10vh); }
+}
+
+@keyframes orbit2 {
+  0%   { transform: translate(30vw, 20vh); }
+  25%  { transform: translate(-10vw, 40vh); }
+  50%  { transform: translate(-30vw, 10vh); }
+  75%  { transform: translate(10vw, -10vh); }
+  100% { transform: translate(30vw, 20vh); }
+}
+
+/* Grain texture overlay (optional) */
+.grain-overlay {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.03;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+}
+
+/* Loading spinner */
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+.spinner {
+  width: 16px;
+  height: 16px;
+  border: 2px solid transparent;
+  border-top-color: currentColor;
+  border-radius: 50%;
+  animation: spin 0.6s linear infinite;
 }
