@@ -1,0 +1,97 @@
+[
+  {
+    "id": 62,
+    "content": "What are two values you hold that sometimes conflict with each other?",
+    "category": "contradictions"
+  },
+  {
+    "id": 63,
+    "content": "In what area of your life do you feel like a hypocrite?",
+    "category": "contradictions"
+  },
+  {
+    "id": 64,
+    "content": "What's a role you play for others that feels least like the real you?",
+    "category": "contradictions"
+  },
+  {
+    "id": 65,
+    "content": "What's a version of yourself you show the world that you're tired of maintaining?",
+    "category": "contradictions"
+  },
+  {
+    "id": 66,
+    "content": "What's a mistake you've made that you're still trying to forgive yourself for?",
+    "category": "shadow"
+  },
+  {
+    "id": 67,
+    "content": "What's a past decision you still wrestle with?",
+    "category": "shadow"
+  },
+  {
+    "id": 68,
+    "content": "What's a part of yourself you've tried to suppress or change?",
+    "category": "shadow"
+  },
+  {
+    "id": 69,
+    "content": "What's something you did that you wish you could take back?",
+    "category": "shadow"
+  },
+  {
+    "id": 70,
+    "content": "What's a feeling you often have but rarely admit to?",
+    "category": "shadow"
+  },
+  {
+    "id": 71,
+    "content": "When in your life have you felt the most profoundly lonely?",
+    "category": "belonging"
+  },
+  {
+    "id": 72,
+    "content": "What does it take for you to feel truly seen and understood?",
+    "category": "belonging"
+  },
+  {
+    "id": 73,
+    "content": "What's a need you have that you find difficult to ask for?",
+    "category": "belonging"
+  },
+  {
+    "id": 74,
+    "content": "When do you feel most disconnected from the people around you?",
+    "category": "belonging"
+  },
+  {
+    "id": 75,
+    "content": "What would it take for you to feel like you truly belong somewhere?",
+    "category": "belonging"
+  },
+  {
+    "id": 76,
+    "content": "What's a truth about yourself that you pretend not to know?",
+    "category": "unspoken"
+  },
+  {
+    "id": 77,
+    "content": "What's a quiet, recurring thought that's been with you for years?",
+    "category": "unspoken"
+  },
+  {
+    "id": 78,
+    "content": "What's something you believe but are afraid to say out loud?",
+    "category": "unspoken"
+  },
+  {
+    "id": 79,
+    "content": "What's something you know you should let go of, but can't?",
+    "category": "unspoken"
+  },
+  {
+    "id": 80,
+    "content": "What's a question you've been avoiding asking yourself?",
+    "category": "unspoken"
+  }
+]

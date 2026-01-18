@@ -1,0 +1,142 @@
+[
+  {
+    "id": 2,
+    "content": "What's a small thing that made you unexpectedly happy recently?",
+    "category": "life"
+  },
+  {
+    "id": 4,
+    "content": "What's something you're grateful for that you didn't expect?",
+    "category": "life"
+  },
+  {
+    "id": 6,
+    "content": "What's a habit or routine that's been good for you lately?",
+    "category": "life"
+  },
+  {
+    "id": 7,
+    "content": "What's something you want to learn or try in the next year?",
+    "category": "aspirations"
+  },
+  {
+    "id": 8,
+    "content": "What does a really good day look like for you?",
+    "category": "life"
+  },
+  {
+    "id": 9,
+    "content": "If you could have dinner with anyone—living or dead—who would it be and why?",
+    "category": "curiosity"
+  },
+  {
+    "id": 12,
+    "content": "What are you most looking forward to right now?",
+    "category": "aspirations"
+  },
+  {
+    "id": 14,
+    "content": "What's a book, movie, or song that stuck with you?",
+    "category": "curiosity"
+  },
+  {
+    "id": 16,
+    "content": "What's something kind someone did for you that you still remember?",
+    "category": "relationships"
+  },
+  {
+    "id": 18,
+    "content": "What's something you do differently than most people?",
+    "category": "identity"
+  },
+  {
+    "id": 19,
+    "content": "What's the best advice you've ever received?",
+    "category": "wisdom"
+  },
+  {
+    "id": 24,
+    "content": "What do you value most in a friendship?",
+    "category": "relationships"
+  },
+  {
+    "id": 26,
+    "content": "What's something that always makes you feel better when you're down?",
+    "category": "life"
+  },
+  {
+    "id": 28,
+    "content": "What's something you've been curious about lately?",
+    "category": "curiosity"
+  },
+  {
+    "id": 30,
+    "content": "What's your go-to way to recharge?",
+    "category": "life"
+  },
+  {
+    "id": 32,
+    "content": "What's a place that feels meaningful to you?",
+    "category": "life"
+  },
+  {
+    "id": 35,
+    "content": "What's a skill you wish you had?",
+    "category": "curiosity"
+  },
+  {
+    "id": 38,
+    "content": "What's your favorite way to spend a free afternoon?",
+    "category": "life"
+  },
+  {
+    "id": 40,
+    "content": "What's something that instantly puts you in a good mood?",
+    "category": "life"
+  },
+  {
+    "id": 43,
+    "content": "What's something you're bad at but enjoy anyway?",
+    "category": "life"
+  },
+  {
+    "id": 44,
+    "content": "What's the most spontaneous thing you've ever done?",
+    "category": "life"
+  },
+  {
+    "id": 45,
+    "content": "What makes you lose track of time?",
+    "category": "curiosity"
+  },
+  {
+    "id": 50,
+    "content": "What's a tradition you love or want to start?",
+    "category": "life"
+  },
+  {
+    "id": 51,
+    "content": "What energizes you when you're running on empty?",
+    "category": "life"
+  },
+  {
+    "id": 55,
+    "content": "What's a memory you'd love to relive?",
+    "category": "life"
+  },
+  {
+    "id": 57,
+    "content": "What's something you've been putting off?",
+    "category": "life"
+  },
+  {
+    "id": 58,
+    "content": "What do you think people misunderstand about your generation?",
+    "category": "identity"
+  },
+  {
+    "id": 60,
+    "content": "What's the best compliment you've ever received?",
+    "category": "relationships"
+  }
+]

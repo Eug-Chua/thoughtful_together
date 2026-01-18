@@ -1,0 +1,167 @@
+[
+  {
+    "id": 1,
+    "content": "What's something you've changed your mind about in the last few years?",
+    "category": "growth"
+  },
+  {
+    "id": 3,
+    "content": "What did you dream of becoming as a kid, and how does that compare to now?",
+    "category": "identity"
+  },
+  {
+    "id": 5,
+    "content": "What's a challenge you're working through right now?",
+    "category": "growth"
+  },
+  {
+    "id": 10,
+    "content": "Who's someone that's had a big influence on who you are today?",
+    "category": "relationships"
+  },
+  {
+    "id": 11,
+    "content": "What's something you used to care a lot about but don't anymore?",
+    "category": "growth"
+  },
+  {
+    "id": 13,
+    "content": "When have you felt most like yourself?",
+    "category": "identity"
+  },
+  {
+    "id": 15,
+    "content": "How do you want to be different a year from now?",
+    "category": "aspirations"
+  },
+  {
+    "id": 17,
+    "content": "What's a decision you're wrestling with right now?",
+    "category": "growth"
+  },
+  {
+    "id": 20,
+    "content": "What's something you wish more people understood about you?",
+    "category": "identity"
+  },
+  {
+    "id": 21,
+    "content": "What does success mean to you right now?",
+    "category": "values"
+  },
+  {
+    "id": 22,
+    "content": "What's a moment that shaped how you see the world?",
+    "category": "growth"
+  },
+  {
+    "id": 23,
+    "content": "What's something you're proud of that others might not know about?",
+    "category": "identity"
+  },
+  {
+    "id": 25,
+    "content": "What's a fear you've overcome or are working on?",
+    "category": "growth"
+  },
+  {
+    "id": 27,
+    "content": "What's a belief you hold that might be unpopular?",
+    "category": "values"
+  },
+  {
+    "id": 29,
+    "content": "What's a mistake you made that taught you something important?",
+    "category": "growth"
+  },
+  {
+    "id": 31,
+    "content": "What's something you've let go of that was hard to release?",
+    "category": "growth"
+  },
+  {
+    "id": 33,
+    "content": "What would you do if you knew you couldn't fail?",
+    "category": "aspirations"
+  },
+  {
+    "id": 34,
+    "content": "What's something that's been on your mind a lot lately?",
+    "category": "life"
+  },
+  {
+    "id": 36,
+    "content": "How do you handle disagreement with people you care about?",
+    "category": "relationships"
+  },
+  {
+    "id": 37,
+    "content": "What's something you've recently discovered about yourself?",
+    "category": "identity"
+  },
+  {
+    "id": 39,
+    "content": "What's a hard truth you've had to accept?",
+    "category": "growth"
+  },
+  {
+    "id": 41,
+    "content": "What does 'home' mean to you?",
+    "category": "values"
+  },
+  {
+    "id": 42,
+    "content": "What's a conversation that changed how you think?",
+    "category": "growth"
+  },
+  {
+    "id": 46,
+    "content": "What's something you're still figuring out?",
+    "category": "growth"
+  },
+  {
+    "id": 47,
+    "content": "What's a relationship that's shaped you significantly?",
+    "category": "relationships"
+  },
+  {
+    "id": 48,
+    "content": "What's a question you wish people asked you more?",
+    "category": "identity"
+  },
+  {
+    "id": 49,
+    "content": "What's something you're trying to be more intentional about?",
+    "category": "growth"
+  },
+  {
+    "id": 52,
+    "content": "What's something you've worked hard for that paid off?",
+    "category": "growth"
+  },
+  {
+    "id": 53,
+    "content": "What do you wish you could tell your younger self?",
+    "category": "wisdom"
+  },
+  {
+    "id": 54,
+    "content": "What's something that scares you but excites you at the same time?",
+    "category": "aspirations"
+  },
+  {
+    "id": 56,
+    "content": "How do you know when you can trust someone?",
+    "category": "relationships"
+  },
+  {
+    "id": 59,
+    "content": "What's something you need but rarely ask for?",
+    "category": "identity"
+  },
+  {
+    "id": 61,
+    "content": "What would your life look like if you fully trusted yourself?",
+    "category": "aspirations"
+  }
+]
