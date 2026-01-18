@@ -111,27 +111,62 @@ input:focus-visible {
   animation: fade-in 0.5s ease-out;
 }
 
-/* ========= Background orbs (subtle glow) ========= */
+/* ========= Twinkle/Shimmer effect for Reframe button ========= */
+@keyframes twinkle {
+  0% {
+    background-position: 200% center;
+  }
+  100% {
+    background-position: -200% center;
+  }
+}
+
+.btn-twinkle {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(
+    90deg,
+    #2a2a2a 0%,
+    #2a2a2a 35%,
+    #4a4a4a 50%,
+    #2a2a2acd 65%,
+    #2a2a2a 100%
+  );
+  background-size: 200% 100%;
+  animation: twinkle 10s ease-in-out infinite;
+}
+
+.btn-twinkle:hover {
+  animation-duration: 15s;
+}
+
+.btn-twinkle:disabled {
+  animation: none;
+  background: rgba(255, 255, 255, 0.06);
+}
+
+/* ========= Background orbs - vibrant blue/purple ========= */
 .orb {
   position: absolute;
   border-radius: 9999px;
-  filter: blur(80px);
-  opacity: 0.15;
+  filter: blur(100px);
   pointer-events: none;
 }
 
 .orb--1 {
-  background: #7c3aed;
-  width: 30rem;
-  height: 30rem;
-  animation: orbit1 20s ease-in-out infinite;
+  background: linear-gradient(135deg, #0088fd, #4564c7);
+  width: 35rem;
+  height: 35rem;
+  opacity: 0.35;
+  animation: orbit1 7s ease-in-out infinite;
 }
 
 .orb--2 {
-  background: #14b8a6;
-  width: 25rem;
-  height: 25rem;
-  animation: orbit2 25s ease-in-out infinite reverse;
+  background: linear-gradient(135deg, #7c3aed, #a855f7);
+  width: 30rem;
+  height: 30rem;
+  opacity: 0.3;
+  animation: orbit2 15s ease-in-out infinite reverse;
 }
 
 @keyframes orbit1 {
