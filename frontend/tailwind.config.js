@@ -3,53 +3,58 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Inter', 'system-ui', '-apple-system', 'sans-serif'],
+        // DM Sans is a close match to Claude's Styrene font
+        sans: ['DM Sans', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'sans-serif'],
         mono: ['Geist Mono', 'ui-monospace', 'monospace'],
       },
       colors: {
-        // Vercel-inspired dark palette
+        // Darker background inspired by Claude
         background: {
-          DEFAULT: '#0a0a0a',
-          100: '#0a0a0a',
-          200: '#111111',
-          300: '#1a1a1a',
+          DEFAULT: '#0a0a0f',
+          100: '#0a0a0f',
+          200: '#0f0f18',
+          300: '#151520',
         },
         surface: {
-          DEFAULT: '#171717',
-          hover: '#262626',
-          active: '#333333',
+          DEFAULT: 'rgba(255, 255, 255, 0.05)',
+          hover: 'rgba(255, 255, 255, 0.08)',
+          active: 'rgba(255, 255, 255, 0.12)',
         },
         border: {
-          DEFAULT: '#262626',
-          hover: '#404040',
+          DEFAULT: 'rgba(255, 255, 255, 0.08)',
+          hover: 'rgba(255, 255, 255, 0.15)',
         },
         text: {
-          primary: '#ededed',
-          secondary: '#a1a1a1',
-          tertiary: '#737373',
+          primary: '#ffffff',
+          secondary: 'rgba(255, 255, 255, 0.7)',
+          tertiary: 'rgba(255, 255, 255, 0.5)',
         },
         accent: {
-          DEFAULT: '#0070f3',
-          hover: '#0060df',
-          light: '#3291ff',
+          DEFAULT: '#0088fd',
+          hover: '#0070e0',
+          light: '#3ba0ff',
         },
-        success: '#00c853',
-        warning: '#f5a623',
-        error: '#ee0000',
-        // Keep some subtle color accents
-        violet: {
+        // Vibrant blue-purple gradient colors
+        blue: {
+          bright: '#0088fd',
+          royal: '#003bff',
+          deep: '#001faa',
+        },
+        purple: {
           DEFAULT: '#7c3aed',
           light: '#a78bfa',
+          vibrant: '#8b5cf6',
         },
-        teal: {
-          DEFAULT: '#14b8a6',
-          light: '#5eead4',
+        pink: {
+          DEFAULT: '#ec4899',
+          light: '#f472b6',
         },
       },
       animation: {
         'fade-in': 'fadeIn 0.5s ease-out',
         'slide-up': 'slideUp 0.4s ease-out',
         'pulse-subtle': 'pulseSubtle 3s ease-in-out infinite',
+        'gradient-shift': 'gradientShift 8s ease infinite',
       },
       keyframes: {
         fadeIn: {
@@ -64,10 +69,19 @@ module.exports = {
           '0%, 100%': { opacity: 0.4 },
           '50%': { opacity: 0.6 },
         },
+        gradientShift: {
+          '0%, 100%': { backgroundPosition: '0% 50%' },
+          '50%': { backgroundPosition: '100% 50%' },
+        },
       },
       boxShadow: {
-        'glow': '0 0 20px rgba(112, 0, 243, 0.15)',
-        'glow-lg': '0 0 40px rgba(112, 0, 243, 0.2)',
+        'glow': '0 0 20px rgba(0, 136, 253, 0.3)',
+        'glow-lg': '0 0 40px rgba(0, 136, 253, 0.4)',
+        'glow-purple': '0 0 30px rgba(124, 58, 237, 0.4)',
+      },
+      backgroundImage: {
+        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+        'hero-gradient': 'linear-gradient(135deg, #0088fd 0%, #003bff 50%, #7c3aed 100%)',
       },
     },
   },
