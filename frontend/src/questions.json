@@ -1,368 +1,368 @@
 [
   {
     "id": 1,
-    "content": "Looking back at the first half of this year, where have you seen God's faithfulness most clearly?",
+    "content": "What's something you've changed your mind about in the last few years?",
     "depth": "deep",
-    "category": "reflection"
+    "category": "growth"
   },
   {
     "id": 2,
-    "content": "What's one way you've grown in your faith this year that surprises you?",
+    "content": "What's a small thing that made you unexpectedly happy recently?",
     "depth": "chill",
-    "category": "reflection"
+    "category": "life"
   },
   {
     "id": 3,
-    "content": "What dreams or hopes did you start the year with? How have they evolved?",
+    "content": "What did you dream of becoming as a kid, and how does that compare to now?",
     "depth": "deep",
-    "category": "reflection"
+    "category": "identity"
   },
   {
     "id": 4,
-    "content": "If you could thank God for one specific thing from the past six months, what would it be?",
+    "content": "What's something you're grateful for that you didn't expect?",
     "depth": "chill",
-    "category": "reflection"
+    "category": "life"
   },
   {
     "id": 5,
-    "content": "What area of your life feels most in need of God's healing or restoration right now?",
+    "content": "What's a challenge you're working through right now?",
     "depth": "deep",
-    "category": "reflection"
+    "category": "growth"
   },
   {
     "id": 6,
-    "content": "What habit or practice has helped you feel closest to God this year?",
+    "content": "What's a habit or routine that's been good for you lately?",
     "depth": "chill",
-    "category": "reflection"
+    "category": "life"
   },
   {
     "id": 7,
-    "content": "What is God inviting you to step into or pursue in the next six months?",
-    "depth": "deep",
-    "category": "forward"
+    "content": "What's something you want to learn or try in the next year?",
+    "depth": "chill",
+    "category": "aspirations"
   },
   {
     "id": 8,
-    "content": "What's one practical goal you'd like to set for your spiritual growth?",
+    "content": "What does a really good day look like for you?",
     "depth": "chill",
-    "category": "forward"
+    "category": "life"
   },
   {
     "id": 9,
-    "content": "If fear wasn't a factor, what would you ask God to help you accomplish this year?",
-    "depth": "deep",
-    "category": "forward"
+    "content": "If you could have dinner with anyone—living or dead—who would it be and why?",
+    "depth": "chill",
+    "category": "curiosity"
   },
   {
     "id": 10,
-    "content": "Who in your life could you invest in or serve more intentionally?",
-    "depth": "chill",
-    "category": "forward"
+    "content": "Who's someone that's had a big influence on who you are today?",
+    "depth": "deep",
+    "category": "relationships"
   },
   {
     "id": 11,
-    "content": "What do you sense God wanting to prune away from your life to make room for new growth?",
+    "content": "What's something you used to care a lot about but don't anymore?",
     "depth": "deep",
-    "category": "forward"
+    "category": "growth"
   },
   {
     "id": 12,
-    "content": "What are you most excited to see God do in the remainder of this year?",
+    "content": "What are you most looking forward to right now?",
     "depth": "chill",
-    "category": "forward"
+    "category": "aspirations"
   },
   {
     "id": 13,
-    "content": "Where have you experienced God's grace covering your mistakes or shortcomings?",
+    "content": "When have you felt most like yourself?",
     "depth": "deep",
-    "category": "reflection"
+    "category": "identity"
   },
   {
     "id": 14,
-    "content": "What Scripture or truth about God has been particularly meaningful to you recently?",
+    "content": "What's a book, movie, or song that stuck with you?",
     "depth": "chill",
-    "category": "reflection"
+    "category": "curiosity"
   },
   {
     "id": 15,
-    "content": "How do you want to be different by the end of this year? What would that look like?",
+    "content": "How do you want to be different a year from now?",
     "depth": "deep",
-    "category": "forward"
+    "category": "aspirations"
   },
   {
     "id": 16,
-    "content": "What's one way you'd like to love others better in the coming months?",
+    "content": "What's something kind someone did for you that you still remember?",
     "depth": "chill",
-    "category": "forward"
+    "category": "relationships"
   },
   {
     "id": 17,
-    "content": "What situation in your life right now most needs wisdom\u2014not more effort or strategy, but divine insight from Jesus?",
-    "depth": "sermon",
-    "category": "forward"
+    "content": "What's a decision you're wrestling with right now?",
+    "depth": "deep",
+    "category": "growth"
   },
   {
     "id": 18,
-    "content": "In what ways have you been trying to live independently of Jesus as your Head?",
-    "depth": "sermon",
-    "category": "forward"
+    "content": "What's something you do differently than most people?",
+    "depth": "chill",
+    "category": "identity"
   },
   {
     "id": 19,
-    "content": "Can you identify a moment when 'wise' worldly advice actually misled or drained you?",
-    "depth": "sermon",
-    "category": "forward"
+    "content": "What's the best advice you've ever received?",
+    "depth": "chill",
+    "category": "wisdom"
   },
   {
     "id": 20,
-    "content": "Of the different Hebrew and Greek words for wisdom (e.g., binah, sunesis, phronesis), which kind of wisdom do you need most this season\u2014and why?",
-    "depth": "sermon",
-    "category": "forward"
+    "content": "What's something you wish more people understood about you?",
+    "depth": "deep",
+    "category": "identity"
   },
   {
     "id": 21,
-    "content": "When you read Scripture, do you primarily look for knowledge, comfort, or connection with the person of Jesus?",
-    "depth": "sermon",
-    "category": "forward"
+    "content": "What does success mean to you right now?",
+    "depth": "deep",
+    "category": "values"
   },
   {
     "id": 22,
-    "content": "Like Joseph in famine or Jesus feeding the crowd, how have you seen God provide precisely what you needed, even when resources looked scarce?",
-    "depth": "sermon",
-    "category": "forward"
+    "content": "What's a moment that shaped how you see the world?",
+    "depth": "deep",
+    "category": "growth"
   },
   {
     "id": 23,
-    "content": "What hidden gifts or callings might begin to flow more freely in your life\u2014not through striving, but through abiding in Jesus?",
-    "depth": "sermon",
-    "category": "forward"
+    "content": "What's something you're proud of that others might not know about?",
+    "depth": "deep",
+    "category": "identity"
   },
   {
     "id": 24,
-    "content": "When was the last time you paused in a moment of pressure to seek Jesus before reacting?",
-    "depth": "sermon",
-    "category": "forward"
+    "content": "What do you value most in a friendship?",
+    "depth": "chill",
+    "category": "relationships"
   },
   {
     "id": 25,
-    "content": "Where in your life are you still tempted to believe that more knowledge or productivity will fix things\u2014rather than wisdom from above?",
-    "depth": "sermon",
-    "category": "forward"
+    "content": "What's a fear you've overcome or are working on?",
+    "depth": "deep",
+    "category": "growth"
   },
   {
     "id": 26,
-    "content": "Have you ever read Scripture just to check a box, rather than to receive wisdom for your situation?",
-    "depth": "sermon",
-    "category": "forward"
+    "content": "What's something that always makes you feel better when you're down?",
+    "depth": "chill",
+    "category": "life"
   },
   {
     "id": 27,
-    "content": "Do you relate to Jesus more as a Savior, a Shepherd, or as Wisdom Himself?",
-    "depth": "sermon",
-    "category": "forward"
+    "content": "What's a belief you hold that might be unpopular?",
+    "depth": "deep",
+    "category": "values"
   },
   {
     "id": 28,
-    "content": "Can you recall a moment when you felt a subtle prompting from the Lord, but brushed it aside as 'just your thoughts'?",
-    "depth": "sermon",
-    "category": "forward"
+    "content": "What's something you've been curious about lately?",
+    "depth": "chill",
+    "category": "curiosity"
   },
   {
     "id": 29,
-    "content": "What does \u201cholding fast to the Head\u201d practically look like in your daily routine?",
-    "depth": "sermon",
-    "category": "forward"
+    "content": "What's a mistake you made that taught you something important?",
+    "depth": "deep",
+    "category": "growth"
   },
   {
     "id": 30,
-    "content": "Where in your life are you fixated on what you lack instead of thanking God for what He\u2019s already providing?",
-    "depth": "sermon",
-    "category": "forward"
+    "content": "What's your go-to way to recharge?",
+    "depth": "chill",
+    "category": "life"
   },
   {
     "id": 31,
-    "content": "In what ways has Jesus revealed Himself more intimately to you this year, especially in areas you least expected?",
-    "depth": "toty",
-    "category": "forward"
+    "content": "What's something you've let go of that was hard to release?",
+    "depth": "deep",
+    "category": "growth"
   },
   {
     "id": 32,
-    "content": "How has the revelation of \u201cThe Third Day\u201d become personal for you this year? Has there been a moment where you felt like you experienced a \u201cresurrection\u201d or turnaround in any area of your life?",
-    "depth": "toty",
-    "category": "forward"
+    "content": "What's a place that feels meaningful to you?",
+    "depth": "chill",
+    "category": "life"
   },
   {
     "id": 33,
-    "content": "Are there requests that are still \u201cin progress\u201d? How are you learning to rest and wait in those areas?",
-    "depth": "toty",
-    "category": "forward"
+    "content": "What would you do if you knew you couldn't fail?",
+    "depth": "deep",
+    "category": "aspirations"
   },
   {
     "id": 34,
-    "content": "What fresh expectation or promise are you holding on to for the rest of this year?",
-    "depth": "toty",
-    "category": "forward"
+    "content": "What's something that's been on your mind a lot lately?",
+    "depth": "deep",
+    "category": "life"
   },
   {
     "id": 35,
-    "content": "If Jesus could speak one thing over you for this next season, what do you sense it would be?",
-    "depth": "toty",
-    "category": "forward"
+    "content": "What's a skill you wish you had?",
+    "depth": "chill",
+    "category": "curiosity"
   },
   {
     "id": 36,
-    "content": "How can your group pray with you or stand in agreement with you as the year continues?",
-    "depth": "toty",
-    "category": "forward"
+    "content": "How do you handle disagreement with people you care about?",
+    "depth": "deep",
+    "category": "relationships"
   },
   {
     "id": 37,
-    "content": "Looking at your list of prayer requests from the start of the year, what are one or two things you've seen God answer - even if it looked different from what you expected?",
-    "depth": "toty",
-    "category": "forward"
+    "content": "What's something you've recently discovered about yourself?",
+    "depth": "deep",
+    "category": "identity"
   },
   {
     "id": 38,
-    "content": "Are there requests that are still 'in waiting'? How has the Lord encouraged you in the waiting?",
-    "depth": "toty",
-    "category": "forward"
+    "content": "What's your favorite way to spend a free afternoon?",
+    "depth": "chill",
+    "category": "life"
   },
   {
     "id": 39,
-    "content": "Did any 'small' or 'silent' answered prayers remind you that God is still intimately in your life?",
-    "depth": "toty",
-    "category": "forward"
+    "content": "What's a hard truth you've had to accept?",
+    "depth": "deep",
+    "category": "growth"
   },
   {
     "id": 40,
-    "content": "Have there been any shifts in your heart or priorities regarding your original prayer requests?",
-    "depth": "toty",
-    "category": "forward"
+    "content": "What's something that instantly puts you in a good mood?",
+    "depth": "chill",
+    "category": "life"
   },
   {
     "id": 41,
-    "content": "Where have you quietly seen God's faithfulness in this past season, even if it wasn't how you expected?",
+    "content": "What does 'home' mean to you?",
     "depth": "deep",
-    "category": "reflection"
+    "category": "values"
   },
   {
     "id": 42,
-    "content": "In moments of fear or uncertainty, this year, how has the Spirit sustained or redirected you?",
+    "content": "What's a conversation that changed how you think?",
     "depth": "deep",
-    "category": "reflection"
+    "category": "growth"
   },
   {
     "id": 43,
-    "content": "What habit, thought pattern, or desire has God been slowly reshaping in you?",
-    "depth": "deep",
-    "category": "reflection"
+    "content": "What's something you're bad at but enjoy anyway?",
+    "depth": "chill",
+    "category": "life"
   },
   {
     "id": 44,
-    "content": "When have you recently felt most aware of your need for grace?",
+    "content": "What's the most spontaneous thing you've ever done?",
     "depth": "chill",
-    "category": "reflection"
+    "category": "life"
   },
   {
     "id": 45,
-    "content": "What has tested your trust in God lately and what did you learn about Him in that process?",
-    "depth": "deep",
-    "category": "reflection"
+    "content": "What makes you lose track of time?",
+    "depth": "chill",
+    "category": "curiosity"
   },
   {
     "id": 46,
-    "content": "Is there a difficult place in your life where you now see seeds of growth or redemption?",
-    "depth": "chill",
-    "category": "reflection"
+    "content": "What's something you're still figuring out?",
+    "depth": "deep",
+    "category": "growth"
   },
   {
     "id": 47,
-    "content": "What is God gently inviting you to release or to pick up in this next season?",
+    "content": "What's a relationship that's shaped you significantly?",
     "depth": "deep",
-    "category": "forward"
+    "category": "relationships"
   },
   {
     "id": 48,
-    "content": "If you slowed down long enough to listen, what might the Spirit be whispering about your next step?",
+    "content": "What's a question you wish people asked you more?",
     "depth": "deep",
-    "category": "forward"
+    "category": "identity"
   },
   {
     "id": 49,
-    "content": "Where in your life are you longing for God to do a new thing?",
+    "content": "What's something you're trying to be more intentional about?",
     "depth": "deep",
-    "category": "forward"
+    "category": "growth"
   },
   {
     "id": 50,
-    "content": "What small act of obedience might open space for greater intimacy with Christ?",
+    "content": "What's a tradition you love or want to start?",
     "depth": "chill",
-    "category": "forward"
+    "category": "life"
   },
   {
     "id": 51,
-    "content": "How could you make room for silence, rest, or wonder in the coming weeks?",
+    "content": "What energizes you when you're running on empty?",
     "depth": "chill",
-    "category": "forward"
+    "category": "life"
   },
   {
     "id": 52,
-    "content": "What do you hope to look back on a month from now and say, 'God met me there'?",
-    "depth": "chill",
-    "category": "forward"
+    "content": "What's something you've worked hard for that paid off?",
+    "depth": "deep",
+    "category": "growth"
   },
   {
     "id": 53,
-    "content": "Where have you been striving in your own strength and how might Jesus be inviting you to rest in Him instead?",
+    "content": "What do you wish you could tell your younger self?",
     "depth": "deep",
-    "category": "intimacy"
+    "category": "wisdom"
   },
   {
     "id": 54,
-    "content": "When was the last time you felt truly known by God? What helped you notice it?",
-    "depth": "chill",
-    "category": "intimacy"
+    "content": "What's something that scares you but excites you at the same time?",
+    "depth": "deep",
+    "category": "aspirations"
   },
   {
     "id": 55,
-    "content": "How would your daily rhythms change if you really believed God delights in being with you?",
+    "content": "What's a memory you'd love to relive?",
     "depth": "chill",
-    "category": "intimacy"
+    "category": "life"
   },
   {
     "id": 56,
-    "content": "Is there a truth about God's character you need to cling to more tightly right now?",
+    "content": "How do you know when you can trust someone?",
     "depth": "deep",
-    "category": "intimacy"
+    "category": "relationships"
   },
   {
     "id": 57,
-    "content": "When has someone's faith recently encouraged or challenged you?",
+    "content": "What's something you've been putting off?",
     "depth": "chill",
-    "category": "community"
+    "category": "life"
   },
   {
     "id": 58,
-    "content": "What's been weighing on your heart lately that you haven't had space to name?",
-    "depth": "deep",
-    "category": "community"
+    "content": "What do you think people misunderstand about your generation?",
+    "depth": "chill",
+    "category": "identity"
   },
   {
     "id": 59,
-    "content": "When do you feel most naturally aware of Jesus' presence with you, and how can you cultivate more of those moments?",
+    "content": "What's something you need but rarely ask for?",
     "depth": "deep",
-    "category": "intimacy"
+    "category": "identity"
   },
   {
     "id": 60,
-    "content": "How has your understanding of God's character deepened through both seasons of blessing and seasons of waiting?",
-    "depth": "deep",
-    "category": "intimacy"
+    "content": "What's the best compliment you've ever received?",
+    "depth": "chill",
+    "category": "relationships"
   },
   {
     "id": 61,
-    "content": "How does recognizing God's goodness in small things change your capacity for joy?",
+    "content": "What would your life look like if you fully trusted yourself?",
     "depth": "deep",
-    "category": "intimacy"
+    "category": "aspirations"
   }
 ]

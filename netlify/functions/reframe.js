@@ -12,7 +12,7 @@ exports.handler = async (event) => {
     console.log("🛬 Incoming reframe request:", question, mbti, enneagram);
 
     /* 1. Persona clause */
-    let personaClause = "to a broad Christian audience";
+    let personaClause = "to a general audience";
     if (mbti && enneagram) {
       personaClause = `to an MBTI type ${mbti} who is also an Enneagram type ${enneagram}`;
     } else if (mbti) {
@@ -23,12 +23,13 @@ exports.handler = async (event) => {
 
     /* 2. Prompt */
     const prompt = `
-You are a Christian life coach helping people reflect more deeply on God's voice.
+You help people open up and connect with each other through meaningful conversation prompts.
 
 Original question:
 "${question}"
 
 Reframe this question in a way that connects personally ${personaClause}.
+The goal is to help people share authentically and get to know each other beyond surface-level small talk.
 Make no mention of MBTI or Enneagram labels in your question.
 Keep it simple, ≤ 18 words, and do not wrap the response in quotes or markdown.
 `;
