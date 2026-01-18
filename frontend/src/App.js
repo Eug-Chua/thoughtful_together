@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import TunerKnob from './TunerKnob';
-import questions from './questions.json';
+import questions from './questions';
 import './index.css';
 
 // 💬 Typing animation component for questions
@@ -35,6 +35,7 @@ function App() {
   const [enneagram, setEnneagram] = useState('');
   const [loading, setLoading] = useState(false);
   const [fadeKey, setFadeKey] = useState(0);
+  const [showTrustPrompt, setShowTrustPrompt] = useState(false);
 
   const filtered = questions.filter(q => q.depth === depth);
   const question = reframed || filtered[questionIndex]?.content || '';
@@ -190,7 +191,42 @@ function App() {
           >
             Deep
           </button>
+          <button
+            onClick={() => setShowTrustPrompt(true)}
+            className={`bounce-click px-4 py-2 rounded-full text-sm font-medium shadow-light ${
+              depth === 'trust'
+              ? 'bg-[#09747f] text-white'
+              : 'bg-white bg-opacity-70 text-gray-700'
+            }`}
+          >
+            Trust
+          </button>
         </div>
+
+        {/* 🔒 Trust mode consent prompt */}
+        {showTrustPrompt && (
+          <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 px-6">
+            <div className="bg-white rounded-lg p-6 max-w-sm text-center space-y-4">
+              <p className="text-gray-800 text-base">
+                These questions invite vulnerability. They work best when you feel safe and ready to share.
+              </p>
+              <div className="flex space-x-3 justify-center">
+                <button
+                  onClick={() => setShowTrustPrompt(false)}
+                  className="px-4 py-2 rounded-full bg-gray-200 text-gray-700 text-sm"
+                >
+                  Not yet
+                </button>
+                <button
+                  onClick={() => { setDepth('trust'); setQuestionIndex(0); setReframed(''); setShowTrustPrompt(false); }}
+                  className="px-4 py-2 rounded-full bg-[#09747f] text-white text-sm"
+                >
+                  I'm ready
+                </button>
+              </div>
+            </div>
+          </div>
+        )}
 
         {/* 🃏 Question Display with Typing */}
         <div key={fadeKey} className="bg-white bg-opacity-90 shadow-heavy rounded-lg p-6 text-lg text-gray-800 transition-opacity duration-700 animate-fade-in">
