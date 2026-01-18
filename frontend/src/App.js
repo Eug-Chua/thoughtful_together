@@ -233,8 +233,8 @@ function App() {
               }}
               className={`bounce-click py-2.5 rounded-full text-sm font-semibold transition-all duration-200 ${
                 mbti[idx] === pair[0]
-                  ? 'bg-violet text-white'
-                  : 'bg-teal text-white'
+                  ? 'bg-[#8F0177] text-white'
+                  : 'bg-[#5B23FF] text-white'
               }`}
             >
               {mbti[idx]}
@@ -249,14 +249,14 @@ function App() {
 
         {/* Action buttons */}
         <div className="flex flex-col gap-3">
-          {/* Reframe button */}
+          {/* Reframe button with twinkle effect */}
           <button
             onClick={reframeWithAI}
             disabled={loading}
             className={`bounce-click w-full py-2.5 rounded-full font-medium text-sm transition-all duration-200 flex items-center justify-center gap-2 ${
               loading
                 ? 'bg-surface border border-border text-text-secondary cursor-wait'
-                : 'bg-white text-black hover:bg-gray-200'
+                : 'btn-twinkle text-white'
             }`}
           >
             {loading ? (
@@ -273,13 +273,13 @@ function App() {
           <div className="flex gap-2">
             <button
               onClick={() => pickQuestion(-1)}
-              className="bounce-click flex-1 py-2.5 rounded-full font-medium text-sm bg-surface border border-border text-text-primary hover:bg-surface-hover hover:border-border-hover transition-all duration-200"
+              className="bounce-click flex-1 py-2.5 rounded-full font-medium text-sm bg-surface border border-white/10 text-text-primary hover:bg-surface-hover hover:border-white/20 transition-all duration-200"
             >
               Previous
             </button>
             <button
               onClick={() => pickQuestion(1)}
-              className="bounce-click flex-1 py-2.5 rounded-full font-medium text-sm bg-surface border border-border text-text-primary hover:bg-surface-hover hover:border-border-hover transition-all duration-200"
+              className="bounce-click flex-1 py-2.5 rounded-full font-medium text-sm bg-surface border border-white/10 text-text-primary hover:bg-surface-hover hover:border-white/20 transition-all duration-200"
             >
               Next
             </button>
