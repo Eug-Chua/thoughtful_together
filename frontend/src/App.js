@@ -174,7 +174,7 @@ function App() {
             onClick={() => { setDepth('chill'); setQuestionIndex(0); setReframed(''); }}
             className={`bounce-click px-4 py-2 rounded-full text-sm font-medium shadow-light ${
               depth === 'chill'
-              ? 'bg-[#09747f] text-white'        
+              ? 'bg-[#09747f] text-white'
               : 'bg-white bg-opacity-70 text-gray-700'
             }`}
           >
@@ -184,31 +184,11 @@ function App() {
             onClick={() => { setDepth('deep'); setQuestionIndex(0); setReframed(''); }}
             className={`bounce-click px-4 py-2 rounded-full text-sm font-medium shadow-light ${
               depth === 'deep'
-              ? 'bg-[#09747f] text-white'        // dusty plum
+              ? 'bg-[#09747f] text-white'
               : 'bg-white bg-opacity-70 text-gray-700'
             }`}
           >
-            Reflect
-          </button>
-          <button
-            onClick={() => { setDepth('toty'); setQuestionIndex(0); setReframed(''); }}
-            className={`bounce-click px-4 py-2 rounded-full text-sm font-medium shadow-light ${
-              depth === 'toty'
-                ? 'bg-[#09747f] text-white'
-                : 'bg-white bg-opacity-70 text-gray-700'
-            }`}
-          >
-            Third Day
-          </button>
-          <button
-            onClick={() => { setDepth('sermon'); setQuestionIndex(0); setReframed(''); }}
-            className={`bounce-click px-4 py-2 rounded-full text-sm font-medium shadow-light ${
-              depth === 'sermon'
-                ? 'bg-[#09747f] text-white'
-                : 'bg-white bg-opacity-70 text-gray-700'
-            }`}
-          >
-            Sermon
+            Deep
           </button>
         </div>
 
