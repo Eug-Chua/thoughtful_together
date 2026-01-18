@@ -2,6 +2,12 @@
   command = "npm install --prefix frontend && npm run build --prefix frontend"
   publish = "frontend/build"
 
+[dev]
+  command = "npm start --prefix frontend"
+  targetPort = 3000
+  port = 8888
+  autoLaunch = false
+
 [functions]
   directory = "netlify/functions"
 
