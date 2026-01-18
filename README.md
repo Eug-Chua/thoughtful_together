@@ -1,17 +1,17 @@
 # Thoughtful Together
-A year-end reflection tool that tailors questions to your personality type.
+A conversation tool that helps strangers and friends connect beyond small talk.
 
 ## What it does
-Guides you through reflecting on your year and what's ahead.
+Gives you questions that help people open up and actually get to know each other.
 
 Pick Casual (lighter) or Deep (heavier), and the questions adjust based on your MBTI and Enneagram.
 
 ## Why personality matters here
-We kept running into the same problem with other reflection tools: 100 generic questions that feel like homework. You get three in and zone out.
+Generic icebreakers get generic answers. "What do you do?" leads to the same surface-level exchange every time.
 
-Turns out an INTJ and an ENFP need pretty different prompts to get to the same place. The INTJ wants to analyze patterns; the ENFP wants to talk about what moved them. Ask them the same question and one of them checks out.
+Turns out an INTJ and an ENFP need different prompts to open up. The INTJ wants to discuss ideas and patterns; the ENFP wants to share what moved them. Ask them the same question and one of them gives you a rehearsed answer.
 
-So the questions reframe based on how your personality type. Same themes, different framing.
+So the questions reframe based on personality type. Same intent, different framing—so everyone actually engages.
 
 ## Features
 Two modes: Casual and Deep
@@ -19,4 +19,4 @@ Questions adapt to MBTI + Enneagram
 GPT-4o does the reframing
 Shake to shuffle on mobile
 
-Works for year-end gatherings, one-on-ones, or just you with a journal.
+For meetups, dinners, dates, or any time you want real conversation instead of small talk.
