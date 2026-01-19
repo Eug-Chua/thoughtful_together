@@ -150,7 +150,7 @@ function App() {
   };
 
   return (
-    <div className="h-screen bg-background flex items-center justify-center relative px-4 overflow-hidden">
+    <div className="min-h-screen min-h-[100dvh] bg-background flex items-center justify-center relative px-4 py-8 overflow-hidden">
       {/* About button */}
       <button
         onClick={() => setShowAbout(true)}
