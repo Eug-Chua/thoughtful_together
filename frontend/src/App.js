@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import TunerKnob from './TunerKnob';
+import AboutModal from './components/AboutModal';
 import questions from './questions';
 import './index.css';
 
@@ -36,6 +37,7 @@ function App() {
   const [loading, setLoading] = useState(false);
   const [fadeKey, setFadeKey] = useState(0);
   const [showTrustPrompt, setShowTrustPrompt] = useState(false);
+  const [showAbout, setShowAbout] = useState(false);
 
   const filtered = questions.filter(q => q.depth === depth);
   const question = reframed || filtered[questionIndex]?.content || '';
@@ -149,6 +151,18 @@ function App() {
 
   return (
     <div className="h-screen bg-background flex items-center justify-center relative px-4 overflow-hidden">
+      {/* About button */}
+      <button
+        onClick={() => setShowAbout(true)}
+        className="absolute top-4 right-4 z-20 w-8 h-8 rounded-full bg-surface border border-border text-text-secondary hover:text-text-primary hover:border-border-hover transition-all duration-200 text-sm font-medium"
+        aria-label="About"
+      >
+        ?
+      </button>
+
+      {/* About modal */}
+      <AboutModal isOpen={showAbout} onClose={() => setShowAbout(false)} />
+
       {/* Subtle background orbs */}
       <div className="absolute inset-0 z-0 overflow-hidden">
         <div className="orb orb--1"></div>
