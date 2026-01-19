@@ -1,142 +1,142 @@
 [
   {
     "id": 2,
-    "content": "What's a small thing that made you unexpectedly happy recently?",
+    "content": "Tell me about a small, unexpected moment of joy you've had lately.",
     "category": "life"
   },
   {
     "id": 4,
-    "content": "What's something you're grateful for that you didn't expect?",
+    "content": "What's something you're grateful for today that wasn't even on your radar a year ago?",
     "category": "life"
   },
   {
     "id": 6,
-    "content": "What's a habit or routine that's been good for you lately?",
+    "content": "Is there a habit or routine that's been a genuine game-changer for you recently?",
     "category": "life"
   },
   {
     "id": 7,
-    "content": "What's something you want to learn or try in the next year?",
+    "content": "What's one thing you're hoping to learn or try in the next year, just for the fun of it?",
     "category": "aspirations"
   },
   {
     "id": 8,
-    "content": "What does a really good day look like for you?",
+    "content": "Describe your perfect 'no-obligations' day, from the moment you wake up to when you go to sleep.",
     "category": "life"
   },
   {
     "id": 9,
-    "content": "If you could have dinner with anyone—living or dead—who would it be and why?",
+    "content": "You're hosting a dinner party with any three people from history. Who's on the guest list and why?",
     "category": "curiosity"
   },
   {
     "id": 12,
-    "content": "What are you most looking forward to right now?",
+    "content": "Right now, what's one thing on the horizon that you're genuinely excited about?",
     "category": "aspirations"
   },
   {
     "id": 14,
-    "content": "What's a book, movie, or song that stuck with you?",
+    "content": "What's a piece of art—like a book, movie, or song—that has truly stuck with you?",
     "category": "curiosity"
   },
   {
     "id": 16,
-    "content": "What's something kind someone did for you that you still remember?",
+    "content": "Tell me about a small act of kindness someone showed you that you still remember.",
     "category": "relationships"
   },
   {
     "id": 18,
-    "content": "What's something you do differently than most people?",
+    "content": "What's a personal quirk or an unusual way you do a totally normal thing?",
     "category": "identity"
   },
   {
     "id": 19,
-    "content": "What's the best advice you've ever received?",
+    "content": "What's a piece of advice that actually changed how you live your life?",
     "category": "wisdom"
   },
   {
     "id": 24,
-    "content": "What do you value most in a friendship?",
+    "content": "When you think of your best friendships, what's the one ingredient they all have in common?",
     "category": "relationships"
   },
   {
     "id": 26,
-    "content": "What's something that always makes you feel better when you're down?",
+    "content": "When you're feeling down, what's something that reliably lifts your spirits?",
     "category": "life"
   },
   {
     "id": 28,
-    "content": "What's something you've been curious about lately?",
+    "content": "What's a topic you've fallen down a rabbit hole on recently?",
     "category": "curiosity"
   },
   {
     "id": 30,
-    "content": "What's your go-to way to recharge?",
+    "content": "When you need to truly recharge, what's your go-to method?",
     "category": "life"
   },
   {
     "id": 32,
-    "content": "What's a place that feels meaningful to you?",
+    "content": "Is there a place in the world that just feels like 'you'?",
     "category": "life"
   },
   {
     "id": 35,
-    "content": "What's a skill you wish you had?",
+    "content": "If you could instantly master one skill, what would it be and what's the first thing you'd do with it?",
     "category": "curiosity"
   },
   {
     "id": 38,
-    "content": "What's your favorite way to spend a free afternoon?",
+    "content": "You're gifted a completely free afternoon. How are you spending it?",
     "category": "life"
   },
   {
     "id": 40,
-    "content": "What's something that instantly puts you in a good mood?",
+    "content": "What's a simple pleasure that never fails to put you in a good mood?",
     "category": "life"
   },
   {
     "id": 43,
-    "content": "What's something you're bad at but enjoy anyway?",
+    "content": "What's something you're delightfully bad at, but love to do anyway?",
     "category": "life"
   },
   {
     "id": 44,
-    "content": "What's the most spontaneous thing you've ever done?",
+    "content": "When was the last time you did something truly spontaneous?",
     "category": "life"
   },
   {
     "id": 45,
-    "content": "What makes you lose track of time?",
+    "content": "What's an activity that makes the hours feel like minutes for you?",
     "category": "curiosity"
   },
   {
     "id": 50,
-    "content": "What's a tradition you love or want to start?",
+    "content": "Do you have a personal tradition you love, or one you'd like to start?",
     "category": "life"
   },
   {
     "id": 51,
-    "content": "What energizes you when you're running on empty?",
+    "content": "When you're feeling totally drained, what's one thing that energizes you?",
     "category": "life"
   },
   {
     "id": 55,
-    "content": "What's a memory you'd love to relive?",
+    "content": "If you could step back into one memory for just a moment, which one would you choose?",
     "category": "life"
   },
   {
     "id": 57,
-    "content": "What's something you've been putting off?",
+    "content": "What's one thing you've been meaning to do but just haven't gotten around to yet?",
     "category": "life"
   },
   {
     "id": 58,
-    "content": "What do you think people misunderstand about your generation?",
+    "content": "What's a stereotype about your generation that you think is totally wrong—or surprisingly right?",
     "category": "identity"
   },
   {
     "id": 60,
-    "content": "What's the best compliment you've ever received?",
+    "content": "What's a compliment you've received that you still think about?",
     "category": "relationships"
   }
 ]

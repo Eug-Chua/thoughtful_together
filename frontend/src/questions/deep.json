@@ -1,167 +1,167 @@
 [
   {
     "id": 1,
-    "content": "What's something you've changed your mind about in the last few years?",
+    "content": "Tell me about a belief you held strongly a few years ago that you see differently now.",
     "category": "growth"
   },
   {
     "id": 3,
-    "content": "What did you dream of becoming as a kid, and how does that compare to now?",
+    "content": "What did you dream of being when you were a kid? How does that connect to who you are today?",
     "category": "identity"
   },
   {
     "id": 5,
-    "content": "What's a challenge you're working through right now?",
+    "content": "If you're open to sharing, what's a challenge that's currently on your mind?",
     "category": "growth"
   },
   {
     "id": 10,
-    "content": "Who's someone that's had a big influence on who you are today?",
+    "content": "Who is someone whose influence has truly shaped the person you are today?",
     "category": "relationships"
   },
   {
     "id": 11,
-    "content": "What's something you used to care a lot about but don't anymore?",
+    "content": "What's something you used to pour a lot of energy into that no longer feels important?",
     "category": "growth"
   },
   {
     "id": 13,
-    "content": "When have you felt most like yourself?",
+    "content": "Describe a time or a place where you've felt completely, authentically yourself.",
     "category": "identity"
   },
   {
     "id": 15,
-    "content": "How do you want to be different a year from now?",
+    "content": "Looking ahead one year, what's one way you hope to be different?",
     "category": "aspirations"
   },
   {
     "id": 17,
-    "content": "What's a decision you're wrestling with right now?",
+    "content": "Is there a decision you're currently wrestling with?",
     "category": "growth"
   },
   {
     "id": 20,
-    "content": "What's something you wish more people understood about you?",
+    "content": "What's one thing you feel is commonly misunderstood about you?",
     "category": "identity"
   },
   {
     "id": 21,
-    "content": "What does success mean to you right now?",
+    "content": "How has your definition of 'success' changed over time?",
     "category": "values"
   },
   {
     "id": 22,
-    "content": "What's a moment that shaped how you see the world?",
+    "content": "Can you think of a specific moment that shifted your entire perspective on the world?",
     "category": "growth"
   },
   {
     "id": 23,
-    "content": "What's something you're proud of that others might not know about?",
+    "content": "What's something you're proud of, but don't often get to talk about?",
     "category": "identity"
   },
   {
     "id": 25,
-    "content": "What's a fear you've overcome or are working on?",
+    "content": "Tell me about a fear you've either overcome or are learning to live with.",
     "category": "growth"
   },
   {
     "id": 27,
-    "content": "What's a belief you hold that might be unpopular?",
+    "content": "What's a belief you hold that you suspect might be unpopular?",
     "category": "values"
   },
   {
     "id": 29,
-    "content": "What's a mistake you made that taught you something important?",
+    "content": "Think about a time something didn't go as planned. What's a valuable lesson you took away?",
     "category": "growth"
   },
   {
     "id": 31,
-    "content": "What's something you've let go of that was hard to release?",
+    "content": "What's something you had to let go of that was difficult to release?",
     "category": "growth"
   },
   {
     "id": 33,
-    "content": "What would you do if you knew you couldn't fail?",
+    "content": "Let's imagine failure is impossible for a moment. What bold move would you make?",
     "category": "aspirations"
   },
   {
     "id": 34,
-    "content": "What's something that's been on your mind a lot lately?",
+    "content": "What's a thought or idea that's been taking up space in your mind lately?",
     "category": "life"
   },
   {
     "id": 36,
-    "content": "How do you handle disagreement with people you care about?",
+    "content": "How do you navigate disagreements with people who are important to you?",
     "category": "relationships"
   },
   {
     "id": 37,
-    "content": "What's something you've recently discovered about yourself?",
+    "content": "Have you had any 'aha!' moments about yourself recently?",
     "category": "identity"
   },
   {
     "id": 39,
-    "content": "What's a hard truth you've had to accept?",
+    "content": "What's a hard truth that has ultimately been good for you to accept?",
     "category": "growth"
   },
   {
     "id": 41,
-    "content": "What does 'home' mean to you?",
+    "content": "Is 'home' a place, a person, or a feeling for you? What does it feel like?",
     "category": "values"
   },
   {
     "id": 42,
-    "content": "What's a conversation that changed how you think?",
+    "content": "Can you remember a single conversation that changed the way you think?",
     "category": "growth"
   },
   {
     "id": 46,
-    "content": "What's something you're still figuring out?",
+    "content": "What's one area of your life where you still feel like you're figuring things out?",
     "category": "growth"
   },
   {
     "id": 47,
-    "content": "What's a relationship that's shaped you significantly?",
+    "content": "Besides family, what relationship has most significantly shaped who you are?",
     "category": "relationships"
   },
   {
     "id": 48,
-    "content": "What's a question you wish people asked you more?",
+    "content": "What's a question you wish people would ask you more often?",
     "category": "identity"
   },
   {
     "id": 49,
-    "content": "What's something you're trying to be more intentional about?",
+    "content": "In what area of your life are you currently trying to be more intentional?",
     "category": "growth"
   },
   {
     "id": 52,
-    "content": "What's something you've worked hard for that paid off?",
+    "content": "Tell me about something you worked incredibly hard for. Was it worth it?",
     "category": "growth"
   },
   {
     "id": 53,
-    "content": "What do you wish you could tell your younger self?",
+    "content": "If you could send a one-sentence message back to your teenage self, what would it say?",
     "category": "wisdom"
   },
   {
     "id": 54,
-    "content": "What's something that scares you but excites you at the same time?",
+    "content": "What's something that both terrifies and excites you right now?",
     "category": "aspirations"
   },
   {
     "id": 56,
-    "content": "How do you know when you can trust someone?",
+    "content": "How do you learn to trust someone? Is it a feeling or a decision?",
     "category": "relationships"
   },
   {
     "id": 59,
-    "content": "What's something you need but rarely ask for?",
+    "content": "What's something you need from others but find difficult to ask for?",
     "category": "identity"
   },
   {
     "id": 61,
-    "content": "What would your life look like if you fully trusted yourself?",
+    "content": "Imagine a version of your life where you fully trust yourself. What's different?",
     "category": "aspirations"
   }
 ]

@@ -1,97 +1,97 @@
 [
   {
     "id": 62,
-    "content": "What are two values you hold that sometimes conflict with each other?",
+    "content": "What are two important values you hold that sometimes feel like they're in conflict?",
     "category": "contradictions"
   },
   {
     "id": 63,
-    "content": "In what area of your life do you feel like a hypocrite?",
+    "content": "Is there a gap between a value you hold dear and how you're able to live day-to-day? (We all have them.)",
     "category": "contradictions"
   },
   {
     "id": 64,
-    "content": "What's a role you play for others that feels least like the real you?",
+    "content": "Do you ever feel like you're playing a role for others that isn't the real you?",
     "category": "contradictions"
   },
   {
     "id": 65,
-    "content": "What's a version of yourself you show the world that you're tired of maintaining?",
+    "content": "Is there a 'mask' or a version of yourself you present to the world that feels draining to keep up?",
     "category": "contradictions"
   },
   {
     "id": 66,
-    "content": "What's a mistake you've made that you're still trying to forgive yourself for?",
+    "content": "Is there something from your past that your head has forgiven, but your heart is still working on?",
     "category": "shadow"
   },
   {
     "id": 67,
-    "content": "What's a past decision you still wrestle with?",
+    "content": "What's a past decision that you still find yourself replaying in your mind?",
     "category": "shadow"
   },
   {
     "id": 68,
-    "content": "What's a part of yourself you've tried to suppress or change?",
+    "content": "Tell me about a part of yourself that you've spent a lot of energy trying to hide or 'fix'.",
     "category": "shadow"
   },
   {
     "id": 69,
-    "content": "What's something you did that you wish you could take back?",
+    "content": "Is there a moment in your life you wish you could have a do-over on?",
     "category": "shadow"
   },
   {
     "id": 70,
-    "content": "What's a feeling you often have but rarely admit to?",
+    "content": "What's a feeling that visits you often, but you feel you can't share with most people?",
     "category": "shadow"
   },
   {
     "id": 71,
-    "content": "When in your life have you felt the most profoundly lonely?",
+    "content": "Can you remember a time in your life when you felt profoundly lonely?",
     "category": "belonging"
   },
   {
     "id": 72,
-    "content": "What does it take for you to feel truly seen and understood?",
+    "content": "When it comes to the people you're closest to, what makes you feel truly seen and understood by them?",
     "category": "belonging"
   },
   {
     "id": 73,
-    "content": "What's a need you have that you find difficult to ask for?",
+    "content": "What's a fundamental need you have in relationships that's hard for you to ask for directly?",
     "category": "belonging"
   },
   {
     "id": 74,
-    "content": "When do you feel most disconnected from the people around you?",
+    "content": "In what situations do you tend to feel most disconnected from others, even if they're right there?",
     "category": "belonging"
   },
   {
     "id": 75,
-    "content": "What would it take for you to feel like you truly belong somewhere?",
+    "content": "Describe what the feeling of 'true belonging' would look like for you.",
     "category": "belonging"
   },
   {
     "id": 76,
-    "content": "What's a truth about yourself that you pretend not to know?",
+    "content": "Is there a quiet truth about your life that you know is there, but you often push to the back of your mind?",
     "category": "unspoken"
   },
   {
     "id": 77,
-    "content": "What's a quiet, recurring thought that's been with you for years?",
+    "content": "Do you have a quiet, recurring thought or worry that's been a companion for years?",
     "category": "unspoken"
   },
   {
     "id": 78,
-    "content": "What's something you believe but are afraid to say out loud?",
+    "content": "What's a belief you hold that you're hesitant to say out loud?",
     "category": "unspoken"
   },
   {
     "id": 79,
-    "content": "What's something you know you should let go of, but can't?",
+    "content": "Is there something—a feeling, a memory, a relationship—that you know you should let go of, but can't?",
     "category": "unspoken"
   },
   {
     "id": 80,
-    "content": "What's a question you've been avoiding asking yourself?",
+    "content": "If your intuition could ask you one hard question right now, what do you think it would be?",
     "category": "unspoken"
   }
 ]
