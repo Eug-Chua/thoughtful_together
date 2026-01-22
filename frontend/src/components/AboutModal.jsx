@@ -61,28 +61,6 @@ function AboutModal({ isOpen, onClose }) {
               </p>
             </div>
 
-            {/* How to Play - depth chips */}
-            <div className="space-y-2.5">
-              <p className="font-medium text-center text-xs uppercase tracking-wide text-text-secondary">How to play</p>
-              <div className="flex flex-wrap justify-center gap-1.5 sm:gap-2">
-                <span className="px-3 py-1.5 sm:px-4 sm:py-2 rounded-full bg-white/10 text-xs sm:text-sm">
-                  <span className="text-text-primary font-medium">Casual</span>
-                  <span className="text-text-secondary"> — Easy warmups</span>
-                </span>
-                <span className="px-3 py-1.5 sm:px-4 sm:py-2 rounded-full bg-white/10 text-xs sm:text-sm">
-                  <span className="text-text-primary font-medium">Deep</span>
-                  <span className="text-text-secondary"> — Real stuff</span>
-                </span>
-                <span className="px-3 py-1.5 sm:px-4 sm:py-2 rounded-full bg-white/10 text-xs sm:text-sm">
-                  <span className="text-text-primary font-medium">Trust</span>
-                  <span className="text-text-secondary"> — Vulnerable</span>
-                </span>
-              </div>
-              <p className="text-[10px] sm:text-xs text-text-secondary text-center">
-                Pick your type. Hit Reframe. See the conversation shift.
-              </p>
-            </div>
-
             {/* Invitation - with subtle gradient divider */}
             <div className="pt-3 relative">
               <div className="absolute top-0 left-1/2 -translate-x-1/2 w-24 h-px bg-gradient-to-r from-transparent via-white/20 to-transparent"></div>
