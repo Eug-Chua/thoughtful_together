@@ -4,7 +4,10 @@ import { imagineQuestions } from '../questions';
 const topics = [
   { key: 'personality', label: 'Personality' },
   { key: 'wisdom', label: 'Wisdom' },
-  { key: 'potential', label: 'Potential' }
+  { key: 'potential', label: 'Potential' },
+  { key: 'adventures', label: 'Adventures' },
+  { key: 'understanding', label: 'Understanding' },
+  { key: 'impact', label: 'Impact' }
 ];
 
 const depths = [
@@ -62,12 +65,12 @@ function ImagineModal({ isOpen, onClose, onSelect }) {
           {/* Topic selection */}
           <div className="space-y-2">
             <p className="text-xs uppercase tracking-wide text-text-secondary text-center">Topic</p>
-            <div className="flex justify-center gap-2">
+            <div className="flex flex-wrap justify-center gap-2">
               {topics.map(({ key, label }) => (
                 <button
                   key={key}
                   onClick={() => setSelectedTopic(key)}
-                  className={`bounce-click px-4 py-2 rounded-full text-sm font-medium transition-all duration-200 ${
+                  className={`bounce-click px-3 py-1.5 rounded-full text-xs font-medium transition-all duration-200 ${
                     selectedTopic === key
                       ? 'bg-gradient-to-r from-violet-500 to-purple-500 text-white'
                       : 'bg-white/10 text-text-secondary hover:text-text-primary hover:bg-white/15'

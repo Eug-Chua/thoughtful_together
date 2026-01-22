@@ -1,8 +1,12 @@
 [
-  { "id": 1, "content": "What if you knew exactly what lesson this year was meant to teach you?", "depth": "chill" },
-  { "id": 2, "content": "What if every mistake you've made was actually a necessary step to where you need to be?", "depth": "chill" },
-  { "id": 3, "content": "What if you could unlearn one belief that's been holding you back?", "depth": "deep" },
-  { "id": 4, "content": "What if wisdom meant letting go of certainty?", "depth": "deep" },
-  { "id": 5, "content": "What if the thing you're avoiding is exactly what you need to face?", "depth": "trust" },
-  { "id": 6, "content": "What if you already know the answer but are afraid to admit it?", "depth": "trust" }
+  { "id": 1, "content": "What if a publisher handed you a contract to write any book of your choice? What would you write about?", "depth": "chill" },
+  { "id": 2, "content": "What if you could master any skill instantly? What would you choose to learn?", "depth": "chill" },
+  { "id": 3, "content": "What if you could sit down with any historical figure for dinner? Who would you pick and what would you ask?", "depth": "chill" },
+  { "id": 4, "content": "What if you could teach the world something that comes from yourself? What would you teach?", "depth": "deep" },
+  { "id": 5, "content": "What if you could give your 10-year-old self one piece of advice? What would it be?", "depth": "deep" },
+  { "id": 6, "content": "What if you could unlearn one belief that has shaped how you see the world? What would it be?", "depth": "deep" },
+  { "id": 7, "content": "What if you could know the answer to one unsolved mystery? Which would you choose?", "depth": "deep" },
+  { "id": 8, "content": "What if you had the courage to ask your closest friend one question you never dared to ask? What would you ask?", "depth": "trust" },
+  { "id": 9, "content": "What if you could finally admit something you've been denying to yourself? What would it be?", "depth": "trust" },
+  { "id": 10, "content": "What if you could hear what people really think when they give you advice? Whose honest opinion would you want most?", "depth": "trust" }
 ]

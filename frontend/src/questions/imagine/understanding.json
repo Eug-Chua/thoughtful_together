@@ -1,0 +1,10 @@
+[
+  { "id": 1, "content": "What if you were asked to name the single feature that makes people attractive? What feature would that be?", "depth": "chill" },
+  { "id": 2, "content": "What if you could return to secondary school or university and enroll in one class again? Which course would you take?", "depth": "chill" },
+  { "id": 3, "content": "What if you could return to your childhood and give one of your toys the gift of speech? What would you want to learn from it?", "depth": "deep" },
+  { "id": 4, "content": "What if your great-grandparents were all here in the room with you? What would you ask them?", "depth": "deep" },
+  { "id": 5, "content": "What if a new test could reveal which of your parents' personality traits is most present in you? What trait would that be?", "depth": "deep" },
+  { "id": 6, "content": "What if you could ask a single question to one person and know without a doubt that they will tell the truth? Who would you ask, and what would your question be?", "depth": "trust" },
+  { "id": 7, "content": "What if you could ask one of your deceased family members a single question? Who would it be, and what would you ask?", "depth": "trust" },
+  { "id": 8, "content": "What if you could learn more about your parents by experiencing a traumatic event that they also faced? Which event would tell you the most about them?", "depth": "trust" }
+]

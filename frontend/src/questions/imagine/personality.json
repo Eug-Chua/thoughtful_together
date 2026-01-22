@@ -1,8 +1,12 @@
 [
-  { "id": 1, "content": "What if you could see yourself through someone else's eyes for a day?", "depth": "chill" },
-  { "id": 2, "content": "What if you woke up tomorrow with a completely different personality?", "depth": "chill" },
-  { "id": 3, "content": "What if you could ask your past self one question?", "depth": "deep" },
-  { "id": 4, "content": "What if the trait you hide most was actually your greatest strength?", "depth": "deep" },
-  { "id": 5, "content": "What if you had to live as your shadow self for a week?", "depth": "trust" },
-  { "id": 6, "content": "What if the version of you that others see is more real than the one you feel inside?", "depth": "trust" }
+  { "id": 1, "content": "What if you could stop one thing you do every day? What would you eliminate?", "depth": "chill" },
+  { "id": 2, "content": "What if you could choose one superpower and be guaranteed to wake up with it tomorrow? Which would you choose?", "depth": "chill" },
+  { "id": 3, "content": "What if you could swap lives with anyone for a week? Who would you choose?", "depth": "chill" },
+  { "id": 4, "content": "What if you could add one hour to your day that no one else gets? How would you spend it?", "depth": "chill" },
+  { "id": 5, "content": "What if people came with caution labels? How would yours read?", "depth": "deep" },
+  { "id": 6, "content": "What if you could change one decision you made in the last year? What would it be?", "depth": "deep" },
+  { "id": 7, "content": "What if your younger self could see who you've become? What would surprise them most?", "depth": "deep" },
+  { "id": 8, "content": "What if you could overcome a fear that you've struggled with your whole life? What would that be?", "depth": "trust" },
+  { "id": 9, "content": "What if you had to describe the part of yourself you keep hidden from most people? What would you say?", "depth": "trust" },
+  { "id": 10, "content": "What if the person closest to you could read your mind for one day? What would worry you most?", "depth": "trust" }
 ]

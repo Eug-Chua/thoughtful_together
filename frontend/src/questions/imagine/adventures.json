@@ -1,0 +1,9 @@
+[
+  { "id": 1, "content": "What if you had the power to teleport to one place daily? Where would you go?", "depth": "chill" },
+  { "id": 2, "content": "What if you could wake up tomorrow with any superpower? Which one would you choose?", "depth": "chill" },
+  { "id": 3, "content": "What if you could control your dreams? What would you dream about?", "depth": "chill" },
+  { "id": 4, "content": "What if you could spend a single day being completely invisible? How would you spend that day?", "depth": "deep" },
+  { "id": 5, "content": "What if you could time travel to any period in the past or future? What period would you travel to?", "depth": "deep" },
+  { "id": 6, "content": "What if you could only make one last trip in your life to a place you've never been? Where would you go?", "depth": "deep" },
+  { "id": 7, "content": "What if you could live for 24 hours with absolutely no repercussions for any of your actions? How would you spend your day?", "depth": "trust" }
+]

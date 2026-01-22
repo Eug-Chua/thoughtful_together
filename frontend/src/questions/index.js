@@ -6,6 +6,9 @@ import trust from './trust.json';
 import personality from './imagine/personality.json';
 import wisdom from './imagine/wisdom.json';
 import potential from './imagine/potential.json';
+import adventures from './imagine/adventures.json';
+import understanding from './imagine/understanding.json';
+import impact from './imagine/impact.json';
 
 // Add depth property to each question based on which file it came from
 const addDepth = (questions, depth) => questions.map(q => ({ ...q, depth }));
@@ -20,7 +23,10 @@ const questions = [
 export const imagineQuestions = {
   personality,
   wisdom,
-  potential
+  potential,
+  adventures,
+  understanding,
+  impact
 };
 
 export default questions;

@@ -1,8 +1,8 @@
 [
-  { "id": 1, "content": "What if you had unlimited time to pursue one thing?", "depth": "chill" },
-  { "id": 2, "content": "What if your dream life was closer than you think?", "depth": "chill" },
-  { "id": 3, "content": "What if failure wasn't possible—what would you try?", "depth": "deep" },
-  { "id": 4, "content": "What if you fully committed to the path you've been considering?", "depth": "deep" },
-  { "id": 5, "content": "What if the thing you want most requires becoming someone you're not yet?", "depth": "trust" },
-  { "id": 6, "content": "What if you're already capable of more than you allow yourself to be?", "depth": "trust" }
+  { "id": 1, "content": "What if you could have any job regardless of ability, money, circumstance, or talent? What job would you choose?", "depth": "chill" },
+  { "id": 2, "content": "What if you could launch any product and success would be guaranteed? What would you launch and why?", "depth": "chill" },
+  { "id": 3, "content": "What if money were no object and you could go back to school to learn for fun? What would you study?", "depth": "chill" },
+  { "id": 4, "content": "What if you could spend the next two years gaining more experience in one particular skillset? Which area would you explore?", "depth": "deep" },
+  { "id": 5, "content": "What if you could fully explore a childhood dream or interest that you were never able to fully discover? What would you explore?", "depth": "deep" },
+  { "id": 6, "content": "What if you lived in a world where you were never judged or made to feel shame? How would you live differently?", "depth": "trust" }
 ]
