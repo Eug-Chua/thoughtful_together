@@ -31,6 +31,7 @@ body {
   overflow-y: auto;
 }
 
+
 /* --- Custom component styles --- */
 
 /* Glass card effect */
@@ -55,6 +56,7 @@ body {
   background: linear-gradient(135deg, rgba(124, 58, 237, 0.5), rgba(20, 184, 166, 0.5));
   -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
   mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  pointer-events: none;
   -webkit-mask-composite: xor;
   mask-composite: exclude;
 }

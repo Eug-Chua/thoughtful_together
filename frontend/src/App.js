@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import TunerKnob from './TunerKnob';
 import AboutModal from './components/AboutModal';
+import ImagineModal from './components/ImagineModal';
+import TutorialOverlay from './components/TutorialOverlay';
 import questions from './questions';
 import './index.css';
 
@@ -38,9 +40,14 @@ function App() {
   const [fadeKey, setFadeKey] = useState(0);
   const [showTrustPrompt, setShowTrustPrompt] = useState(false);
   const [showAbout, setShowAbout] = useState(false);
+  const [showImagineModal, setShowImagineModal] = useState(false);
+  const [isImagineMode, setIsImagineMode] = useState(false);
+  const [imagineQuestion, setImagineQuestion] = useState('');
+  const [showTutorial, setShowTutorial] = useState(false);
 
   const filtered = questions.filter(q => q.depth === depth);
-  const question = reframed || filtered[questionIndex]?.content || '';
+  const baseQuestion = isImagineMode ? imagineQuestion : (filtered[questionIndex]?.content || '');
+  const question = reframed || baseQuestion;
   const fullMbti = Object.values(mbti).join('');
 
   useEffect(() => {
@@ -122,27 +129,29 @@ function App() {
     } catch (err) {
       console.error('[Reframe error]', err);
 
-      // Load fallback by MBTI and ID match
-      const mbtiCode = fullMbti.toLowerCase();
-      const currentQuestionId = filtered[questionIndex]?.id;
+      // Load fallback by MBTI and ID match (only for regular questions, not Imagine mode)
+      if (!isImagineMode) {
+        const mbtiCode = fullMbti.toLowerCase();
+        const currentQuestionId = filtered[questionIndex]?.id;
 
-      if (mbtiCode.length === 4 && currentQuestionId) {
-        try {
-          const fallbackUrl = `/fallback_questions/fallback_questions_json/${mbtiCode}_fallback.json`;
-          const fallbackRes = await fetch(fallbackUrl);
-          if (!fallbackRes.ok) throw new Error(`Fallback HTTP ${fallbackRes.status}`);
+        if (mbtiCode.length === 4 && currentQuestionId) {
+          try {
+            const fallbackUrl = `/fallback_questions/fallback_questions_json/${mbtiCode}_fallback.json`;
+            const fallbackRes = await fetch(fallbackUrl);
+            if (!fallbackRes.ok) throw new Error(`Fallback HTTP ${fallbackRes.status}`);
 
-          const fallbackSet = await fallbackRes.json();
-          const fallbackMatch = fallbackSet.find(q => q.id === currentQuestionId);
+            const fallbackSet = await fallbackRes.json();
+            const fallbackMatch = fallbackSet.find(q => q.id === currentQuestionId);
 
-          if (fallbackMatch) {
-            setReframed(fallbackMatch.content);
+            if (fallbackMatch) {
+              setReframed(fallbackMatch.content);
+            }
+          } catch (fallbackErr) {
+            console.error('Fallback fetch failed:', fallbackErr);
           }
-        } catch (fallbackErr) {
-          console.error('Fallback fetch failed:', fallbackErr);
-        }
 
-        setFadeKey(prev => prev + 1);
+          setFadeKey(prev => prev + 1);
+        }
       }
     } finally {
       setLoading(false);
@@ -150,18 +159,46 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen min-h-[100dvh] bg-background flex items-center justify-center relative px-4 py-8 overflow-hidden">
-      {/* About button */}
-      <button
-        onClick={() => setShowAbout(true)}
-        className="absolute top-4 right-4 z-20 w-8 h-8 rounded-full bg-surface border border-border text-text-secondary hover:text-text-primary hover:border-border-hover transition-all duration-200 text-sm font-medium"
-        aria-label="About"
-      >
-        ?
-      </button>
+    <div className="min-h-screen min-h-[100dvh] bg-background flex flex-col relative px-4 py-4 overflow-hidden">
+      {/* Header */}
+      <header className="w-full max-w-md mx-auto flex items-center justify-between mb-4 z-20">
+        <h1 className="text-lg font-light tracking-wide bg-gradient-to-r from-violet-400 to-cyan-400 bg-clip-text text-transparent">
+          Thoughtful Together
+        </h1>
+        <div className="flex items-center gap-3">
+          <button
+            onClick={() => setShowTutorial(true)}
+            className="text-xs font-light text-text-secondary hover:text-text-primary transition-all duration-200"
+          >
+            How to Play
+          </button>
+          <button
+            onClick={() => setShowAbout(true)}
+            className="w-8 h-8 rounded-full bg-surface border border-border text-text-secondary hover:text-text-primary hover:border-border-hover transition-all duration-200 text-sm font-medium"
+            aria-label="About"
+          >
+            ?
+          </button>
+        </div>
+      </header>
+
+      {/* Tutorial overlay */}
+      <TutorialOverlay isOpen={showTutorial} onClose={() => setShowTutorial(false)} />
 
       {/* About modal */}
       <AboutModal isOpen={showAbout} onClose={() => setShowAbout(false)} />
+
+      {/* Imagine modal */}
+      <ImagineModal
+        isOpen={showImagineModal}
+        onClose={() => setShowImagineModal(false)}
+        onSelect={(selectedQuestion) => {
+          setImagineQuestion(selectedQuestion);
+          setIsImagineMode(true);
+          setReframed('');
+          setFadeKey(prev => prev + 1);
+        }}
+      />
 
       {/* Subtle background orbs */}
       <div className="absolute inset-0 z-0 overflow-hidden">
@@ -172,27 +209,31 @@ function App() {
       {/* Grain overlay for texture */}
       <div className="grain-overlay"></div>
 
-      <div className="relative z-10 w-full max-w-md space-y-4 text-center">
+      <div className="relative z-10 w-full max-w-md mx-auto space-y-4 text-center flex-1 flex flex-col justify-center">
         {/* Depth toggle tabs */}
-        <div className="flex justify-center gap-2">
+        <div id="depth-tabs" className="flex justify-center gap-2 flex-wrap">
           {[
             { key: 'chill', label: 'Casual' },
             { key: 'deep', label: 'Deep' },
-            { key: 'trust', label: 'Trust', needsPrompt: true }
-          ].map(({ key, label, needsPrompt }) => (
+            { key: 'trust', label: 'Trust', needsPrompt: true },
+            { key: 'imagine', label: 'Imagine', isImagine: true }
+          ].map(({ key, label, needsPrompt, isImagine }) => (
             <button
               key={key}
               onClick={() => {
-                if (needsPrompt) {
+                if (isImagine) {
+                  setShowImagineModal(true);
+                } else if (needsPrompt) {
                   setShowTrustPrompt(true);
                 } else {
+                  setIsImagineMode(false);
                   setDepth(key);
                   setQuestionIndex(0);
                   setReframed('');
                 }
               }}
               className={`bounce-click px-5 py-2 rounded-full text-sm font-medium transition-all duration-200 ${
-                depth === key
+                (isImagine && isImagineMode) || (!isImagineMode && depth === key)
                   ? 'bg-white text-black'
                   : 'bg-surface border border-border text-text-secondary hover:text-text-primary hover:border-border-hover'
               }`}
@@ -236,7 +277,7 @@ function App() {
         </div>
 
         {/* MBTI toggle buttons */}
-        <div className="grid grid-cols-4 gap-2">
+        <div id="mbti-buttons" className="grid grid-cols-4 gap-2">
           {['EI', 'NS', 'TF', 'JP'].map((pair, idx) => (
             <button
               key={pair}
@@ -257,7 +298,7 @@ function App() {
         </div>
 
         {/* Enneagram knob */}
-        <div className="flex items-center justify-center">
+        <div id="enneagram-knob" className="flex items-center justify-center">
           <TunerKnob value={parseInt(enneagram || 1)} onChange={(val) => setEnneagram(val.toString())} />
         </div>
 
@@ -265,6 +306,7 @@ function App() {
         <div className="flex flex-col gap-3">
           {/* Reframe button with twinkle effect */}
           <button
+            id="reframe-button"
             onClick={reframeWithAI}
             disabled={loading}
             className={`bounce-click w-full py-2.5 rounded-full font-medium text-sm transition-all duration-200 flex items-center justify-center gap-2 ${
@@ -284,19 +326,30 @@ function App() {
           </button>
 
           {/* Navigation buttons */}
-          <div className="flex gap-2">
-            <button
-              onClick={() => pickQuestion(-1)}
-              className="bounce-click flex-1 py-2.5 rounded-full font-medium text-sm bg-surface border border-white/10 text-text-primary hover:bg-surface-hover hover:border-white/20 transition-all duration-200"
-            >
-              Previous
-            </button>
-            <button
-              onClick={() => pickQuestion(1)}
-              className="bounce-click flex-1 py-2.5 rounded-full font-medium text-sm bg-surface border border-white/10 text-text-primary hover:bg-surface-hover hover:border-white/20 transition-all duration-200"
-            >
-              Next
-            </button>
+          <div id="nav-buttons">
+            {isImagineMode ? (
+              <button
+                onClick={() => setShowImagineModal(true)}
+                className="bounce-click w-full py-2.5 rounded-full font-medium text-sm bg-surface border border-white/10 text-text-primary hover:bg-surface-hover hover:border-white/20 transition-all duration-200"
+              >
+                New Scenario
+              </button>
+            ) : (
+              <div className="flex gap-2">
+                <button
+                  onClick={() => pickQuestion(-1)}
+                  className="bounce-click flex-1 py-2.5 rounded-full font-medium text-sm bg-surface border border-white/10 text-text-primary hover:bg-surface-hover hover:border-white/20 transition-all duration-200"
+                >
+                  Previous
+                </button>
+                <button
+                  onClick={() => pickQuestion(1)}
+                  className="bounce-click flex-1 py-2.5 rounded-full font-medium text-sm bg-surface border border-white/10 text-text-primary hover:bg-surface-hover hover:border-white/20 transition-all duration-200"
+                >
+                  Next
+                </button>
+              </div>
+            )}
           </div>
         </div>
       </div>
