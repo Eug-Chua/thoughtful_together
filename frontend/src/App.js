@@ -43,7 +43,11 @@ function App() {
   const [showImagineModal, setShowImagineModal] = useState(false);
   const [isImagineMode, setIsImagineMode] = useState(false);
   const [imagineQuestion, setImagineQuestion] = useState('');
-  const [showTutorial, setShowTutorial] = useState(false);
+  const [showTutorial, setShowTutorial] = useState(() => {
+    // Auto-show tutorial for first-time visitors
+    const hasSeenTutorial = localStorage.getItem('hasSeenTutorial');
+    return !hasSeenTutorial;
+  });
 
   const filtered = questions.filter(q => q.depth === depth);
   const baseQuestion = isImagineMode ? imagineQuestion : (filtered[questionIndex]?.content || '');
@@ -161,10 +165,13 @@ function App() {
   return (
     <div className="min-h-screen min-h-[100dvh] bg-background flex flex-col relative px-4 py-4 overflow-hidden">
       {/* Header */}
-      <header className="w-full max-w-md mx-auto flex items-center justify-between mb-4 z-20">
-        <h1 className="text-lg font-light tracking-wide bg-gradient-to-r from-violet-400 to-cyan-400 bg-clip-text text-transparent">
-          Thoughtful Together
-        </h1>
+      <header className="w-full max-w-md mx-auto flex items-center justify-between mb-2 z-20">
+        <div>
+          <h1 className="text-lg font-light tracking-wide bg-gradient-to-r from-violet-400 to-cyan-400 bg-clip-text text-transparent">
+            Thoughtful Together
+          </h1>
+          <p className="text-[10px] text-text-secondary font-light">Conversation cards. Rewritten for your type.</p>
+        </div>
         <div className="flex items-center gap-3">
           <button
             onClick={() => setShowTutorial(true)}
@@ -183,7 +190,10 @@ function App() {
       </header>
 
       {/* Tutorial overlay */}
-      <TutorialOverlay isOpen={showTutorial} onClose={() => setShowTutorial(false)} />
+      <TutorialOverlay isOpen={showTutorial} onClose={() => {
+        setShowTutorial(false);
+        localStorage.setItem('hasSeenTutorial', 'true');
+      }} />
 
       {/* About modal */}
       <AboutModal isOpen={showAbout} onClose={() => setShowAbout(false)} />
@@ -277,29 +287,35 @@ function App() {
         </div>
 
         {/* MBTI toggle buttons */}
-        <div id="mbti-buttons" className="grid grid-cols-4 gap-2">
-          {['EI', 'NS', 'TF', 'JP'].map((pair, idx) => (
-            <button
-              key={pair}
-              onClick={() => {
-                const updated = [...mbti];
-                updated[idx] = updated[idx] === pair[0] ? pair[1] : pair[0];
-                setMbti(updated);
-              }}
-              className={`bounce-click py-2.5 rounded-full text-sm font-semibold transition-all duration-200 ${
-                mbti[idx] === pair[0]
-                  ? 'bg-[#8F0177] text-white'
-                  : 'bg-[#5B23FF] text-white'
-              }`}
-            >
-              {mbti[idx]}
-            </button>
-          ))}
+        <div id="mbti-buttons" className="space-y-1.5">
+          <p className="text-[10px] uppercase tracking-wider text-text-secondary text-center">Your MBTI</p>
+          <div className="grid grid-cols-4 gap-2">
+            {['EI', 'NS', 'TF', 'JP'].map((pair, idx) => (
+              <button
+                key={pair}
+                onClick={() => {
+                  const updated = [...mbti];
+                  updated[idx] = updated[idx] === pair[0] ? pair[1] : pair[0];
+                  setMbti(updated);
+                }}
+                className={`bounce-click py-2.5 rounded-full text-sm font-semibold transition-all duration-200 ${
+                  mbti[idx] === pair[0]
+                    ? 'bg-[#8F0177] text-white'
+                    : 'bg-[#5B23FF] text-white'
+                }`}
+              >
+                {mbti[idx]}
+              </button>
+            ))}
+          </div>
         </div>
 
         {/* Enneagram knob */}
-        <div id="enneagram-knob" className="flex items-center justify-center">
-          <TunerKnob value={parseInt(enneagram || 1)} onChange={(val) => setEnneagram(val.toString())} />
+        <div id="enneagram-knob" className="space-y-1">
+          <p className="text-[10px] uppercase tracking-wider text-text-secondary text-center">Enneagram</p>
+          <div className="flex items-center justify-center">
+            <TunerKnob value={parseInt(enneagram || 1)} onChange={(val) => setEnneagram(val.toString())} />
+          </div>
         </div>
 
         {/* Action buttons */}

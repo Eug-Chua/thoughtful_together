@@ -3,32 +3,37 @@ import React, { useState, useEffect } from 'react';
 const tutorialSteps = [
   {
     target: 'depth-tabs',
-    title: 'Choose Your Depth',
-    description: 'Pick your vibe: Casual for light chat, Deep for meaningful exchange, Trust for vulnerable sharing, or Imagine for creative "what if" scenarios.',
+    title: 'Pick a Conversation Depth',
+    description: 'Casual = easy warmups. Deep = meaningful sharing. Trust = vulnerable moments. Imagine = creative "what if" scenarios.',
+    tip: null,
     position: 'bottom'
   },
   {
     target: 'mbti-buttons',
-    title: 'Set Your MBTI',
-    description: 'Toggle each dimension to match your personality type. This helps personalize questions just for you.',
+    title: 'Set Your MBTI Type',
+    description: 'Tap each button to toggle between the two options. Your 4-letter type (like ENFP or ISTJ) helps personalize questions.',
+    tip: "Don't know yours? Try 16personalities.com",
     position: 'bottom'
   },
   {
     target: 'enneagram-knob',
     title: 'Dial Your Enneagram',
-    description: 'Turn the knob to select your Enneagram type (1-9). Combined with MBTI, this creates uniquely tailored prompts.',
+    description: 'Drag or tap around the knob to select your type (1-9). This adds another layer of personalization.',
+    tip: "Not sure? Start with 5 or skip it — it still works!",
     position: 'top'
   },
   {
     target: 'reframe-button',
-    title: 'Reframe the Question',
-    description: 'Tap here to transform the question based on your personality settings. Each reframe is unique!',
+    title: 'Make It Personal',
+    description: 'This is the magic button! Tap "Reframe" to transform any question based on your personality type.',
+    tip: null,
     position: 'top'
   },
   {
     target: 'nav-buttons',
     title: 'Browse Questions',
-    description: 'Use these to move through the question deck. Find the perfect conversation starter.',
+    description: 'Use Previous/Next to explore the question deck until you find one that sparks conversation.',
+    tip: "Pro tip: Shake your phone to get a random question!",
     position: 'top'
   }
 ];
@@ -228,7 +233,11 @@ function TutorialOverlay({ isOpen, onClose }) {
 
           {/* Content */}
           <h3 className="text-white font-medium text-base mb-2">{currentStep.title}</h3>
-          <p className="text-white/60 text-sm font-light leading-relaxed mb-5">{currentStep.description}</p>
+          <p className="text-white/60 text-sm font-light leading-relaxed mb-2">{currentStep.description}</p>
+          {currentStep.tip && (
+            <p className="text-cyan-400/80 text-xs font-light italic mb-4">{currentStep.tip}</p>
+          )}
+          {!currentStep.tip && <div className="mb-3" />}
 
           {/* Navigation */}
           <div className="flex gap-2">
