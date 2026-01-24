@@ -170,7 +170,7 @@ function App() {
           <h1 className="text-lg font-light tracking-wide bg-gradient-to-r from-violet-400 to-cyan-400 bg-clip-text text-transparent">
             Thoughtful Together
           </h1>
-          <p className="text-[10px] text-text-secondary font-light">Conversation cards. Rewritten for your type.</p>
+          <p className="text-[8px] sm:text-[9px] text-text-secondary font-light leading-tight max-w-[180px] sm:max-w-[200px]">Your MBTI and Enneagram aren't just fun facts here. They shape every question you get.</p>
         </div>
         <div className="flex items-center gap-3">
           <button
@@ -242,7 +242,7 @@ function App() {
                   setReframed('');
                 }
               }}
-              className={`bounce-click px-5 py-2 rounded-full text-sm font-medium transition-all duration-200 ${
+              className={`bounce-click px-3 sm:px-5 py-2 rounded-full text-xs sm:text-sm font-medium transition-all duration-200 ${
                 (isImagine && isImagineMode) || (!isImagineMode && depth === key)
                   ? 'bg-white text-black'
                   : 'bg-surface border border-border text-text-secondary hover:text-text-primary hover:border-border-hover'
