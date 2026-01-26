@@ -170,7 +170,7 @@ function App() {
           <h1 className="text-lg font-light tracking-wide bg-gradient-to-r from-violet-400 to-cyan-400 bg-clip-text text-transparent">
             Thoughtful Together
           </h1>
-          <p className="text-[8px] sm:text-[9px] text-text-secondary font-light leading-tight max-w-[180px] sm:max-w-[200px]">Your MBTI and Enneagram aren't just fun facts here. They shape every question you get.</p>
+          <p className="text-[8px] sm:text-[9px] text-text-secondary font-light leading-tight max-w-[180px] sm:max-w-[200px]">Your MBTI and Enneagram aren't just fun facts. They shape every question you get.</p>
         </div>
         <div className="flex items-center gap-3">
           <button
