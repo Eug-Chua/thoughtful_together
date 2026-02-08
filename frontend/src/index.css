@@ -223,3 +223,19 @@ input:focus-visible {
   border-radius: 50%;
   animation: spin 0.6s linear infinite;
 }
+
+/* Glimmer effect for CTA buttons */
+@keyframes glimmer {
+  0% {
+    transform: translateX(-100%) skewX(-15deg);
+  }
+  100% {
+    transform: translateX(200%) skewX(-15deg);
+  }
+}
+
+.animate-glimmer {
+  animation: glimmer 3s ease-in-out infinite;
+  animation-delay: 0.5s;
+  width: 50%;
+}
