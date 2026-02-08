@@ -3,6 +3,7 @@ import TunerKnob from './TunerKnob';
 import AboutModal from './components/AboutModal';
 import ImagineModal from './components/ImagineModal';
 import TutorialOverlay from './components/TutorialOverlay';
+import StartPage from './components/StartPage';
 import questions from './questions';
 import './index.css';
 
@@ -43,11 +44,8 @@ function App() {
   const [showImagineModal, setShowImagineModal] = useState(false);
   const [isImagineMode, setIsImagineMode] = useState(false);
   const [imagineQuestion, setImagineQuestion] = useState('');
-  const [showTutorial, setShowTutorial] = useState(() => {
-    // Auto-show tutorial for first-time visitors
-    const hasSeenTutorial = localStorage.getItem('hasSeenTutorial');
-    return !hasSeenTutorial;
-  });
+  const [showStartPage, setShowStartPage] = useState(true);
+  const [showTutorial, setShowTutorial] = useState(false);
 
   const filtered = questions.filter(q => q.depth === depth);
   const baseQuestion = isImagineMode ? imagineQuestion : (filtered[questionIndex]?.content || '');
@@ -161,6 +159,28 @@ function App() {
       setLoading(false);
     }
   };
+
+  // Show start page on initial load
+  if (showStartPage) {
+    return (
+      <>
+        <StartPage
+          onBegin={() => setShowStartPage(false)}
+          onHowToPlay={() => {
+            setShowStartPage(false);
+            setShowTutorial(true);
+          }}
+        />
+        <TutorialOverlay
+          isOpen={showTutorial}
+          onClose={() => {
+            setShowTutorial(false);
+            localStorage.setItem('hasSeenTutorial', 'true');
+          }}
+        />
+      </>
+    );
+  }
 
   return (
     <div className="min-h-screen min-h-[100dvh] bg-background flex flex-col relative px-4 py-4 overflow-hidden">
