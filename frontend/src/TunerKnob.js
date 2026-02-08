@@ -11,9 +11,17 @@ function angleFromCoords(x, y, cx, cy) {
 function TunerKnob({ value, onChange, min = 0, max = 9 }) {
   const [isDragging, setIsDragging] = useState(false);
   const knobRef = useRef(null);
+  const prevValueRef = useRef(value);
   const totalSteps = max - min + 1;
   const anglePerStep = 270 / (totalSteps - 1); // 270° sweep for tuner feel
   const startAngle = -135; // Start at 7:30 clock position
+
+  // Haptic feedback when value changes
+  const triggerHaptic = () => {
+    if (navigator.vibrate) {
+      navigator.vibrate(10); // Short 10ms vibration
+    }
+  };
 
   const handleMouseDown = (e) => {
     setIsDragging(true);
@@ -40,6 +48,13 @@ function TunerKnob({ value, onChange, min = 0, max = 9 }) {
   
       let step = Math.round(relativeAngle / anglePerStep);
       step = Math.min(Math.max(step, 0), totalSteps - 1);
+
+      // Trigger haptic feedback if value changed
+      if (step !== prevValueRef.current) {
+        triggerHaptic();
+        prevValueRef.current = step;
+      }
+
       onChange(step);
     };
   
