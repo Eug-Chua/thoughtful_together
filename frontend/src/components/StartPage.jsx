@@ -70,16 +70,18 @@ function EnneagramIcon() {
   );
 }
 
+// MBTI letter pairs (constant, defined outside component to avoid re-creation)
+const MBTI_PAIRS = [['E', 'I'], ['N', 'S'], ['T', 'F'], ['J', 'P']];
+
 // Animated MBTI letters component
 function AnimatedMBTI() {
-  const pairs = [['E', 'I'], ['N', 'S'], ['T', 'F'], ['J', 'P']];
   const [letters, setLetters] = useState(['E', 'N', 'T', 'J']);
   const [blinking, setBlinking] = useState([false, false, false, false]);
   const [bouncing, setBouncing] = useState([false, false, false, false]);
 
   useEffect(() => {
     // Staggered intervals for each letter position
-    const intervals = pairs.map((pair, index) => {
+    const intervals = MBTI_PAIRS.map((pair, index) => {
       const delay = 2200 + (index * 600); // Stagger the timing
       return setInterval(() => {
         // Start blink (fade out)
